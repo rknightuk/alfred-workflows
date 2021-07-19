@@ -1,0 +1,18 @@
+# My Alfred Workflows
+
+[Alfred workflows](https://www.alfredapp.com/workflows/) I've made, ones that I use, and a script to automatically export mine.
+
+Icons from [Feather Icons](https://feathericons.com)
+
+## Setting up the backup script
+
+[`backup.sh`](backup.sh) generates this readme file as well as backing up my workflows (and only mine, don't post other peoples workflows to your own repositories). The script works by doing the following:
+
+- Looping through all workflows in my Alfred workflow directory
+- If it has my bundle ID in the plist file, it extracts the metadata using `PListBuddy`, adds it to the first list below, then zips the workflow as an `.alfredworkflow`
+- If it doesn't have my bundle ID, then it gets the name, author and website and puts them in the second list below
+
+See the comments in the script to set this up for your own workflows
+
+This part of the readme is set in `readme.example`
+
