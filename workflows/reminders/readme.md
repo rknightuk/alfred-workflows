@@ -4,6 +4,8 @@
 
 The CLI is based on a modified version of [keith/reminders-cli](https://github.com/keith/reminders-cli) and a modified version of date parsing code from [surrealroad/alfred-reminders](https://github.com/surrealroad/alfred-reminders).
 
+NB: On first run, you'll get a warning about running an app from an unidentified developer. You have to open Preferences > Security and Privacy > General, then click "Allow".
+
 ### What does it do?
 
 This workflow allows you to:
