@@ -1,6 +1,6 @@
 ## Reminders Alfred Workflow
 
-[Download Reminders for Alfred](https://raw.github.com/rknightuk/alfred-workflows/main/workflows/reminders/reminders.alfredworkflow)
+[Download Reminders for Alfred](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/reminders/reminders.alfredworkflow)
 
 The CLI is based on a modified version of [keith/reminders-cli](https://github.com/keith/reminders-cli) and a modified version of date parsing code from [surrealroad/alfred-reminders](https://github.com/surrealroad/alfred-reminders).
 

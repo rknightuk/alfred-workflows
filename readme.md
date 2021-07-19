@@ -21,18 +21,18 @@ This part of the readme is set in `readme.example`
  _Some of these will completely useless to anyone but me_ 
 
 
-- [Monzo Link Generator - _Generate a Monzo.me link_](https://raw.github.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator.alfredworkflow) `v1.0.0` 
-- [Toggle Microphone - _Mute/Unmute microphone input_](https://raw.github.com/rknightuk/alfred-workflows/main/workflows/toggle-microphone.alfredworkflow) `v1.0.0` 
-- [Hotkey List - _List all workflows assigned to a hotkey_](https://raw.github.com/rknightuk/alfred-workflows/main/workflows/hotkey-list.alfredworkflow) `v1.0.0` 
+- [Monzo Link Generator - _Generate a Monzo.me link_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/monzo-link-generator.alfredworkflow) `v1.0.0` 
+- [Toggle Microphone - _Mute/Unmute microphone input_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-microphone.alfredworkflow) `v1.0.0` 
+- [Hotkey List - _List all workflows assigned to a hotkey_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/hotkey-list.alfredworkflow) `v1.0.0` 
 - [Reminders - _View and create reminders_](workflows/reminders) `v1.0.0` 
-- [Jump List - _ZSH Jump list plugin in Alfred_](https://raw.github.com/rknightuk/alfred-workflows/main/workflows/jump-list.alfredworkflow) `v1.0.0` 
-- [Toggle Wifi - _Toggle Wifi on/off_](https://raw.github.com/rknightuk/alfred-workflows/main/workflows/toggle-wifi.alfredworkflow) `v1.0.0` 
-- [Common Folders - _Open commonly used folders_](https://raw.github.com/rknightuk/alfred-workflows/main/workflows/common-folders.alfredworkflow) `v1.0.0` 
-- [Toggle Music - _Play/Pause Apple Music with hotkey_](https://raw.github.com/rknightuk/alfred-workflows/main/workflows/toggle-music.alfredworkflow) `v1.0.0` 
-- [Workflow Dev - _Open a workflows files in Sublime Text_](https://raw.github.com/rknightuk/alfred-workflows/main/workflows/workflow-dev.alfredworkflow) `v1.0.0` 
-- [Toggle Dark Mode - _Toggle Dark/Light Mode_](https://raw.github.com/rknightuk/alfred-workflows/main/workflows/toggle-dark-mode.alfredworkflow) `v1.0.0` 
-- [Toggle Audio Output - _Switch audio output between MBP and Monitor_](https://raw.github.com/rknightuk/alfred-workflows/main/workflows/toggle-audio.alfredworkflow) `v1.0.0` 
-- [App Mode - _Open apps for different scenarios_](https://raw.github.com/rknightuk/alfred-workflows/main/workflows/computer-mode.alfredworkflow) `v1.0.0` 
+- [Jump List - _ZSH Jump list plugin in Alfred_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/jump-list.alfredworkflow) `v1.0.0` 
+- [Toggle Wifi - _Toggle Wifi on/off_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-wifi.alfredworkflow) `v1.0.0` 
+- [Common Folders - _Open commonly used folders_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/common-folders.alfredworkflow) `v1.0.0` 
+- [Toggle Music - _Play/Pause Apple Music with hotkey_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-music.alfredworkflow) `v1.0.0` 
+- [Workflow Dev - _Open a workflows files in Sublime Text_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/workflow-dev.alfredworkflow) `v1.0.0` 
+- [Toggle Dark Mode - _Toggle Dark/Light Mode_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-dark-mode.alfredworkflow) `v1.0.0` 
+- [Toggle Audio Output - _Switch audio output between MBP and Monitor_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-audio.alfredworkflow) `v1.0.0` 
+- [App Mode - _Open apps for different scenarios_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/computer-mode.alfredworkflow) `v1.0.0` 
 
 ## Third Party Workflows
 

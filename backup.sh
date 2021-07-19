@@ -9,7 +9,7 @@ BUNDLE_PREFIX="com.rknightuk"
 
 # The Github repository
 GITHUB_REPO="rknightuk/alfred-workflows"
-GITHUB_DOWNLOAD="https://raw.github.com/${GITHUB_REPO}/main"
+GITHUB_DOWNLOAD="https://github.com/${GITHUB_REPO}/raw/main"
 
 # Copy the example readme into the backup readme file
 README_FILE=$BACKUP_PATH/readme.md
