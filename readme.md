@@ -24,7 +24,7 @@ This part of the readme is set in `readme.example`
 - [Monzo Link Generator - _Generate a Monzo.me link_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/monzo-link-generator.alfredworkflow) `v1.0.0` 
 - [Toggle Microphone - _Mute/Unmute microphone input_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-microphone.alfredworkflow) `v1.0.0` 
 - [Hotkey List - _List all workflows assigned to a hotkey_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/hotkey-list.alfredworkflow) `v1.0.0` 
-- [Reminders - _View and create reminders_](workflows/reminders) `v1.0.2` 
+- [Reminders - _View and create reminders_](workflows/reminders) `v1.1.0` 
 - [Jump List - _ZSH Jump list plugin in Alfred_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/jump-list.alfredworkflow) `v1.0.0` 
 - [Toggle Wifi - _Toggle Wifi on/off_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-wifi.alfredworkflow) `v1.0.0` 
 - [Common Folders - _Open commonly used folders_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/common-folders.alfredworkflow) `v1.0.0` 
@@ -32,7 +32,7 @@ This part of the readme is set in `readme.example`
 - [Workflow Dev - _Open a workflows files in Sublime Text_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/workflow-dev.alfredworkflow) `v1.0.0` 
 - [Toggle Dark Mode - _Toggle Dark/Light Mode_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-dark-mode.alfredworkflow) `v1.0.0` 
 - [Toggle Audio Output - _Switch audio output between MBP and Monitor_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-audio.alfredworkflow) `v1.0.0` 
-- [Paste Plain Text - __](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/paste-plain-text.alfredworkflow) `v` 
+- [Paste Plain Text - __](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/paste-plain-text.alfredworkflow) `v1.0.0` 
 - [App Mode - _Open apps for different scenarios_](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/computer-mode.alfredworkflow) `v1.0.0` 
 
 ## Third Party Workflows
