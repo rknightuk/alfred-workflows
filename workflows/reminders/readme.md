@@ -2,6 +2,8 @@
 
 [Download Reminders for Alfred](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/reminders/reminders.alfredworkflow)
 
+![Reminders for Alfred workflow](screenshot.png)
+
 The CLI is based on a modified version of [keith/reminders-cli](https://github.com/keith/reminders-cli) and a modified version of date parsing code from [surrealroad/alfred-reminders](https://github.com/surrealroad/alfred-reminders). View the [modified CLI here](https://github.com/rknightuk/alfred-reminders-helper).
 
 NB: On first run, you'll get a warning about running an app from an unidentified developer. You have to open Preferences > Security and Privacy > General, then click "Allow".

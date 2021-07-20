@@ -62,6 +62,9 @@ for WF_DIR in */; do
 	    	if test -f "$WF_DIR/readme.md"; then
 	    		cp "$WF_DIR/readme.md" "${BACKUP_PATH}/workflows/${BUNDLEID}/readme.md"
     		fi
+    		if test -f "$WF_DIR/screenshot.png"; then
+	    		cp "$WF_DIR/screenshot.png" "${BACKUP_PATH}/workflows/${BUNDLEID}/screenshot.png"
+    		fi
     	else
     		AUTHOR=$(/usr/libexec/PlistBuddy -c "Print :createdby" $PLIST)
     		WEBSITE=$(/usr/libexec/PlistBuddy -c "Print :webaddress" $PLIST)
