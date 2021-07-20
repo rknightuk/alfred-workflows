@@ -15,7 +15,3 @@ This workflow allows you to:
 
 Keyword is `rmind`
 
-### Why is the download so large?
-
-I'm including the Swift CLI tool with the workflow because there's no good reason to publish it separately: it outputs the reminders in such a way to only useful for this workflow.
-
