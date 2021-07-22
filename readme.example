@@ -4,6 +4,10 @@
 
 Icons from [Feather Icons](https://feathericons.com)
 
+Like these workflows? [Buy me a coffee](https://monzo.me/robbknight)
+
+The theme in the screenshots is [Tempo Alternative (Dark)](https://github.com/chrismessina/alfred-theme-tempo#tempo-alternative-dark) by [Chris Messina](https://github.com/chrismessina).
+
 ## Setting up the backup script
 
 [`backup.sh`](backup.sh) generates this readme file as well as backing up my workflows (and only mine, don't post other peoples workflows to your own repositories). The script works by doing the following:
@@ -15,4 +19,3 @@ Icons from [Feather Icons](https://feathericons.com)
 See the comments in the script to set this up for your own workflows
 
 This part of the readme is set in `readme.example`
-

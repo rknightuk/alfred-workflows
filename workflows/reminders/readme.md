@@ -19,3 +19,6 @@ This workflow allows you to:
 
 Keyword is `rmind`
 
+Like this? [Buy me a coffee](https://monzo.me/robbknight)
+
+The theme in the screenshot is [Tempo Alternative (Dark)](https://github.com/chrismessina/alfred-theme-tempo#tempo-alternative-dark) by [Chris Messina](https://github.com/chrismessina).

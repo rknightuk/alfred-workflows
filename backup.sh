@@ -39,6 +39,12 @@ for WF_DIR in */; do
 	    	BUNDLEID=${BUNDLEID/$BUNDLE_PREFIX./''}
 	    	VERSION=$(/usr/libexec/PlistBuddy -c "Print :version" $PLIST)
 	    	DESC=$(/usr/libexec/PlistBuddy -c "Print :description" $PLIST)
+	    	if [ ! -z "$DESC" ]
+			then
+			    DESC="_$DESC"_
+		    else
+		    	DESC=""
+			fi
 
 	    	# Wipe variables that shouldn't export from workflows
 	    	# See https://www.alfredforum.com/topic/9873-how-to-package-a-workflow-via-the-command-line/
@@ -58,13 +64,16 @@ for WF_DIR in */; do
 	    	fi
 
 	    	ditto -ck "${CURRENT_WORKFLOW}" "$COPY_PATH"
-	    	MINE="${MINE}- [$NAME - "_"$DESC"_"]($LINK) \`v${VERSION}\` \n"
+	    	MINE="${MINE}### $NAME\n\n$DESC [Download v${VERSION}]($LINK) \n\n"
 	    	if test -f "$WF_DIR/readme.md"; then
 	    		cp "$WF_DIR/readme.md" "${BACKUP_PATH}/workflows/${BUNDLEID}/readme.md"
-    		fi
-    		if test -f "$WF_DIR/screenshot.png"; then
 	    		cp "$WF_DIR/screenshot.png" "${BACKUP_PATH}/workflows/${BUNDLEID}/screenshot.png"
     		fi
+    		if test -f "$WF_DIR/screenshot.png"; then
+    			cp "$WF_DIR/screenshot.png" "${BACKUP_PATH}/screenshots/${BUNDLEID}.png"
+	    		MINE="${MINE} ![$BUNDLEID screenshot](screenshots/$BUNDLEID.png)\n\n"
+    		fi
+
     	else
     		AUTHOR=$(/usr/libexec/PlistBuddy -c "Print :createdby" $PLIST)
     		WEBSITE=$(/usr/libexec/PlistBuddy -c "Print :webaddress" $PLIST)
