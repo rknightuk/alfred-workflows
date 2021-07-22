@@ -40,12 +40,13 @@ _Mute/Unmute microphone input_ [Download v1.0.0](https://github.com/rknightuk/al
 
 ### Hotkey List
 
-_List all workflows assigned to a hotkey_ [Download v1.0.1](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/hotkey-list.alfredworkflow) 
+_List all workflows assigned to a hotkey_ [Download v1.0.2](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/hotkey-list.alfredworkflow) 
 
  ![hotkey-list screenshot](screenshots/hotkey-list.png)
 
  #### Changelog 
 
+- [2021-07-22] Hotkeys with modifiers now run through a hacky method
 - [2021-07-22] Now shows hotkeys including modifiers but these don't work yet, see https://www.alfredforum.com/topic/17130-format-for-running-key-combo-from-input-with-function-keys-and-modifiers/
 
 ### Reminders
