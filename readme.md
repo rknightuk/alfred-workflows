@@ -26,21 +26,19 @@ This part of the readme is set in `readme.example`
 
  ### Monzo Link Generator
 
-_Generate a Monzo.me link_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/monzo-link-generator.alfredworkflow) 
-
- ![monzo-link-generator screenshot](screenshots/monzo-link-generator.png)
+_Generate a Monzo.me link_ [Download v1.0.0](workflows/monzo-link-generator) 
 
 ### Get Safari Tabs
 
-_Copy all current Safari tabs to Markdown_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/safari-tabs-markdown.alfredworkflow) 
+_Copy all current Safari tabs to Markdown_ [Download v1.0.0](workflows/safari-tabs-markdown) 
 
 ### Toggle Microphone
 
-_Mute/Unmute microphone input_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-microphone.alfredworkflow) 
+_Mute/Unmute microphone input_ [Download v1.0.0](workflows/toggle-microphone) 
 
 ### Hotkey List
 
-_List all workflows assigned to a hotkey_ [Download v1.0.2](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/hotkey-list.alfredworkflow) 
+_List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-list) 
 
  ![hotkey-list screenshot](screenshots/hotkey-list.png)
 
@@ -62,23 +60,23 @@ _View and create reminders_ [Download v1.2.0](workflows/reminders)
 
 ### Jump List
 
-_ZSH Jump list plugin in Alfred_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/jump-list.alfredworkflow) 
+_ZSH Jump list plugin in Alfred_ [Download v1.0.0](workflows/jump-list) 
 
  ![jump-list screenshot](screenshots/jump-list.png)
 
 ### Toggle Wifi
 
-_Toggle Wifi on/off_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-wifi.alfredworkflow) 
+_Toggle Wifi on/off_ [Download v1.0.0](workflows/toggle-wifi) 
 
 ### Text Transform
 
-_Transform text in various ways_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/text-transform.alfredworkflow) 
+_Transform text in various ways_ [Download v1.0.0](workflows/text-transform) 
 
  ![text-transform screenshot](screenshots/text-transform.png)
 
 ### Common Folders
 
-_Open commonly used folders_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/common-folders.alfredworkflow) 
+_Open commonly used folders_ [Download v1.0.0](workflows/common-folders) 
 
 ### Calendar Events
 
@@ -93,33 +91,33 @@ _View and create calendar events_ [Download v1.1.0](workflows/calendar-events)
 
 ### Toggle Music
 
-_Play/Pause Apple Music with hotkey_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-music.alfredworkflow) 
+_Play/Pause Apple Music with hotkey_ [Download v1.0.0](workflows/toggle-music) 
 
 ### Workflow Dev
 
-_Open a workflows files in Sublime Text_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/workflow-dev.alfredworkflow) 
+_Open a workflows files in Sublime Text_ [Download v1.0.0](workflows/workflow-dev) 
 
  ![workflow-dev screenshot](screenshots/workflow-dev.png)
 
 ### Finder to Terminal
 
-_Open the current finder window in Terminal_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/finder-to-terminal.alfredworkflow) 
+_Open the current finder window in Terminal_ [Download v1.0.0](workflows/finder-to-terminal) 
 
 ### Toggle Dark Mode
 
-_Toggle Dark/Light Mode_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-dark-mode.alfredworkflow) 
+_Toggle Dark/Light Mode_ [Download v1.0.0](workflows/toggle-dark-mode) 
 
 ### Toggle Audio Output
 
-_Switch audio output between MBP and Monitor_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/toggle-audio.alfredworkflow) 
+_Switch audio output between MBP and Monitor_ [Download v1.0.0](workflows/toggle-audio) 
 
 ### Paste Plain Text
 
- [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/paste-plain-text.alfredworkflow) 
+ [Download v1.0.0](workflows/paste-plain-text) 
 
 ### App Mode
 
-_Open apps for different scenarios_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/computer-mode.alfredworkflow) 
+_Open apps for different scenarios_ [Download v1.0.0](workflows/computer-mode) 
 
  ![computer-mode screenshot](screenshots/computer-mode.png)
 
@@ -136,6 +134,7 @@ _Open apps for different scenarios_ [Download v1.0.0](https://github.com/rknight
 - [Speedtest by Michael Mroczka](http://michaelmroczka.com/) 
 - [TablePlus by Chris Renga](https://www.chrisrenga.com) 
 - [Amphetamine4 Switch by ShisaQ](https://shisaq.github.io) 
+- [OneUpdater by Vítor Galvão](http://vitorgalvao.com/) 
 - [JustWatch - Alfred by VWAP](https://twitter.com/vinayw) 
 - [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/) 
 - [Lorem Ipsum by Till Krüss](https://till.im) 

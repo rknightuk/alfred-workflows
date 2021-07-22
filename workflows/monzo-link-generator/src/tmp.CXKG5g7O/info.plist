@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.rknightuk.monzo-link-generator</string>
+	<key>connections</key>
+	<dict>
+		<key>BE31493D-5638-4D97-B7D1-2E6363C152E8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE9BECAB-113F-4061-9748-173647B53039</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CE9BECAB-113F-4061-9748-173647B53039</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>09EE1BF1-074C-4256-A817-8B1077EB971A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7C0A868E-0FEE-444E-A20F-35B014BD1627</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Robb Knight</string>
+	<key>description</key>
+	<string>Generate a Monzo.me link</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Monzo Link Generator</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>monzo</string>
+				<key>subtext</key>
+				<string>Price + Description</string>
+				<key>text</key>
+				<string>Generate Monzo.me Link</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BE31493D-5638-4D97-B7D1-2E6363C152E8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>ObjC.import('stdlib');
+var username = $.getenv('MONZOUSERNAME');
+
+function run(argv) {
+  var input = argv[0].split(' ');
+  var price = input[0];
+  var description = input[1] ? input[1] : null;
+
+  var url = 'https://monzo.me/' + username + '/' + price;
+
+  if (description) {
+    url += '?d=' + description;
+  }
+
+  return url;
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CE9BECAB-113F-4061-9748-173647B53039</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>09EE1BF1-074C-4256-A817-8B1077EB971A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Link Generated</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>7C0A868E-0FEE-444E-A20F-35B014BD1627</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>- Set the workflow variable `MONZOUSERNAME` to your Monzo.me username
+- Run `monzo 100 Groceries` in Alfred
+- Link of `https://monzo.me/MONZOUSERNAME/100?d=Groceries` will be copied to your clipboard</string>
+	<key>uidata</key>
+	<dict>
+		<key>09EE1BF1-074C-4256-A817-8B1077EB971A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>420</integer>
+			<key>ypos</key>
+			<integer>155</integer>
+		</dict>
+		<key>7C0A868E-0FEE-444E-A20F-35B014BD1627</key>
+		<dict>
+			<key>xpos</key>
+			<integer>425</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+		<key>BE31493D-5638-4D97-B7D1-2E6363C152E8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>155</integer>
+		</dict>
+		<key>CE9BECAB-113F-4061-9748-173647B53039</key>
+		<dict>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>155</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>MONZOUSERNAME</key>
+		<string></string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>MONZOUSERNAME</string>
+	</array>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://rknight.me</string>
+</dict>
+</plist>

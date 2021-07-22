@@ -1,0 +1,2 @@
+- [2021-07-22] Moved scripts to JXA for easier changes
+- [2021-07-22] If Calendar Events workflow is installed, it can now be opened from Reminders
