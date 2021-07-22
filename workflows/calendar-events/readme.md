@@ -1,6 +1,6 @@
 ## Calendar Events Alfred Workflow
 
-[Download Calendar Events for Alfred](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/reminders/calendar-events.alfredworkflow)
+[Download Calendar Events for Alfred](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/calendar-events/calendar-events.alfredworkflow)
 
 ![Calendar Events for Alfred workflow](screenshot.png)
 
