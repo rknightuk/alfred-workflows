@@ -56,7 +56,7 @@ for WF_DIR in */; do
     	fi
 
 	    COPY_PATH="${BACKUP_PATH}/workflows/${BUNDLEID}/${BUNDLEID}.alfredworkflow"
-	    LINK="workflows/${BUNDLEID}"
+	    LINK="https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/${BUNDLEID}/src/screenshot.png"
 	    cp -r $CURRENT_WORKFLOW "${BACKUP_PATH}/workflows/${BUNDLEID}/src"
 
     	ditto -ck "${CURRENT_WORKFLOW}" "$COPY_PATH"

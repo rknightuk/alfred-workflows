@@ -26,19 +26,21 @@ This part of the readme is set in `readme.example`
 
  ### Monzo Link Generator
 
-_Generate a Monzo.me link_ [Download v1.0.0](workflows/monzo-link-generator) 
+_Generate a Monzo.me link_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png) 
+
+ ![monzo-link-generator screenshot](screenshots/monzo-link-generator.png)
 
 ### Get Safari Tabs
 
-_Copy all current Safari tabs to Markdown_ [Download v1.0.0](workflows/safari-tabs-markdown) 
+_Copy all current Safari tabs to Markdown_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/safari-tabs-markdown/src/screenshot.png) 
 
 ### Toggle Microphone
 
-_Mute/Unmute microphone input_ [Download v1.0.0](workflows/toggle-microphone) 
+_Mute/Unmute microphone input_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-microphone/src/screenshot.png) 
 
 ### Hotkey List
 
-_List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-list) 
+_List all workflows assigned to a hotkey_ [Download v1.0.2](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/hotkey-list/src/screenshot.png) 
 
  ![hotkey-list screenshot](screenshots/hotkey-list.png)
 
@@ -49,7 +51,7 @@ _List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-lis
 
 ### Reminders
 
-_View and create reminders_ [Download v1.2.0](workflows/reminders) 
+_View and create reminders_ [Download v1.2.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/reminders/src/screenshot.png) 
 
  ![reminders screenshot](screenshots/reminders.png)
 
@@ -60,27 +62,27 @@ _View and create reminders_ [Download v1.2.0](workflows/reminders)
 
 ### Jump List
 
-_ZSH Jump list plugin in Alfred_ [Download v1.0.0](workflows/jump-list) 
+_ZSH Jump list plugin in Alfred_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/jump-list/src/screenshot.png) 
 
  ![jump-list screenshot](screenshots/jump-list.png)
 
 ### Toggle Wifi
 
-_Toggle Wifi on/off_ [Download v1.0.0](workflows/toggle-wifi) 
+_Toggle Wifi on/off_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-wifi/src/screenshot.png) 
 
 ### Text Transform
 
-_Transform text in various ways_ [Download v1.0.0](workflows/text-transform) 
+_Transform text in various ways_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/screenshot.png) 
 
  ![text-transform screenshot](screenshots/text-transform.png)
 
 ### Common Folders
 
-_Open commonly used folders_ [Download v1.0.0](workflows/common-folders) 
+_Open commonly used folders_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/common-folders/src/screenshot.png) 
 
 ### Calendar Events
 
-_View and create calendar events_ [Download v1.1.0](workflows/calendar-events) 
+_View and create calendar events_ [Download v1.1.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/calendar-events/src/screenshot.png) 
 
  ![calendar-events screenshot](screenshots/calendar-events.png)
 
@@ -91,33 +93,33 @@ _View and create calendar events_ [Download v1.1.0](workflows/calendar-events)
 
 ### Toggle Music
 
-_Play/Pause Apple Music with hotkey_ [Download v1.0.0](workflows/toggle-music) 
+_Play/Pause Apple Music with hotkey_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-music/src/screenshot.png) 
 
 ### Workflow Dev
 
-_Open a workflows files in Sublime Text_ [Download v1.0.0](workflows/workflow-dev) 
+_Open a workflows files in Sublime Text_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/screenshot.png) 
 
  ![workflow-dev screenshot](screenshots/workflow-dev.png)
 
 ### Finder to Terminal
 
-_Open the current finder window in Terminal_ [Download v1.0.0](workflows/finder-to-terminal) 
+_Open the current finder window in Terminal_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/finder-to-terminal/src/screenshot.png) 
 
 ### Toggle Dark Mode
 
-_Toggle Dark/Light Mode_ [Download v1.0.0](workflows/toggle-dark-mode) 
+_Toggle Dark/Light Mode_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-dark-mode/src/screenshot.png) 
 
 ### Toggle Audio Output
 
-_Switch audio output between MBP and Monitor_ [Download v1.0.0](workflows/toggle-audio) 
+_Switch audio output between MBP and Monitor_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-audio/src/screenshot.png) 
 
 ### Paste Plain Text
 
- [Download v1.0.0](workflows/paste-plain-text) 
+ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/paste-plain-text/src/screenshot.png) 
 
 ### App Mode
 
-_Open apps for different scenarios_ [Download v1.0.0](workflows/computer-mode) 
+_Open apps for different scenarios_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/computer-mode/src/screenshot.png) 
 
  ![computer-mode screenshot](screenshots/computer-mode.png)
 
