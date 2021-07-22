@@ -71,7 +71,7 @@ _Open commonly used folders_ [Download v1.0.0](https://github.com/rknightuk/alfr
 
 ### Calendar Events
 
-_View and create calendar events_ [Download v1.0.0](workflows/calendar-events) 
+_View and create calendar events_ [Download v1.0.1](workflows/calendar-events) 
 
  ![calendar-events screenshot](screenshots/calendar-events.png)
 
