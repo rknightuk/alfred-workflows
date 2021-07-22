@@ -18,12 +18,13 @@ The theme in the screenshots is [Tempo Alternative (Dark)](https://github.com/ch
 
 See the comments in the script to set this up for your own workflows
 
-This part of the readme is set in `readme.example`## My Workflows
+This part of the readme is set in `readme.example`
+
+## My Workflows
 
  _Some of these will completely useless to anyone but me_ 
 
-
-### Monzo Link Generator
+ ### Monzo Link Generator
 
 _Generate a Monzo.me link_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/monzo-link-generator.alfredworkflow) 
 
@@ -39,15 +40,24 @@ _Mute/Unmute microphone input_ [Download v1.0.0](https://github.com/rknightuk/al
 
 ### Hotkey List
 
-_List all workflows assigned to a hotkey_ [Download v1.0.0](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/hotkey-list.alfredworkflow) 
+_List all workflows assigned to a hotkey_ [Download v1.0.1](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/hotkey-list.alfredworkflow) 
 
  ![hotkey-list screenshot](screenshots/hotkey-list.png)
 
+ #### Changelog 
+
+- [2021-07-22] Now shows hotkeys including modifiers but these don't work yet, see https://www.alfredforum.com/topic/17130-format-for-running-key-combo-from-input-with-function-keys-and-modifiers/
+
 ### Reminders
 
-_View and create reminders_ [Download v1.1.1](workflows/reminders) 
+_View and create reminders_ [Download v1.2.0](workflows/reminders) 
 
  ![reminders screenshot](screenshots/reminders.png)
+
+ #### Changelog 
+
+- [2021-07-22] Moved scripts to JXA for easier changes
+- [2021-07-22] If Calendar Events workflow is installed, it can now be opened from Reminders
 
 ### Jump List
 
@@ -71,9 +81,14 @@ _Open commonly used folders_ [Download v1.0.0](https://github.com/rknightuk/alfr
 
 ### Calendar Events
 
-_View and create calendar events_ [Download v1.0.1](workflows/calendar-events) 
+_View and create calendar events_ [Download v1.1.0](workflows/calendar-events) 
 
  ![calendar-events screenshot](screenshots/calendar-events.png)
+
+ #### Changelog 
+
+- [2021-07-22] Moved scripts to JXA for easier changes
+- [2021-07-22] If Reminders workflow is installed, it can now be opened from Calendar Events
 
 ### Toggle Music
 
@@ -110,6 +125,8 @@ _Open apps for different scenarios_ [Download v1.0.0](https://github.com/rknight
 
 ## Third Party Workflows
 
+- [JetBrains - Open Project - v3 by bchatard](https://github.com/bchatard/alfred-jetbrains#readme) 
+- [fkill by Sam Verschueren](https://github.com/SamVerschueren/alfred-fkill#readme) 
 - [VPN Connections by Jacob Helwig](https://technosorcery.net) 
 - [HTTP Status Code by Fred Liang](https://github.com/ilstar/http_status_code) 
 - [Emoji Taco by Jeff Stein](https://github.com/jeeftor/EmojiTaco) 
