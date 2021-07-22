@@ -28,7 +28,7 @@ This part of the readme is set in `readme.example`
 
 _Generate a Monzo.me link_ [Download v1.0.0](workflows/monzo-link-generator) 
 
- ![monzo-link-generator screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/monzo-link-generator/src/screenshot.png)
+ ![monzo-link-generator screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png)
 
 ### Get Safari Tabs
 
@@ -42,7 +42,7 @@ _Mute/Unmute microphone input_ [Download v1.0.0](workflows/toggle-microphone)
 
 _List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-list) 
 
- ![hotkey-list screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/hotkey-list/src/screenshot.png)
+ ![hotkey-list screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/hotkey-list/src/screenshot.png)
 
  #### Changelog 
 
@@ -53,7 +53,7 @@ _List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-lis
 
 _View and create reminders_ [Download v1.3.0](workflows/reminders) 
 
- ![reminders screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/reminders/src/screenshot.png)
+ ![reminders screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/reminders/src/screenshot.png)
 
  #### Changelog 
 
@@ -65,7 +65,7 @@ _View and create reminders_ [Download v1.3.0](workflows/reminders)
 
 _ZSH Jump list plugin in Alfred_ [Download v1.0.0](workflows/jump-list) 
 
- ![jump-list screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/jump-list/src/screenshot.png)
+ ![jump-list screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/jump-list/src/screenshot.png)
 
 ### Toggle Wifi
 
@@ -75,7 +75,7 @@ _Toggle Wifi on/off_ [Download v1.0.0](workflows/toggle-wifi)
 
 _Transform text in various ways_ [Download v1.0.0](workflows/text-transform) 
 
- ![text-transform screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/text-transform/src/screenshot.png)
+ ![text-transform screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/screenshot.png)
 
 ### Common Folders
 
@@ -85,7 +85,7 @@ _Open commonly used folders_ [Download v1.0.0](workflows/common-folders)
 
 _View and create calendar events_ [Download v1.2.0](workflows/calendar-events) 
 
- ![calendar-events screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/calendar-events/src/screenshot.png)
+ ![calendar-events screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/calendar-events/src/screenshot.png)
 
  #### Changelog 
 
@@ -100,7 +100,7 @@ _Play/Pause Apple Music with hotkey_ [Download v1.0.0](workflows/toggle-music)
 
 _Open a workflows files in Sublime Text_ [Download v1.0.0](workflows/workflow-dev) 
 
- ![workflow-dev screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/workflow-dev/src/screenshot.png)
+ ![workflow-dev screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/screenshot.png)
 
 ### Finder to Terminal
 
@@ -122,7 +122,7 @@ _Switch audio output between MBP and Monitor_ [Download v1.0.0](workflows/toggle
 
 _Open apps for different scenarios_ [Download v1.0.0](workflows/computer-mode) 
 
- ![computer-mode screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/computer-mode/src/screenshot.png)
+ ![computer-mode screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/computer-mode/src/screenshot.png)
 
 
 ## Third Party Workflows

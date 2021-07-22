@@ -65,7 +65,7 @@ for WF_DIR in */; do
     		cp "$WF_DIR/readme.md" "${BACKUP_PATH}/workflows/${BUNDLEID}/readme.md"
 		fi
 		if test -f "${BACKUP_PATH}/workflows/${BUNDLEID}/src/screenshot.png"; then
-    		MINE="${MINE} ![$BUNDLEID screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/${BUNDLEID}/src/screenshot.png)\n\n"
+    		MINE="${MINE} ![$BUNDLEID screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/${BUNDLEID}/src/screenshot.png)\n\n"
 		fi
 		if test -f "$WF_DIR/changelog.md"; then
 			CL=$(cat "$WF_DIR/changelog.md")
