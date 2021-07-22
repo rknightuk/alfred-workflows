@@ -51,12 +51,13 @@ _List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-lis
 
 ### Reminders
 
-_View and create reminders_ [Download v1.2.0](workflows/reminders) 
+_View and create reminders_ [Download v1.3.0](workflows/reminders) 
 
  ![reminders screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/reminders/src/screenshot.png)
 
  #### Changelog 
 
+- [2021-07-22] Workflow will now auto-update
 - [2021-07-22] Moved scripts to JXA for easier changes
 - [2021-07-22] If Calendar Events workflow is installed, it can now be opened from Reminders
 
@@ -82,7 +83,7 @@ _Open commonly used folders_ [Download v1.0.0](workflows/common-folders)
 
 ### Calendar Events
 
-_View and create calendar events_ [Download v1.1.0](workflows/calendar-events) 
+_View and create calendar events_ [Download v1.2.0](workflows/calendar-events) 
 
  ![calendar-events screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/calendar-events/src/screenshot.png)
 

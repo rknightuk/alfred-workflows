@@ -23,7 +23,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2907F1B8-E706-415F-BA60-BB1DEF4D65F0</string>
+				<string>C283CA4B-F477-4518-8C78-9C103F389787</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -505,10 +505,10 @@ osascript ./scripts/anytime.js "$LIST_NAME"</string>
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist=''
-readonly workflow_url=''
-readonly download_type=''
-readonly frequency_check=''
+readonly remote_info_plist='https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/reminders/src/info.plist'
+readonly workflow_url='https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/reminders/reminders.alfredworkflow'
+readonly download_type='direct'
+readonly frequency_check='2'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
 function abort {
@@ -583,7 +583,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>2907F1B8-E706-415F-BA60-BB1DEF4D65F0</string>
+			<string>C283CA4B-F477-4518-8C78-9C103F389787</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1194,17 +1194,6 @@ bash ./scripts/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 			<key>ypos</key>
 			<integer>400</integer>
 		</dict>
-		<key>2907F1B8-E706-415F-BA60-BB1DEF4D65F0</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>note</key>
-			<string>OneUpdater</string>
-			<key>xpos</key>
-			<integer>420</integer>
-			<key>ypos</key>
-			<integer>135</integer>
-		</dict>
 		<key>451C482C-8BB4-49F5-B3C4-FF906B9DE9C8</key>
 		<dict>
 			<key>xpos</key>
@@ -1291,6 +1280,17 @@ bash ./scripts/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 			<key>ypos</key>
 			<integer>270</integer>
 		</dict>
+		<key>C283CA4B-F477-4518-8C78-9C103F389787</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>385</integer>
+			<key>ypos</key>
+			<integer>135</integer>
+		</dict>
 		<key>C4C37E1F-BA5B-4BD1-8C3F-ACF3CB270B1D</key>
 		<dict>
 			<key>xpos</key>
@@ -1361,7 +1361,7 @@ bash ./scripts/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 		<string>To Do</string>
 	</dict>
 	<key>version</key>
-	<string>1.2.0</string>
+	<string>1.3.0</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>
