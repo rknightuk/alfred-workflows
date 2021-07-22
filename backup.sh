@@ -55,22 +55,17 @@ for WF_DIR in */; do
     		CURRENT_WORKFLOW=$TEMP_WORKFLOW
     	fi
 
-    	COPY_PATH="${BACKUP_PATH}/workflows/${BUNDLEID}.alfredworkflow"
-    	LINK=${GITHUB_DOWNLOAD}/workflows/${BUNDLEID}.alfredworkflow
-    	if test -f "$WF_DIR/readme.md"; then
-    	    COPY_PATH="${BACKUP_PATH}/workflows/${BUNDLEID}/${BUNDLEID}.alfredworkflow"
-    	    LINK="workflows/${BUNDLEID}"
-    	fi
+	    COPY_PATH="${BACKUP_PATH}/workflows/${BUNDLEID}/${BUNDLEID}.alfredworkflow"
+	    LINK="workflows/${BUNDLEID}"
+	    cp -r $CURRENT_WORKFLOW "${BACKUP_PATH}/workflows/${BUNDLEID}/src"
 
     	ditto -ck "${CURRENT_WORKFLOW}" "$COPY_PATH"
     	MINE="${MINE}### $NAME\n\n$DESC [Download v${VERSION}]($LINK) \n\n"
     	if test -f "$WF_DIR/readme.md"; then
     		cp "$WF_DIR/readme.md" "${BACKUP_PATH}/workflows/${BUNDLEID}/readme.md"
-    		cp "$WF_DIR/screenshot.png" "${BACKUP_PATH}/workflows/${BUNDLEID}/screenshot.png"
 		fi
-		if test -f "$WF_DIR/screenshot.png"; then
-			cp "$WF_DIR/screenshot.png" "${BACKUP_PATH}/screenshots/${BUNDLEID}.png"
-    		MINE="${MINE} ![$BUNDLEID screenshot](screenshots/$BUNDLEID.png)\n\n"
+		if test -f "${BACKUP_PATH}/workflows/${BUNDLEID}/src/screenshot.png"; then
+    		MINE="${MINE} ![$BUNDLEID screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/${BUNDLEID}/src/screenshot.png)\n\n"
 		fi
 		if test -f "$WF_DIR/changelog.md"; then
 			CL=$(cat "$WF_DIR/changelog.md")
