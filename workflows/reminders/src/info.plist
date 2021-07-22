@@ -23,16 +23,6 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C283CA4B-F477-4518-8C78-9C103F389787</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>287AB203-ED22-49C6-AA0C-7703132F9C3C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -175,7 +165,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A9183ED6-75F7-4812-B5A4-DB2395F04991</string>
+				<string>C283CA4B-F477-4518-8C78-9C103F389787</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -188,6 +178,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>7D5BA402-7D92-41AF-852C-D9261B2D7E40</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>989AA42C-CF0C-4917-BB0B-5282AA812765</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C283CA4B-F477-4518-8C78-9C103F389787</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -312,7 +315,18 @@
 			</dict>
 		</array>
 		<key>E44F651D-2889-4D6C-91ED-85ACA62DF9E7</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C283CA4B-F477-4518-8C78-9C103F389787</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>EEB90A3B-AF3F-4F19-B821-6F7C79231A4A</key>
 		<array>
 			<dict>
@@ -363,21 +377,6 @@
 	<string>Reminders</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>rmind</string>
-				<key>leftcursor</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.showalfred</string>
-			<key>uid</key>
-			<string>A9183ED6-75F7-4812-B5A4-DB2395F04991</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -1259,13 +1258,6 @@ bash ./scripts/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 			<key>ypos</key>
 			<integer>280</integer>
 		</dict>
-		<key>A9183ED6-75F7-4812-B5A4-DB2395F04991</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1435</integer>
-			<key>ypos</key>
-			<integer>30</integer>
-		</dict>
 		<key>B0A2B80C-0679-4D7B-8B12-3505CAE23DEC</key>
 		<dict>
 			<key>xpos</key>
@@ -1287,9 +1279,9 @@ bash ./scripts/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>385</integer>
+			<integer>1825</integer>
 			<key>ypos</key>
-			<integer>135</integer>
+			<integer>245</integer>
 		</dict>
 		<key>C4C37E1F-BA5B-4BD1-8C3F-ACF3CB270B1D</key>
 		<dict>
