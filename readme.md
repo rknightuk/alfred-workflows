@@ -26,23 +26,23 @@ This part of the readme is set in `readme.example`
 
  ### Monzo Link Generator
 
-_Generate a Monzo.me link_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png) 
+_Generate a Monzo.me link_ [Download v1.0.0](workflows/monzo-link-generator) 
 
- ![monzo-link-generator screenshot](screenshots/monzo-link-generator.png)
+ ![monzo-link-generator screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/monzo-link-generator/src/screenshot.png)
 
 ### Get Safari Tabs
 
-_Copy all current Safari tabs to Markdown_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/safari-tabs-markdown/src/screenshot.png) 
+_Copy all current Safari tabs to Markdown_ [Download v1.0.0](workflows/safari-tabs-markdown) 
 
 ### Toggle Microphone
 
-_Mute/Unmute microphone input_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-microphone/src/screenshot.png) 
+_Mute/Unmute microphone input_ [Download v1.0.0](workflows/toggle-microphone) 
 
 ### Hotkey List
 
-_List all workflows assigned to a hotkey_ [Download v1.0.2](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/hotkey-list/src/screenshot.png) 
+_List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-list) 
 
- ![hotkey-list screenshot](screenshots/hotkey-list.png)
+ ![hotkey-list screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/hotkey-list/src/screenshot.png)
 
  #### Changelog 
 
@@ -51,9 +51,9 @@ _List all workflows assigned to a hotkey_ [Download v1.0.2](https://raw.githubus
 
 ### Reminders
 
-_View and create reminders_ [Download v1.2.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/reminders/src/screenshot.png) 
+_View and create reminders_ [Download v1.2.0](workflows/reminders) 
 
- ![reminders screenshot](screenshots/reminders.png)
+ ![reminders screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/reminders/src/screenshot.png)
 
  #### Changelog 
 
@@ -62,29 +62,29 @@ _View and create reminders_ [Download v1.2.0](https://raw.githubusercontent.com/
 
 ### Jump List
 
-_ZSH Jump list plugin in Alfred_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/jump-list/src/screenshot.png) 
+_ZSH Jump list plugin in Alfred_ [Download v1.0.0](workflows/jump-list) 
 
- ![jump-list screenshot](screenshots/jump-list.png)
+ ![jump-list screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/jump-list/src/screenshot.png)
 
 ### Toggle Wifi
 
-_Toggle Wifi on/off_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-wifi/src/screenshot.png) 
+_Toggle Wifi on/off_ [Download v1.0.0](workflows/toggle-wifi) 
 
 ### Text Transform
 
-_Transform text in various ways_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/screenshot.png) 
+_Transform text in various ways_ [Download v1.0.0](workflows/text-transform) 
 
- ![text-transform screenshot](screenshots/text-transform.png)
+ ![text-transform screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/text-transform/src/screenshot.png)
 
 ### Common Folders
 
-_Open commonly used folders_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/common-folders/src/screenshot.png) 
+_Open commonly used folders_ [Download v1.0.0](workflows/common-folders) 
 
 ### Calendar Events
 
-_View and create calendar events_ [Download v1.1.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/calendar-events/src/screenshot.png) 
+_View and create calendar events_ [Download v1.1.0](workflows/calendar-events) 
 
- ![calendar-events screenshot](screenshots/calendar-events.png)
+ ![calendar-events screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/calendar-events/src/screenshot.png)
 
  #### Changelog 
 
@@ -93,35 +93,35 @@ _View and create calendar events_ [Download v1.1.0](https://raw.githubuserconten
 
 ### Toggle Music
 
-_Play/Pause Apple Music with hotkey_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-music/src/screenshot.png) 
+_Play/Pause Apple Music with hotkey_ [Download v1.0.0](workflows/toggle-music) 
 
 ### Workflow Dev
 
-_Open a workflows files in Sublime Text_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/screenshot.png) 
+_Open a workflows files in Sublime Text_ [Download v1.0.0](workflows/workflow-dev) 
 
- ![workflow-dev screenshot](screenshots/workflow-dev.png)
+ ![workflow-dev screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/workflow-dev/src/screenshot.png)
 
 ### Finder to Terminal
 
-_Open the current finder window in Terminal_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/finder-to-terminal/src/screenshot.png) 
+_Open the current finder window in Terminal_ [Download v1.0.0](workflows/finder-to-terminal) 
 
 ### Toggle Dark Mode
 
-_Toggle Dark/Light Mode_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-dark-mode/src/screenshot.png) 
+_Toggle Dark/Light Mode_ [Download v1.0.0](workflows/toggle-dark-mode) 
 
 ### Toggle Audio Output
 
-_Switch audio output between MBP and Monitor_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-audio/src/screenshot.png) 
+_Switch audio output between MBP and Monitor_ [Download v1.0.0](workflows/toggle-audio) 
 
 ### Paste Plain Text
 
- [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/paste-plain-text/src/screenshot.png) 
+ [Download v1.0.0](workflows/paste-plain-text) 
 
 ### App Mode
 
-_Open apps for different scenarios_ [Download v1.0.0](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/computer-mode/src/screenshot.png) 
+_Open apps for different scenarios_ [Download v1.0.0](workflows/computer-mode) 
 
- ![computer-mode screenshot](screenshots/computer-mode.png)
+ ![computer-mode screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/putSourceOnGithub/workflows/computer-mode/src/screenshot.png)
 
 
 ## Third Party Workflows
