@@ -9,4 +9,4 @@ then
 	DATE_ARG=""
 fi
 
-eval "./reminders-helper add \"$LIST\" \"$TEXT\" $DATE_ARG" 
+eval "./reminders-helper add-reminder \"$LIST\" \"$TEXT\" $DATE_ARG" 

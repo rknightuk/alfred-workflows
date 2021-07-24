@@ -16,6 +16,7 @@ This workflow allows you to:
 - Create new reminders for either your default list (set the variable on install) or for a specific list (`rmind` > Lists > Choose List > Create New Reminder)
 - View reminders with no due date (`rmind` > Lists > Choose List > Show any time reminders)
 - Mark reminders complete from any of these views
+- Open the [Calendar Events workflow](https://github.com/rknightuk/alfred-workflows/blob/main/workflows/calendar-events) - you can turn this off with the `SHOWCALENDAR` variable
 
 Keyword is `rmind`
 

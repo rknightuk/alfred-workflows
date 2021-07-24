@@ -16,6 +16,7 @@ This workflow allows you to:
 - Create new events for either your default list (set the variable on install) or for a specific list (`ce` > Calendars > Choose Calendar > Create New Event)
 - Open an event in either Calendar.app or Fantastical
 - Create events parsed with [Sherlock](https://github.com/neilgupta/Sherlock) or directly in Fantastical.
+- Open the [Reminders workflow](https://github.com/rknightuk/alfred-workflows/blob/main/workflows/reminders) - you can turn this off with the `SHOWREMINDER` variable
 
 To add a location to an event use `@ Location Name` at the end of your input. I recommend using the Fantastical option as the parsing is much better.
 

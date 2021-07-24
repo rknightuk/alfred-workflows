@@ -24,13 +24,7 @@ This part of the readme is set in `readme.example`
 
  _Some of these will completely useless to anyone but me_ 
 
- ### Monzo Link Generator
-
-_Generate a Monzo.me link_ [Download v1.0.0](workflows/monzo-link-generator) 
-
- ![monzo-link-generator screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png)
-
-### Get Safari Tabs
+ ### Get Safari Tabs
 
 _Copy all current Safari tabs to Markdown_ [Download v1.0.0](workflows/safari-tabs-markdown) 
 
@@ -51,12 +45,13 @@ _List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-lis
 
 ### Reminders
 
-_View and create reminders_ [Download v1.3.0](workflows/reminders) 
+_View and create reminders_ [Download v1.3.1](workflows/reminders) 
 
  ![reminders screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/reminders/src/screenshot.png)
 
  #### Changelog 
 
+- [2021-07-23] Faster overall, showing calendars is now controlled by a variable
 - [2021-07-22] Workflow will now auto-update
 - [2021-07-22] Moved scripts to JXA for easier changes
 - [2021-07-22] If Calendar Events workflow is installed, it can now be opened from Reminders
@@ -83,12 +78,13 @@ _Open commonly used folders_ [Download v1.0.0](workflows/common-folders)
 
 ### Calendar Events
 
-_View and create calendar events_ [Download v1.2.0](workflows/calendar-events) 
+_View and create calendar events_ [Download v1.3.0](workflows/calendar-events) 
 
  ![calendar-events screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/calendar-events/src/screenshot.png)
 
  #### Changelog 
 
+- [2021-07-23] Faster overall, showing reminders is now controlled by a variable
 - [2021-07-22] Moved scripts to JXA for easier changes
 - [2021-07-22] If Reminders workflow is installed, it can now be opened from Calendar Events
 
@@ -98,9 +94,13 @@ _Play/Pause Apple Music with hotkey_ [Download v1.0.0](workflows/toggle-music)
 
 ### Workflow Dev
 
-_Open a workflows files in Sublime Text_ [Download v1.0.0](workflows/workflow-dev) 
+_Open a workflows files in Sublime Text_ [Download v1.1.0](workflows/workflow-dev) 
 
  ![workflow-dev screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/screenshot.png)
+
+ #### Changelog 
+
+- [2021-07-23] Now shows options to option in Finder, Sublime, Terminal, or All
 
 ### Finder to Terminal
 
@@ -109,6 +109,12 @@ _Open the current finder window in Terminal_ [Download v1.0.0](workflows/finder-
 ### Toggle Dark Mode
 
 _Toggle Dark/Light Mode_ [Download v1.0.0](workflows/toggle-dark-mode) 
+
+### Monzo Link Generator
+
+_Generate Monzo.me Link_ [Download v1.0.0](workflows/monzo-link-generator) 
+
+ ![monzo-link-generator screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png)
 
 ### Toggle Audio Output
 
@@ -137,8 +143,8 @@ _Open apps for different scenarios_ [Download v1.0.0](workflows/computer-mode)
 - [Speedtest by Michael Mroczka](http://michaelmroczka.com/) 
 - [TablePlus by Chris Renga](https://www.chrisrenga.com) 
 - [Amphetamine4 Switch by ShisaQ](https://shisaq.github.io) 
-- [OneUpdater by Vítor Galvão](http://vitorgalvao.com/) 
 - [JustWatch - Alfred by VWAP](https://twitter.com/vinayw) 
+- [SoulverCore by Carlos Precioso](https://precioso.design/) 
 - [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/) 
 - [Lorem Ipsum by Till Krüss](https://till.im) 
 - [IP Address v1.2.0 by David Ferguson](jdfwarrior.tumblr.com) 

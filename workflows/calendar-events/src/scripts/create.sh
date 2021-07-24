@@ -18,4 +18,4 @@ then
 	LOCATION_ARG=""
 fi
 
-eval "./calendars-helper add \"$LIST\" \"$TITLE\" -s \"$START\" $END_ARG $LOCATION_ARG"
+eval "./calendars-helper add-event \"$LIST\" \"$TITLE\" -s \"$START\" $END_ARG $LOCATION_ARG"

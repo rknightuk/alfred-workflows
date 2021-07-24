@@ -14,9 +14,9 @@ let items = workflows.map(wf => {
 
 	return {
 		uid: bundleid,
-		title: title,
+		title: title.trim(),
 		subtitle: createdby ? `by ${createdby}` : createdby,
-		arg: `${workflowPath}/${wf}`,
+		arg: `${title}:${workflowPath}/${wf}`,
 		autocomplete: `${title} ${createdby}`,
 		icon: {
 			path: `${workflowPath}/${wf}/icon.png`,
@@ -27,6 +27,6 @@ let items = workflows.map(wf => {
 JSON.stringify({ items: [
 	{
 		title: 'Edit Backup Project',
-		arg: 'BACKUP',
+		arg: 'Edit Backup Project:/Users/robb/Sites/personal/alfred-workflows',
 	}, ...items
 ]})

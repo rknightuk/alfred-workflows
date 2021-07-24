@@ -6,11 +6,11 @@
 	<string>com.rknightuk.workflow-dev</string>
 	<key>connections</key>
 	<dict>
-		<key>04801D60-CEEB-4150-AD17-1A3A800D7AC7</key>
+		<key>3B42091E-9FAF-4159-AFF7-DA9F53833493</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>762E996C-0D2F-4B03-B3E1-0773A8584F08</string>
+				<string>6CB93A55-B0C3-4197-BAD8-58E96E55933F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -19,11 +19,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>762E996C-0D2F-4B03-B3E1-0773A8584F08</key>
+		<key>6CB93A55-B0C3-4197-BAD8-58E96E55933F</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C26A6678-574C-45E6-A9F6-4AD9C8FDBE69</string>
+				<string>D8027678-E2A5-4284-8DF1-3185A11B0AD3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -31,21 +31,100 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>78C7620E-AD05-4B4E-ABE3-6823D25C40FF</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E7E8524A-0394-4223-AD6E-931EE429F96E</string>
+				<string>85234FC5-DA55-448B-BFBE-33C25C140899</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>85234FC5-DA55-448B-BFBE-33C25C140899</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C26A6678-574C-45E6-A9F6-4AD9C8FDBE69</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>sourceoutputuid</key>
-				<string>535C61EA-1BD5-4DA4-9386-0150DD370322</string>
+				<string>24178836-737C-4143-9A60-A9F2EF1DE9EA</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C26A6678-574C-45E6-A9F6-4AD9C8FDBE69</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F8808E5B-AED9-4BDD-9B79-1582D0BBAD8B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A2001822-28E1-436D-BED2-CEE81F4E1C62</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>5039D06D-AB98-42BF-80C8-8383C615E69E</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A2001822-28E1-436D-BED2-CEE81F4E1C62</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F8808E5B-AED9-4BDD-9B79-1582D0BBAD8B</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>1DD76FEC-BABC-411A-8049-D9CC669B6AC3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>57E8E990-8D5C-4906-A71B-BCB1EBCBBED2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1DD76FEC-BABC-411A-8049-D9CC669B6AC3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F8808E5B-AED9-4BDD-9B79-1582D0BBAD8B</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9AE53669-7AE1-4A35-B34B-0EF4C5F36D68</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>78C7620E-AD05-4B4E-ABE3-6823D25C40FF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -54,21 +133,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>E7E8524A-0394-4223-AD6E-931EE429F96E</key>
+		<key>D8027678-E2A5-4284-8DF1-3185A11B0AD3</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C26A6678-574C-45E6-A9F6-4AD9C8FDBE69</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>1DD76FEC-BABC-411A-8049-D9CC669B6AC3</string>
+				<string>9AE53669-7AE1-4A35-B34B-0EF4C5F36D68</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -94,7 +163,7 @@
 				<key>openwith</key>
 				<string>/Applications/Sublime Text.app</string>
 				<key>sourcefile</key>
-				<string></string>
+				<string>{var:workflowpath}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
@@ -106,19 +175,97 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>matchmode</key>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open "$workflowpath"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
 				<integer>0</integer>
-				<key>matchstring</key>
-				<string>BACKUP</string>
-				<key>replacestring</key>
-				<string>/Users/robb/Sites/personal/alfred-workflows</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>E7E8524A-0394-4223-AD6E-931EE429F96E</string>
+			<string>A2001822-28E1-436D-BED2-CEE81F4E1C62</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>sublime</string>
+						<key>outputlabel</key>
+						<string>Sublime</string>
+						<key>uid</key>
+						<string>24178836-737C-4143-9A60-A9F2EF1DE9EA</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>finder</string>
+						<key>outputlabel</key>
+						<string>Finder</string>
+						<key>uid</key>
+						<string>5039D06D-AB98-42BF-80C8-8383C615E69E</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>terminal</string>
+						<key>outputlabel</key>
+						<string>Terminal</string>
+						<key>uid</key>
+						<string>57E8E990-8D5C-4906-A71B-BCB1EBCBBED2</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>all</string>
+						<key>outputlabel</key>
+						<string>All</string>
+						<key>uid</key>
+						<string>F8808E5B-AED9-4BDD-9B79-1582D0BBAD8B</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>?</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>85234FC5-DA55-448B-BFBE-33C25C140899</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -136,7 +283,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>wwf</string>
+				<string>wf</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -165,37 +312,111 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>04801D60-CEEB-4150-AD17-1A3A800D7AC7</string>
+			<string>3B42091E-9FAF-4159-AFF7-DA9F53833493</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>BACKUP</string>
-						<key>outputlabel</key>
-						<string>Backup Edit</string>
-						<key>uid</key>
-						<string>535C61EA-1BD5-4DA4-9386-0150DD370322</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Workflow Edit</string>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>workflowname=$split1
+workflowpath=$split2
+
+osascript ./options.js "$workflowname:$workflowpath"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>762E996C-0D2F-4B03-B3E1-0773A8584F08</string>
+			<string>78C7620E-AD05-4B4E-ABE3-6823D25C40FF</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9AE53669-7AE1-4A35-B34B-0EF4C5F36D68</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>:</string>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>6CB93A55-B0C3-4197-BAD8-58E96E55933F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:split1}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>workflowpath</key>
+					<string>{var:split2}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D8027678-E2A5-4284-8DF1-3185A11B0AD3</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -203,7 +424,7 @@
 			<key>config</key>
 			<dict>
 				<key>path</key>
-				<string></string>
+				<string>{var:workflowpath}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.browseinterminal</string>
@@ -217,46 +438,74 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>04801D60-CEEB-4150-AD17-1A3A800D7AC7</key>
-		<dict>
-			<key>xpos</key>
-			<integer>60</integer>
-			<key>ypos</key>
-			<integer>285</integer>
-		</dict>
 		<key>1DD76FEC-BABC-411A-8049-D9CC669B6AC3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>645</integer>
+			<integer>840</integer>
 			<key>ypos</key>
-			<integer>390</integer>
+			<integer>370</integer>
 		</dict>
-		<key>762E996C-0D2F-4B03-B3E1-0773A8584F08</key>
+		<key>3B42091E-9FAF-4159-AFF7-DA9F53833493</key>
 		<dict>
 			<key>xpos</key>
-			<integer>235</integer>
+			<integer>40</integer>
 			<key>ypos</key>
-			<integer>305</integer>
+			<integer>260</integer>
+		</dict>
+		<key>6CB93A55-B0C3-4197-BAD8-58E96E55933F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>205</integer>
+			<key>ypos</key>
+			<integer>290</integer>
+		</dict>
+		<key>78C7620E-AD05-4B4E-ABE3-6823D25C40FF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>445</integer>
+			<key>ypos</key>
+			<integer>260</integer>
+		</dict>
+		<key>85234FC5-DA55-448B-BFBE-33C25C140899</key>
+		<dict>
+			<key>xpos</key>
+			<integer>610</integer>
+			<key>ypos</key>
+			<integer>235</integer>
+		</dict>
+		<key>9AE53669-7AE1-4A35-B34B-0EF4C5F36D68</key>
+		<dict>
+			<key>xpos</key>
+			<integer>355</integer>
+			<key>ypos</key>
+			<integer>290</integer>
+		</dict>
+		<key>A2001822-28E1-436D-BED2-CEE81F4E1C62</key>
+		<dict>
+			<key>note</key>
+			<string>Open in Finder</string>
+			<key>xpos</key>
+			<integer>840</integer>
+			<key>ypos</key>
+			<integer>235</integer>
 		</dict>
 		<key>C26A6678-574C-45E6-A9F6-4AD9C8FDBE69</key>
 		<dict>
-			<key>note</key>
-			<string>Change the app in this step to change which application the directory opens in</string>
 			<key>xpos</key>
-			<integer>645</integer>
+			<integer>840</integer>
 			<key>ypos</key>
-			<integer>180</integer>
+			<integer>120</integer>
 		</dict>
-		<key>E7E8524A-0394-4223-AD6E-931EE429F96E</key>
+		<key>D8027678-E2A5-4284-8DF1-3185A11B0AD3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>385</integer>
+			<integer>280</integer>
 			<key>ypos</key>
-			<integer>250</integer>
+			<integer>290</integer>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>

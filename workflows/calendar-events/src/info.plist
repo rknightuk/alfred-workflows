@@ -795,7 +795,7 @@ echo "x-fantastical3://show/calendar/$query"</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>bash ./scripts/init.sh</string>
+				<string>osascript ./scripts/init.js $SHOWREMINDER</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1354,7 +1354,9 @@ function run(argv) {
 	<key>readme</key>
 	<string>Set your default calendar with DEFAULTCAL
 
-The parsing engine for adding events is not as good as the one in Fantastical. If you want to create new events with Fantastical, set `usefantastical` to true.</string>
+The parsing engine for adding events is not as good as the one in Fantastical. If you want to create new events with Fantastical, set `usefantastical` to true.
+
+Set SHOWREMINDER to false if you don't have the Calendar Events workflow, or don't want the option to show.</string>
 	<key>uidata</key>
 	<dict>
 		<key>0CBE61F2-47B0-48BB-91AC-607299EDF293</key>
@@ -1564,11 +1566,13 @@ The parsing engine for adding events is not as good as the one in Fantastical. I
 	<dict>
 		<key>DEFAULTCAL</key>
 		<string>Robb - Home</string>
+		<key>SHOWREMINDER</key>
+		<string>true</string>
 		<key>usefantastical</key>
 		<string>true</string>
 	</dict>
 	<key>version</key>
-	<string>1.2.0</string>
+	<string>1.3.0</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>

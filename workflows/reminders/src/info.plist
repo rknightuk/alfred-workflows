@@ -857,7 +857,7 @@ bash ./scripts/complete.sh "$LIST_NAME" $INDEX $ANYTIME</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>bash ./scripts/init.sh</string>
+				<string>osascript ./scripts/init.js $SHOWCALENDAR</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1169,7 +1169,7 @@ bash ./scripts/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Set SHOWCALENDAR to false if you don't have the Calendar Events workflow, or don't want the option to show.</string>
 	<key>uidata</key>
 	<dict>
 		<key>2350E20C-7C7D-44D3-BE39-72993A7531E7</key>
@@ -1351,9 +1351,11 @@ bash ./scripts/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 	<dict>
 		<key>DEFAULTLIST</key>
 		<string>To Do</string>
+		<key>SHOWCALENDAR</key>
+		<string>true</string>
 	</dict>
 	<key>version</key>
-	<string>1.3.0</string>
+	<string>1.3.1</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>

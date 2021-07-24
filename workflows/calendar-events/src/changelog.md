@@ -1,2 +1,3 @@
+- [2021-07-23] Faster overall, showing reminders is now controlled by a variable
 - [2021-07-22] Moved scripts to JXA for easier changes
 - [2021-07-22] If Reminders workflow is installed, it can now be opened from Calendar Events
