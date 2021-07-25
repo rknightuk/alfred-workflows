@@ -93,7 +93,7 @@ _View and create reminders_ [Download v1.3.1](workflows/reminders)
 
 ### Text Transform
 
-_Transform text in various ways_ [Download v1.0.0](workflows/text-transform)
+_Transform text in various ways or process with TextBuddy (optional)_ [Download v1.1.0](workflows/text-transform)
 
 ![text-transform screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/screenshot.png)
 
@@ -142,5 +142,4 @@ _Open a workflows files in Sublime Text_ [Download v1.1.0](workflows/workflow-de
 - [SoulverCore by Carlos Precioso](https://precioso.design/)
 - [Speedtest by Michael Mroczka](http://michaelmroczka.com/)
 - [TablePlus by Chris Renga](https://www.chrisrenga.com)
-- [TerminalFinder by LeEnno](http://www.ienno.de)
 - [VPN Connections by Jacob Helwig](https://technosorcery.net)

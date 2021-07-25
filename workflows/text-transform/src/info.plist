@@ -10,7 +10,122 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>8277B587-B671-415E-ADE4-5C327A179F42</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2BC7B358-9933-4167-A2DC-CEFD06D94DB8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C59C3F81-040F-4AD3-90F2-402B3E9F1A9E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>322577FA-04AA-4415-AD51-9F849624F6D1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2BC7B358-9933-4167-A2DC-CEFD06D94DB8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>37767B73-D7CE-4B4A-9BEF-5B9213E62A62</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA3D8EE6-94D9-4F06-814B-AB81BDCD25A4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>42D8FB28-43EA-4D41-A68C-36A8C2C0FD97</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>37767B73-D7CE-4B4A-9BEF-5B9213E62A62</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8277B587-B671-415E-ADE4-5C327A179F42</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>322577FA-04AA-4415-AD51-9F849624F6D1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>E26D4972-84BF-4645-88DB-DC56589614D7</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C59C3F81-040F-4AD3-90F2-402B3E9F1A9E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>A1080863-18AD-44F1-9A20-F2BF62CBC7A0</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>AA0A2E1F-63E9-4979-B01C-00E172456720</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C59C3F81-040F-4AD3-90F2-402B3E9F1A9E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>42D8FB28-43EA-4D41-A68C-36A8C2C0FD97</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DA3D8EE6-94D9-4F06-814B-AB81BDCD25A4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BA55D5D3-08E1-4D98-9105-C96B35C05FC8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -23,7 +138,7 @@
 	<key>createdby</key>
 	<string>Robb Knight</string>
 	<key>description</key>
-	<string>Transform text in various ways</string>
+	<string>Transform text in various ways or process with TextBuddy (optional)</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -36,7 +151,7 @@
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
-				<string>{query}</string>
+				<string>{var:input2}</string>
 				<key>ignoredynamicplaceholders</key>
 				<false/>
 				<key>transient</key>
@@ -45,9 +160,119 @@
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>AA0A2E1F-63E9-4979-B01C-00E172456720</string>
+			<string>2BC7B358-9933-4167-A2DC-CEFD06D94DB8</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>TXBDDYP</string>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>input</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>322577FA-04AA-4415-AD51-9F849624F6D1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>a</string>
+				<key>keycode</key>
+				<integer>-1</integer>
+				<key>keymod</key>
+				<integer>1048576</integer>
+				<key>overridewithargument</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>37767B73-D7CE-4B4A-9BEF-5B9213E62A62</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>v</string>
+				<key>keycode</key>
+				<integer>-1</integer>
+				<key>keymod</key>
+				<integer>1048576</integer>
+				<key>overridewithargument</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>DA3D8EE6-94D9-4F06-814B-AB81BDCD25A4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/TextBuddy.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>C59C3F81-040F-4AD3-90F2-402B3E9F1A9E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>t</string>
+				<key>keycode</key>
+				<integer>-1</integer>
+				<key>keymod</key>
+				<integer>1048576</integer>
+				<key>overridewithargument</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>BA55D5D3-08E1-4D98-9105-C96B35C05FC8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>0.5</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>42D8FB28-43EA-4D41-A68C-36A8C2C0FD97</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -79,7 +304,7 @@
 				<key>script</key>
 				<string>query=$1
 
-osascript ./script.js $query</string>
+osascript ./script.js $enable_text_buddy $query</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -100,28 +325,152 @@ osascript ./script.js $query</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<true/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^TXBDDYP</string>
+						<key>outputlabel</key>
+						<string>Input with TextBuddy</string>
+						<key>uid</key>
+						<string>E26D4972-84BF-4645-88DB-DC56589614D7</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^TXBDDYC</string>
+						<key>outputlabel</key>
+						<string>Clipboard with TextBuddy</string>
+						<key>uid</key>
+						<string>A1080863-18AD-44F1-9A20-F2BF62CBC7A0</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Copy to Clipboard</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>8277B587-B671-415E-ADE4-5C327A179F42</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>AA0A2E1F-63E9-4979-B01C-00E172456720</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>If you have TextBuddy (https://textbuddy.app) installed you can open either your input or the current clipboard in the app instead. Set `enable_text_buddy` to false if you don't want this option to show.</string>
 	<key>uidata</key>
 	<dict>
 		<key>18705FB3-C2B2-4072-BEB5-72DD4DF48112</key>
 		<dict>
 			<key>xpos</key>
-			<integer>145</integer>
+			<integer>155</integer>
 			<key>ypos</key>
-			<integer>255</integer>
+			<integer>270</integer>
+		</dict>
+		<key>2BC7B358-9933-4167-A2DC-CEFD06D94DB8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>640</integer>
+			<key>ypos</key>
+			<integer>85</integer>
+		</dict>
+		<key>322577FA-04AA-4415-AD51-9F849624F6D1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>560</integer>
+			<key>ypos</key>
+			<integer>115</integer>
+		</dict>
+		<key>37767B73-D7CE-4B4A-9BEF-5B9213E62A62</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1085</integer>
+			<key>ypos</key>
+			<integer>165</integer>
+		</dict>
+		<key>42D8FB28-43EA-4D41-A68C-36A8C2C0FD97</key>
+		<dict>
+			<key>xpos</key>
+			<integer>995</integer>
+			<key>ypos</key>
+			<integer>195</integer>
+		</dict>
+		<key>8277B587-B671-415E-ADE4-5C327A179F42</key>
+		<dict>
+			<key>xpos</key>
+			<integer>345</integer>
+			<key>ypos</key>
+			<integer>275</integer>
 		</dict>
 		<key>AA0A2E1F-63E9-4979-B01C-00E172456720</key>
 		<dict>
 			<key>xpos</key>
-			<integer>400</integer>
+			<integer>580</integer>
 			<key>ypos</key>
-			<integer>255</integer>
+			<integer>345</integer>
+		</dict>
+		<key>BA55D5D3-08E1-4D98-9105-C96B35C05FC8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1415</integer>
+			<key>ypos</key>
+			<integer>165</integer>
+		</dict>
+		<key>C59C3F81-040F-4AD3-90F2-402B3E9F1A9E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>840</integer>
+			<key>ypos</key>
+			<integer>165</integer>
+		</dict>
+		<key>DA3D8EE6-94D9-4F06-814B-AB81BDCD25A4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1245</integer>
+			<key>ypos</key>
+			<integer>165</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>enable_text_buddy</key>
+		<string>true</string>
+	</dict>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>

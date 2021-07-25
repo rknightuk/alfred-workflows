@@ -1,4 +1,7 @@
 function run(argv) {
+	const showTextBuddy = argv[0] === 'true'
+
+	argv[0] = ''
 	const input = argv.map(a => `${a} `).join('').trim()
 
 	const types = {
@@ -34,12 +37,14 @@ function run(argv) {
 		return { title: output, arg: output, icon: { path: `./icons/${k}.png`} }
 	})
 
-	// values.unshift({
-	// 	title: input ? 'Process with TextBuddy' : 'Process clipboard with TextBuddy',
-	// 	arg: 'TEXTBUDDY',
-	// })
+	if (showTextBuddy)
+	{
+		values.unshift({
+			title: input ? 'Process with TextBuddy' : 'Process clipboard with TextBuddy',
+			arg: `TXBDDY${input ? 'P' : 'C'}${input}`,
+		})
+	}
 	
 	return JSON.stringify({ items: values })
-
 
 }
