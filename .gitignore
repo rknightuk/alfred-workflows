@@ -1,0 +1,2 @@
+# Something is causing the Monzo workflow to generate tmp folders, so ignore them
+tmp*/

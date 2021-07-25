@@ -33,11 +33,13 @@ function run(argv) {
 		const output = types[k].fn(input)
 		return { title: output, arg: output, icon: { path: `./icons/${k}.png`} }
 	})
+
+	// values.unshift({
+	// 	title: input ? 'Process with TextBuddy' : 'Process clipboard with TextBuddy',
+	// 	arg: 'TEXTBUDDY',
+	// })
 	
 	return JSON.stringify({ items: values })
-	// [...input].forEach(l => {
-
-	// })
 
 
 }

@@ -1,0 +1,2 @@
+backup:
+	osascript ./backup.js

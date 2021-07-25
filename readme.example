@@ -10,7 +10,7 @@ The theme in the screenshots is [Tempo Alternative (Dark)](https://github.com/ch
 
 ## Setting up the backup script
 
-[`backup.sh`](backup.sh) generates this readme file as well as backing up my workflows (and only mine, don't post other peoples workflows to your own repositories). The script works by doing the following:
+[`backup.js`](backup.js) generates this readme file as well as backing up my workflows (and only mine, don't post other peoples workflows to your own repositories). The script works by doing the following:
 
 - Looping through all workflows in my Alfred workflow directory
 - If it has my bundle ID in the plist file, it extracts the metadata using `PListBuddy`, adds it to the first list below, then zips the workflow as an `.alfredworkflow`
@@ -22,6 +22,5 @@ This part of the readme is set in `readme.example`
 
 ## My Workflows
 
- _Some of these will completely useless to anyone but me_ 
+_Some of these will completely useless to anyone but me_ 
 
- 

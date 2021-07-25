@@ -10,7 +10,7 @@ The theme in the screenshots is [Tempo Alternative (Dark)](https://github.com/ch
 
 ## Setting up the backup script
 
-[`backup.sh`](backup.sh) generates this readme file as well as backing up my workflows (and only mine, don't post other peoples workflows to your own repositories). The script works by doing the following:
+[`backup.js`](backup.js) generates this readme file as well as backing up my workflows (and only mine, don't post other peoples workflows to your own repositories). The script works by doing the following:
 
 - Looping through all workflows in my Alfred workflow directory
 - If it has my bundle ID in the plist file, it extracts the metadata using `PListBuddy`, adds it to the first list below, then zips the workflow as an `.alfredworkflow`
@@ -22,131 +22,125 @@ This part of the readme is set in `readme.example`
 
 ## My Workflows
 
- _Some of these will completely useless to anyone but me_ 
+_Some of these will completely useless to anyone but me_ 
 
- ### Get Safari Tabs
+### App Mode
 
-_Copy all current Safari tabs to Markdown_ [Download v1.0.0](workflows/safari-tabs-markdown) 
+_Open apps for different scenarios_ [Download v1.0.0](workflows/computer-mode)
 
-### Toggle Microphone
+![computer-mode screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/computer-mode/src/screenshot.png)
 
-_Mute/Unmute microphone input_ [Download v1.0.0](workflows/toggle-microphone) 
+### Calendar Events
+
+_View and create calendar events_ [Download v1.3.0](workflows/calendar-events)
+
+![calendar-events screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/calendar-events/src/screenshot.png)
+
+- [2021-07-23] Faster overall, showing reminders is now controlled by a variable
+- [2021-07-22] Moved scripts to JXA for easier changes
+- [2021-07-22] If Reminders workflow is installed, it can now be opened from Calendar Events
+
+
+### Common Folders
+
+_Open commonly used folders_ [Download v1.0.0](workflows/common-folders)
+
+### Finder to Terminal
+
+_Open the current finder window in Terminal_ [Download v1.0.0](workflows/finder-to-terminal)
+
+### Get Safari Tabs
+
+_Copy all current Safari tabs to Markdown_ [Download v1.0.0](workflows/safari-tabs-markdown)
 
 ### Hotkey List
 
-_List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-list) 
+_List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-list)
 
- ![hotkey-list screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/hotkey-list/src/screenshot.png)
-
- #### Changelog 
+![hotkey-list screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/hotkey-list/src/screenshot.png)
 
 - [2021-07-22] Hotkeys with modifiers now run through a hacky method
 - [2021-07-22] Now shows hotkeys including modifiers but these don't work yet, see https://www.alfredforum.com/topic/17130-format-for-running-key-combo-from-input-with-function-keys-and-modifiers/
 
+
+### Jump List
+
+_ZSH Jump list plugin in Alfred_ [Download v1.0.0](workflows/jump-list)
+
+![jump-list screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/jump-list/src/screenshot.png)
+
+### Monzo Link Generator
+
+_Generate Monzo.me Link_ [Download v1.0.0](workflows/monzo-link-generator)
+
+![monzo-link-generator screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png)
+
+### Paste Plain Text
+
+[Download v1.0.0](workflows/paste-plain-text)
+
 ### Reminders
 
-_View and create reminders_ [Download v1.3.1](workflows/reminders) 
+_View and create reminders_ [Download v1.3.1](workflows/reminders)
 
- ![reminders screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/reminders/src/screenshot.png)
-
- #### Changelog 
+![reminders screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/reminders/src/screenshot.png)
 
 - [2021-07-23] Faster overall, showing calendars is now controlled by a variable
 - [2021-07-22] Workflow will now auto-update
 - [2021-07-22] Moved scripts to JXA for easier changes
 - [2021-07-22] If Calendar Events workflow is installed, it can now be opened from Reminders
 
-### Jump List
-
-_ZSH Jump list plugin in Alfred_ [Download v1.0.0](workflows/jump-list) 
-
- ![jump-list screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/jump-list/src/screenshot.png)
-
-### Toggle Wifi
-
-_Toggle Wifi on/off_ [Download v1.0.0](workflows/toggle-wifi) 
 
 ### Text Transform
 
-_Transform text in various ways_ [Download v1.0.0](workflows/text-transform) 
+_Transform text in various ways_ [Download v1.0.0](workflows/text-transform)
 
- ![text-transform screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/screenshot.png)
-
-### Common Folders
-
-_Open commonly used folders_ [Download v1.0.0](workflows/common-folders) 
-
-### Calendar Events
-
-_View and create calendar events_ [Download v1.3.0](workflows/calendar-events) 
-
- ![calendar-events screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/calendar-events/src/screenshot.png)
-
- #### Changelog 
-
-- [2021-07-23] Faster overall, showing reminders is now controlled by a variable
-- [2021-07-22] Moved scripts to JXA for easier changes
-- [2021-07-22] If Reminders workflow is installed, it can now be opened from Calendar Events
-
-### Toggle Music
-
-_Play/Pause Apple Music with hotkey_ [Download v1.0.0](workflows/toggle-music) 
-
-### Workflow Dev
-
-_Open a workflows files in Sublime Text_ [Download v1.1.0](workflows/workflow-dev) 
-
- ![workflow-dev screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/screenshot.png)
-
- #### Changelog 
-
-- [2021-07-23] Now shows options to option in Finder, Sublime, Terminal, or All
-
-### Finder to Terminal
-
-_Open the current finder window in Terminal_ [Download v1.0.0](workflows/finder-to-terminal) 
-
-### Toggle Dark Mode
-
-_Toggle Dark/Light Mode_ [Download v1.0.0](workflows/toggle-dark-mode) 
-
-### Monzo Link Generator
-
-_Generate Monzo.me Link_ [Download v1.0.0](workflows/monzo-link-generator) 
-
- ![monzo-link-generator screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png)
+![text-transform screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/screenshot.png)
 
 ### Toggle Audio Output
 
-_Switch audio output between MBP and Monitor_ [Download v1.0.0](workflows/toggle-audio) 
+_Switch audio output between MBP and Monitor_ [Download v1.0.0](workflows/toggle-audio)
 
-### Paste Plain Text
+### Toggle Dark Mode
 
- [Download v1.0.0](workflows/paste-plain-text) 
+_Toggle Dark/Light Mode_ [Download v1.0.0](workflows/toggle-dark-mode)
 
-### App Mode
+### Toggle Microphone
 
-_Open apps for different scenarios_ [Download v1.0.0](workflows/computer-mode) 
+_Mute/Unmute microphone input_ [Download v1.0.0](workflows/toggle-microphone)
 
- ![computer-mode screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/computer-mode/src/screenshot.png)
+### Toggle Music
+
+_Play/Pause Apple Music with hotkey_ [Download v1.0.0](workflows/toggle-music)
+
+### Toggle Wifi
+
+_Toggle Wifi on/off_ [Download v1.0.0](workflows/toggle-wifi)
+
+### Workflow Dev
+
+_Open a workflows files in Sublime Text_ [Download v1.1.0](workflows/workflow-dev)
+
+![workflow-dev screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/screenshot.png)
+
+- [2021-07-23] Now shows options to option in Finder, Sublime, Terminal, or All
 
 
 ## Third Party Workflows
 
-- [JetBrains - Open Project - v3 by bchatard](https://github.com/bchatard/alfred-jetbrains#readme) 
-- [fkill by Sam Verschueren](https://github.com/SamVerschueren/alfred-fkill#readme) 
-- [VPN Connections by Jacob Helwig](https://technosorcery.net) 
-- [HTTP Status Code by Fred Liang](https://github.com/ilstar/http_status_code) 
-- [Emoji Taco by Jeff Stein](https://github.com/jeeftor/EmojiTaco) 
-- [Datetime Format Converter by Michael Waterfall](twitter.com/mwaterfall) 
-- [Search Notes.app by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app) 
-- [Speedtest by Michael Mroczka](http://michaelmroczka.com/) 
-- [TablePlus by Chris Renga](https://www.chrisrenga.com) 
-- [Amphetamine4 Switch by ShisaQ](https://shisaq.github.io) 
-- [JustWatch - Alfred by VWAP](https://twitter.com/vinayw) 
-- [SoulverCore by Carlos Precioso](https://precioso.design/) 
-- [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/) 
-- [Lorem Ipsum by Till Krüss](https://till.im) 
-- [IP Address v1.2.0 by David Ferguson](jdfwarrior.tumblr.com) 
-- [TerminalFinder by LeEnno](http://www.ienno.de) 
-
+- [Amphetamine4 Switch by ShisaQ](https://shisaq.github.io)
+- [Datetime Format Converter by Michael Waterfall](twitter.com/mwaterfall)
+- [Emoji Taco by Jeff Stein](https://github.com/jeeftor/EmojiTaco)
+- [fkill by Sam Verschueren](https://github.com/SamVerschueren/alfred-fkill#readme)
+- [HTTP Status Code by Fred Liang](https://github.com/ilstar/http_status_code)
+- [IP Address v1.2.0 by David Ferguson](jdfwarrior.tumblr.com)
+- [JetBrains - Open Project - v3 by bchatard](https://github.com/bchatard/alfred-jetbrains#readme)
+- [JustWatch - Alfred by VWAP](https://twitter.com/vinayw)
+- [Lorem Ipsum by Till Krüss](https://till.im)
+- [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/)
+- [Search Notes.app by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
+- [SoulverCore by Carlos Precioso](https://precioso.design/)
+- [Speedtest by Michael Mroczka](http://michaelmroczka.com/)
+- [TablePlus by Chris Renga](https://www.chrisrenga.com)
+- [TerminalFinder by LeEnno](http://www.ienno.de)
+- [VPN Connections by Jacob Helwig](https://technosorcery.net)
