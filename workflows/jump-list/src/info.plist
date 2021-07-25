@@ -6,8 +6,33 @@
 	<string>com.rknightuk.jump-list</string>
 	<key>connections</key>
 	<dict>
-		<key>24E48261-12BD-4A0D-A5EE-BE3A58AB69D3</key>
+		<key>1639C989-56E5-4F39-8742-BDADEDC0EA78</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E10AA766-23FE-444B-99E2-64482C575975</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E10AA766-23FE-444B-99E2-64482C575975</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6F84E267-6248-407A-A946-87DA2BD11B3F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>48E706AD-4487-4EE3-9EA4-A5629F808235</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>A2A19694-0EFC-4FF5-901A-2919F2BD17C5</string>
@@ -30,6 +55,19 @@
 	<string>Jump List</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string>{var:path}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.browseinterminal</string>
+			<key>uid</key>
+			<string>6F84E267-6248-407A-A946-87DA2BD11B3F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -56,9 +94,9 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Loading jumps...</string>
 				<key>script</key>
-				<string>bash ./script.sh</string>
+				<string>osascript ./script.js</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -66,7 +104,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Jump List</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -75,9 +113,39 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>24E48261-12BD-4A0D-A5EE-BE3A58AB69D3</string>
+			<string>1639C989-56E5-4F39-8742-BDADEDC0EA78</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>terminal</string>
+						<key>outputlabel</key>
+						<string>Open in Terminal</string>
+						<key>uid</key>
+						<string>48E706AD-4487-4EE3-9EA4-A5629F808235</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Open in Finder</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>E10AA766-23FE-444B-99E2-64482C575975</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -87,9 +155,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>query=$1
-
-open $query</string>
+				<string>open $path</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -109,19 +175,33 @@ open $query</string>
 	<string>Reads marks from ZSH jump plugin https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/jump/jump.plugin.zsh and opens them in Finder</string>
 	<key>uidata</key>
 	<dict>
-		<key>24E48261-12BD-4A0D-A5EE-BE3A58AB69D3</key>
+		<key>1639C989-56E5-4F39-8742-BDADEDC0EA78</key>
 		<dict>
 			<key>xpos</key>
-			<integer>135</integer>
+			<integer>140</integer>
 			<key>ypos</key>
 			<integer>195</integer>
+		</dict>
+		<key>6F84E267-6248-407A-A946-87DA2BD11B3F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>495</integer>
+			<key>ypos</key>
+			<integer>130</integer>
 		</dict>
 		<key>A2A19694-0EFC-4FF5-901A-2919F2BD17C5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>385</integer>
+			<integer>495</integer>
 			<key>ypos</key>
-			<integer>195</integer>
+			<integer>255</integer>
+		</dict>
+		<key>E10AA766-23FE-444B-99E2-64482C575975</key>
+		<dict>
+			<key>xpos</key>
+			<integer>320</integer>
+			<key>ypos</key>
+			<integer>215</integer>
 		</dict>
 	</dict>
 	<key>version</key>

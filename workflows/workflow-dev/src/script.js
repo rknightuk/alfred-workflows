@@ -20,6 +20,10 @@ let items = workflows.map(wf => {
 		autocomplete: `${title} ${createdby}`,
 		icon: {
 			path: `${workflowPath}/${wf}/icon.png`,
+		},
+		variables: {
+			name: title.trim(),
+			path: `${workflowPath}/${wf}`,
 		}
 	}
 })

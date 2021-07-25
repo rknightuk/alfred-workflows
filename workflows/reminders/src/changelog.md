@@ -1,3 +1,4 @@
+- [2021-07-25] Use alt to open a reminder in Reminders app
 - [2021-07-23] Faster overall, showing calendars is now controlled by a variable
 - [2021-07-22] Workflow will now auto-update
 - [2021-07-22] Moved scripts to JXA for easier changes

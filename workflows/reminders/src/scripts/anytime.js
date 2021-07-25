@@ -15,6 +15,12 @@ function run(argv) {
 	    	title: parsed.title,
 	    	arg: parsed.id,
 	    	autocomplete: parsed.title,
+	    	mods: {
+	    		alt: {
+	    			arg: `open x-apple-reminderkit://REMCDReminder/${parsed.uuid}`,
+	    			subtitle: 'Open Reminder'
+	    		}
+	    	}
 	    }
 	})
 

@@ -10,20 +10,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6CB93A55-B0C3-4197-BAD8-58E96E55933F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>6CB93A55-B0C3-4197-BAD8-58E96E55933F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>D8027678-E2A5-4284-8DF1-3185A11B0AD3</string>
+				<string>9AE53669-7AE1-4A35-B34B-0EF4C5F36D68</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -133,19 +120,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>D8027678-E2A5-4284-8DF1-3185A11B0AD3</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>9AE53669-7AE1-4A35-B34B-0EF4C5F36D68</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Robb Knight</string>
@@ -163,7 +137,7 @@
 				<key>openwith</key>
 				<string>/Applications/Sublime Text.app</string>
 				<key>sourcefile</key>
-				<string>{var:workflowpath}</string>
+				<string>{var:path}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
@@ -180,7 +154,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>open "$workflowpath"</string>
+				<string>open "$path"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -342,10 +316,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>workflowname=$split1
-workflowpath=$split2
-
-osascript ./options.js "$workflowname:$workflowpath"</string>
+				<string>osascript ./options.js "$name"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -386,45 +357,8 @@ osascript ./options.js "$workflowname:$workflowpath"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>delimiter</key>
-				<string>:</string>
-				<key>trimarguments</key>
-				<true/>
-				<key>variableprefix</key>
-				<string>split</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.split</string>
-			<key>uid</key>
-			<string>6CB93A55-B0C3-4197-BAD8-58E96E55933F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{var:split1}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>workflowpath</key>
-					<string>{var:split2}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>D8027678-E2A5-4284-8DF1-3185A11B0AD3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>path</key>
-				<string>{var:workflowpath}</string>
+				<string>{var:path}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.browseinterminal</string>
@@ -441,7 +375,7 @@ osascript ./options.js "$workflowname:$workflowpath"</string>
 		<key>1DD76FEC-BABC-411A-8049-D9CC669B6AC3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>840</integer>
+			<integer>710</integer>
 			<key>ypos</key>
 			<integer>370</integer>
 		</dict>
@@ -452,31 +386,24 @@ osascript ./options.js "$workflowname:$workflowpath"</string>
 			<key>ypos</key>
 			<integer>260</integer>
 		</dict>
-		<key>6CB93A55-B0C3-4197-BAD8-58E96E55933F</key>
-		<dict>
-			<key>xpos</key>
-			<integer>205</integer>
-			<key>ypos</key>
-			<integer>290</integer>
-		</dict>
 		<key>78C7620E-AD05-4B4E-ABE3-6823D25C40FF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>445</integer>
+			<integer>320</integer>
 			<key>ypos</key>
 			<integer>260</integer>
 		</dict>
 		<key>85234FC5-DA55-448B-BFBE-33C25C140899</key>
 		<dict>
 			<key>xpos</key>
-			<integer>610</integer>
+			<integer>480</integer>
 			<key>ypos</key>
 			<integer>235</integer>
 		</dict>
 		<key>9AE53669-7AE1-4A35-B34B-0EF4C5F36D68</key>
 		<dict>
 			<key>xpos</key>
-			<integer>355</integer>
+			<integer>225</integer>
 			<key>ypos</key>
 			<integer>290</integer>
 		</dict>
@@ -485,23 +412,16 @@ osascript ./options.js "$workflowname:$workflowpath"</string>
 			<key>note</key>
 			<string>Open in Finder</string>
 			<key>xpos</key>
-			<integer>840</integer>
+			<integer>710</integer>
 			<key>ypos</key>
 			<integer>235</integer>
 		</dict>
 		<key>C26A6678-574C-45E6-A9F6-4AD9C8FDBE69</key>
 		<dict>
 			<key>xpos</key>
-			<integer>840</integer>
+			<integer>710</integer>
 			<key>ypos</key>
 			<integer>120</integer>
-		</dict>
-		<key>D8027678-E2A5-4284-8DF1-3185A11B0AD3</key>
-		<dict>
-			<key>xpos</key>
-			<integer>280</integer>
-			<key>ypos</key>
-			<integer>290</integer>
 		</dict>
 	</dict>
 	<key>version</key>

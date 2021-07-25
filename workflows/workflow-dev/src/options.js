@@ -1,29 +1,29 @@
 function run(argv) {
-	const [ name, path ] = argv[0].split(':')
+	const name = argv[0]
 	const items = [
 		{
-			title: 'Open in Sublime',
+			title: `Open ${name} in Sublime`,
 			arg: 'sublime',
 			icon: {
 				path: 'icons/sublime.png'
 			}
 		},
 		{
-			title: 'Open in Terminal',
+			title: `Open ${name} in Terminal`,
 			arg: 'terminal',
 			icon: {
 				path: 'icons/terminal.png'
 			}
 		},
 		{
-			title: 'Open in Finder',
+			title: `Open ${name} in Finder`,
 			arg: 'finder',
 			icon: {
 				path: 'icons/finder.png'
 			}
 		},
 		{
-			title: 'Open in All',
+			title: `Open ${name} in All`,
 			arg: 'all',
 			icon: {
 				path: 'icons/all.png'

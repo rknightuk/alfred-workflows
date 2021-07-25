@@ -122,6 +122,31 @@
 				<false/>
 			</dict>
 		</array>
+		<key>6F59B870-35F3-4443-B804-EE772BB6613B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7C4B6052-C896-4614-B2C7-268A1838E2D4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C481034E-264D-4730-8B2C-452ABFA087FD</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7D5BA402-7D92-41AF-852C-D9261B2D7E40</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>775BAFD5-F3E9-4C68-B23F-5AE44F3CBB14</key>
 		<array>
 			<dict>
@@ -177,7 +202,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>7D5BA402-7D92-41AF-852C-D9261B2D7E40</string>
+				<string>6F59B870-35F3-4443-B804-EE772BB6613B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -267,7 +292,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>7D5BA402-7D92-41AF-852C-D9261B2D7E40</string>
+				<string>6F59B870-35F3-4443-B804-EE772BB6613B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -377,6 +402,29 @@
 	<string>Reminders</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>$1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7C4B6052-C896-4614-B2C7-268A1838E2D4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -638,19 +686,6 @@ osascript ./scripts/upcoming.js "$LIST_NAME"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>com.rknightuk.reminders</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>68AA95B8-D3B4-42F0-BF5E-FCB9B0A77B75</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -699,6 +734,19 @@ bash ./scripts/complete.sh "$LIST_NAME" $INDEX $ANYTIME</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>com.rknightuk.reminders</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>68AA95B8-D3B4-42F0-BF5E-FCB9B0A77B75</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -737,6 +785,36 @@ bash ./scripts/complete.sh "$LIST_NAME" $INDEX $ANYTIME</string>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>CD66062B-8893-4E30-80D7-A3EBEE3C94B0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^open x</string>
+						<key>outputlabel</key>
+						<string>Open in Reminders</string>
+						<key>uid</key>
+						<string>C481034E-264D-4730-8B2C-452ABFA087FD</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Mark Complete</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>6F59B870-35F3-4443-B804-EE772BB6613B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -865,7 +943,7 @@ bash ./scripts/complete.sh "$LIST_NAME" $INDEX $ANYTIME</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Reminders</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -1221,6 +1299,13 @@ bash ./scripts/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 			<key>ypos</key>
 			<integer>275</integer>
 		</dict>
+		<key>6F59B870-35F3-4443-B804-EE772BB6613B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1225</integer>
+			<key>ypos</key>
+			<integer>300</integer>
+		</dict>
 		<key>775BAFD5-F3E9-4C68-B23F-5AE44F3CBB14</key>
 		<dict>
 			<key>xpos</key>
@@ -1235,14 +1320,21 @@ bash ./scripts/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 			<key>ypos</key>
 			<integer>75</integer>
 		</dict>
+		<key>7C4B6052-C896-4614-B2C7-268A1838E2D4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1630</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
 		<key>7D5BA402-7D92-41AF-852C-D9261B2D7E40</key>
 		<dict>
 			<key>note</key>
 			<string>Complete Reminder</string>
 			<key>xpos</key>
-			<integer>1225</integer>
+			<integer>1570</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>270</integer>
 		</dict>
 		<key>86802D07-3202-4D8D-9578-BBA7FF9EFE9B</key>
 		<dict>
@@ -1254,9 +1346,9 @@ bash ./scripts/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 		<key>989AA42C-CF0C-4917-BB0B-5282AA812765</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1400</integer>
+			<integer>1745</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>270</integer>
 		</dict>
 		<key>B0A2B80C-0679-4D7B-8B12-3505CAE23DEC</key>
 		<dict>
@@ -1279,9 +1371,9 @@ bash ./scripts/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>1825</integer>
+			<integer>2030</integer>
 			<key>ypos</key>
-			<integer>245</integer>
+			<integer>255</integer>
 		</dict>
 		<key>C4C37E1F-BA5B-4BD1-8C3F-ACF3CB270B1D</key>
 		<dict>
@@ -1355,7 +1447,7 @@ bash ./scripts/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 		<string>true</string>
 	</dict>
 	<key>version</key>
-	<string>1.3.1</string>
+	<string>1.4.0</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>

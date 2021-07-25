@@ -56,6 +56,12 @@ function run(argv) {
 	    	autocomplete: parsed.title,
 	    	icon: {
 	    		path: icon,
+	    	},
+	    	mods: {
+	    		alt: {
+	    			arg: `open x-apple-reminderkit://REMCDReminder/${parsed.uuid}`,
+	    			subtitle: 'Open Reminder'
+	    		}
 	    	}
 	    }
 	})

@@ -803,7 +803,7 @@ echo "x-fantastical3://show/calendar/$query"</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Calendar Events</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>

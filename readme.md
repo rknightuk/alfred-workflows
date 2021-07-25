@@ -81,10 +81,11 @@ _Generate Monzo.me Link_ [Download v1.0.0](workflows/monzo-link-generator)
 
 ### Reminders
 
-_View and create reminders_ [Download v1.3.1](workflows/reminders)
+_View and create reminders_ [Download v1.4.0](workflows/reminders)
 
 ![reminders screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/reminders/src/screenshot.png)
 
+- [2021-07-25] Use alt to open a reminder in Reminders app
 - [2021-07-23] Faster overall, showing calendars is now controlled by a variable
 - [2021-07-22] Workflow will now auto-update
 - [2021-07-22] Moved scripts to JXA for easier changes
