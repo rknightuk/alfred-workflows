@@ -365,6 +365,8 @@
 			<integer>220</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>1.0.0</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>

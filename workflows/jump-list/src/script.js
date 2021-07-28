@@ -8,7 +8,10 @@ function run() {
 
 	return JSON.stringify({ items: marks.map(mark => {
 		const path = app.doShellScript(`cd ${markPath}/${mark}; pwd -P`)
-		let title = mark
+		const folderName = path.split('/').pop().trim()
+		let title = `${mark} / ${folderName}`
+
+		if (mark === folderName) title = mark
 
 		return {
 			title: title,

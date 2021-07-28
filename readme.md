@@ -32,7 +32,7 @@ _Open apps for different scenarios_ [Download v1.0.0](workflows/computer-mode)
 
 ### Audio Device Selector
 
-_Select and switch audio devices_ [Download vundefined](workflows/audio-device-selector)
+_Select and switch audio devices_ [Download v1.0.0](workflows/audio-device-selector)
 
 ![audio-device-selector screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/audio-device-selector/src/screenshot.png)
 
