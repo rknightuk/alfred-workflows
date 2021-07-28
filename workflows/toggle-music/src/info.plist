@@ -10,7 +10,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>5CC06077-7F5A-4CAD-9F25-5CFA8F69D818</string>
+				<string>27B2C7CA-DC5B-4F05-8CC2-703B1D1E624D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -64,17 +64,13 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)
-  tell app "Music" to playpause
-end alfred_script</string>
-				<key>cachescript</key>
-				<false/>
+				<key>command</key>
+				<integer>1</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
+			<string>alfred.workflow.action.itunescommand</string>
 			<key>uid</key>
-			<string>5CC06077-7F5A-4CAD-9F25-5CFA8F69D818</string>
+			<string>27B2C7CA-DC5B-4F05-8CC2-703B1D1E624D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -83,10 +79,10 @@ end alfred_script</string>
 	<string>Dedicated hotkey to pause/play iTunes. Useful when browsed to a YouTube video and media keys won't work correctly any more.</string>
 	<key>uidata</key>
 	<dict>
-		<key>5CC06077-7F5A-4CAD-9F25-5CFA8F69D818</key>
+		<key>27B2C7CA-DC5B-4F05-8CC2-703B1D1E624D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>285</integer>
+			<integer>250</integer>
 			<key>ypos</key>
 			<integer>165</integer>
 		</dict>

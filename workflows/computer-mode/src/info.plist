@@ -10,11 +10,41 @@
 	<dict>
 		<key>4962FF00-9F66-4837-8065-F2DF5ED59637</key>
 		<array/>
-		<key>C0599899-ADDA-4673-96A5-3A353EF86396</key>
+		<key>5DFB68C7-64D5-4D2C-B4B8-849CB15BDC87</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BA485DB9-5D5D-4C39-B037-F0F78AF590A3</string>
+				<string>3848DB1B-6918-4168-A0BB-FD95C3F19F57</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7D81D1C6-7038-42BF-8B55-3B7A931FD584</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B6D54535-5448-4340-B901-DDE3FF200AFB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6E7B4FA0-6A06-4DC2-B418-426037AF9F64</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -23,11 +53,21 @@
 				<false/>
 			</dict>
 		</array>
-		<key>E84ADC83-6CF0-4C52-B5B0-A8B8D1082CC1</key>
+		<key>C42268E4-C949-408A-8CA7-16E31D6430CC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>EB626E74-E1D6-4C27-BBA3-287F6FC72990</string>
+				<string>F6AB3341-F235-4509-92AA-76EAE822C23C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>12B71556-A6EA-431B-8B90-3AD711762FB3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -36,11 +76,62 @@
 				<false/>
 			</dict>
 		</array>
-		<key>EAF0264A-4687-45D6-A90A-1B155FC90304</key>
+		<key>CCD3208C-BFB3-4C28-A945-949E2496C1C2</key>
+		<array/>
+		<key>D6198FD7-5F45-459F-AD52-D13BE8511181</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>4962FF00-9F66-4837-8065-F2DF5ED59637</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2DC321D4-AA89-437C-8305-4360016E70BE</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9B6D7702-C4CB-4CD6-BB39-B49C3FA420C7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>9ADD433D-B0E4-42E1-85BB-6851C17E591A</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>416D4367-71A9-4791-8065-5B46735EC969</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>3C6FF50A-21F6-4C1C-A328-43CF1A7807A8</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D954C922-036C-4179-9C27-D6F889A2CC57</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CCD3208C-BFB3-4C28-A945-949E2496C1C2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6198FD7-5F45-459F-AD52-D13BE8511181</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -63,6 +154,174 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>bash ./sound.sh $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CCD3208C-BFB3-4C28-A945-949E2496C1C2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Safari.app</string>
+					<string>/Applications/Tweetbot.app</string>
+					<string>/System/Applications/Mail.app</string>
+					<string>/System/Applications/Music.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>4962FF00-9F66-4837-8065-F2DF5ED59637</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"imagefile":"3c38ac18ce638444f0db185d53ead5af559da7f2.png","title":"Work","arg":"work","subtitle":"Enter Work Mode"},{"imagefile":"e070202a0d00d3325a192617b6e3d1f773883f52.png","title":"Home","arg":"home","subtitle":"Enter Home Mode"},{"imagefile":"90e87ce299848f7b3c7c68a113c8c904c79eefb8.png","title":"Podcast","arg":"podcast","subtitle":"Enter Podcast Mode"}]</string>
+				<key>keyword</key>
+				<string>mode</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Switch App Modes</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>D954C922-036C-4179-9C27-D6F889A2CC57</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>rknightuk.appmode.work</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>9B6D7702-C4CB-4CD6-BB39-B49C3FA420C7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>home</string>
+						<key>outputlabel</key>
+						<string>Home</string>
+						<key>uid</key>
+						<string>2DC321D4-AA89-437C-8305-4360016E70BE</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>work</string>
+						<key>outputlabel</key>
+						<string>Work</string>
+						<key>uid</key>
+						<string>9ADD433D-B0E4-42E1-85BB-6851C17E591A</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>podcast</string>
+						<key>outputlabel</key>
+						<string>Podding</string>
+						<key>uid</key>
+						<string>3C6FF50A-21F6-4C1C-A328-43CF1A7807A8</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>D6198FD7-5F45-459F-AD52-D13BE8511181</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>rknightuk.appmode.podcast</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>416D4367-71A9-4791-8065-5B46735EC969</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>paths</key>
 				<array>
 					<string>/Applications/Gitify.app</string>
@@ -81,68 +340,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.launchfiles</string>
 			<key>uid</key>
-			<string>BA485DB9-5D5D-4C39-B037-F0F78AF590A3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>mode work</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Open Work Apps</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C0599899-ADDA-4673-96A5-3A353EF86396</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/Safari.app</string>
-					<string>/Applications/Tweetbot.app</string>
-					<string>/System/Applications/Mail.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
-			<key>uid</key>
-			<string>4962FF00-9F66-4837-8065-F2DF5ED59637</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>mode home</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Open Home Apps</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>EAF0264A-4687-45D6-A90A-1B155FC90304</string>
+			<string>3848DB1B-6918-4168-A0BB-FD95C3F19F57</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -157,7 +355,6 @@
 					<string>/Applications/Notes.app</string>
 					<string>~/Dropbox/Ruminate Podcast/shownotes.md</string>
 					<string>/System/Applications/Mail.app</string>
-					<string>/Applications/Mute Me.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
@@ -165,28 +362,100 @@
 			<key>type</key>
 			<string>alfred.workflow.action.launchfiles</string>
 			<key>uid</key>
-			<string>EB626E74-E1D6-4C27-BBA3-287F6FC72990</string>
+			<string>F6AB3341-F235-4509-92AA-76EAE822C23C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>mode podcast</string>
-				<key>subtext</key>
+				<key>browser</key>
+				<string>com.google.Chrome</string>
+				<key>spaces</key>
 				<string></string>
-				<key>text</key>
-				<string>Open Podcast Apps</string>
-				<key>withspace</key>
-				<false/>
+				<key>url</key>
+				<string>http://github.com/notifications</string>
+				<key>utf8</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>E84ADC83-6CF0-4C52-B5B0-A8B8D1082CC1</string>
+			<string>7D81D1C6-7038-42BF-8B55-3B7A931FD584</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>rknightuk.appmode.podcast</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>C42268E4-C949-408A-8CA7-16E31D6430CC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>rknightuk.appmode.work</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>5DFB68C7-64D5-4D2C-B4B8-849CB15BDC87</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	tell application "Notes"
+		show note id "x-coredata://89A52B7C-2866-471A-A244-2F0F807EA32B/ICNote/p137"	end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>12B71556-A6EA-431B-8B90-3AD711762FB3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>j ib; vup;</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>B6D54535-5448-4340-B901-DDE3FF200AFB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>j ib; nvmns;</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>6E7B4FA0-6A06-4DC2-B418-426037AF9F64</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -195,47 +464,141 @@
 	<string>Open different folders based on what I'm doing.</string>
 	<key>uidata</key>
 	<dict>
+		<key>12B71556-A6EA-431B-8B90-3AD711762FB3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>note</key>
+			<string>Open shared notes</string>
+			<key>xpos</key>
+			<integer>795</integer>
+			<key>ypos</key>
+			<integer>645</integer>
+		</dict>
+		<key>3848DB1B-6918-4168-A0BB-FD95C3F19F57</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>Work</string>
+			<key>xpos</key>
+			<integer>275</integer>
+			<key>ypos</key>
+			<integer>395</integer>
+		</dict>
+		<key>416D4367-71A9-4791-8065-5B46735EC969</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>290</integer>
+		</dict>
 		<key>4962FF00-9F66-4837-8065-F2DF5ED59637</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>Home</string>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>5DFB68C7-64D5-4D2C-B4B8-849CB15BDC87</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<integer>35</integer>
+			<key>ypos</key>
+			<integer>615</integer>
+		</dict>
+		<key>6E7B4FA0-6A06-4DC2-B418-426037AF9F64</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>Start IB webpack</string>
 			<key>xpos</key>
 			<integer>280</integer>
 			<key>ypos</key>
-			<integer>225</integer>
+			<integer>825</integer>
 		</dict>
-		<key>BA485DB9-5D5D-4C39-B037-F0F78AF590A3</key>
+		<key>7D81D1C6-7038-42BF-8B55-3B7A931FD584</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>Github notifications</string>
+			<key>xpos</key>
+			<integer>275</integer>
+			<key>ypos</key>
+			<integer>530</integer>
+		</dict>
+		<key>9B6D7702-C4CB-4CD6-BB39-B49C3FA420C7</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>175</integer>
+		</dict>
+		<key>B6D54535-5448-4340-B901-DDE3FF200AFB</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>Boot IB box</string>
 			<key>xpos</key>
 			<integer>280</integer>
 			<key>ypos</key>
-			<integer>80</integer>
+			<integer>685</integer>
 		</dict>
-		<key>C0599899-ADDA-4673-96A5-3A353EF86396</key>
+		<key>C42268E4-C949-408A-8CA7-16E31D6430CC</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>580</integer>
+		</dict>
+		<key>CCD3208C-BFB3-4C28-A945-949E2496C1C2</key>
+		<dict>
+			<key>note</key>
+			<string>Set sound input/output</string>
+			<key>xpos</key>
+			<integer>275</integer>
+			<key>ypos</key>
+			<integer>35</integer>
+		</dict>
+		<key>D6198FD7-5F45-459F-AD52-D13BE8511181</key>
 		<dict>
 			<key>xpos</key>
-			<integer>60</integer>
+			<integer>300</integer>
 			<key>ypos</key>
-			<integer>80</integer>
+			<integer>180</integer>
 		</dict>
-		<key>E84ADC83-6CF0-4C52-B5B0-A8B8D1082CC1</key>
+		<key>D954C922-036C-4179-9C27-D6F889A2CC57</key>
 		<dict>
 			<key>xpos</key>
-			<integer>60</integer>
+			<integer>35</integer>
 			<key>ypos</key>
-			<integer>380</integer>
+			<integer>100</integer>
 		</dict>
-		<key>EAF0264A-4687-45D6-A90A-1B155FC90304</key>
+		<key>F6AB3341-F235-4509-92AA-76EAE822C23C</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>note</key>
+			<string>Podcast</string>
 			<key>xpos</key>
-			<integer>60</integer>
+			<integer>795</integer>
 			<key>ypos</key>
-			<integer>225</integer>
-		</dict>
-		<key>EB626E74-E1D6-4C27-BBA3-287F6FC72990</key>
-		<dict>
-			<key>xpos</key>
-			<integer>280</integer>
-			<key>ypos</key>
-			<integer>380</integer>
+			<integer>510</integer>
 		</dict>
 	</dict>
 	<key>version</key>

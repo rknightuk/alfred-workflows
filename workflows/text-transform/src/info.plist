@@ -470,7 +470,7 @@ osascript ./script.js $enable_text_buddy $query</string>
 		<string>true</string>
 	</dict>
 	<key>version</key>
-	<string>1.1.0</string>
+	<string>1.1.1</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>

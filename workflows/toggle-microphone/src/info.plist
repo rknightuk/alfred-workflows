@@ -51,7 +51,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>open "xbar://app.xbarapp.com/refreshAllPlugins"</string>
+				<string>open "xbar://app.xbarapp.com/refreshPlugin?path=microphone-status.15m.sh"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -101,14 +101,30 @@
 			<key>config</key>
 			<dict>
 				<key>applescript</key>
-				<string>on alfred_script(q)
+				<string>on is_running(appName)
+  tell application "System Events" to (name of processes) contains appName
+end is_running
+
+on toggle_slack()
+  tell script "Slack"
+    focus call window
+  end tell
+  tell application "System Events"
+    key code 46
+  end tell
+end toggle_slack
+
+on alfred_script(q)
+  set slackIsRunning to is_running("Slack")
+  
   if input volume of (get volume settings) is 0 then
     set volume input volume 75
-    "Unmuted"
   else
     set volume input volume 0
-	"Muted"
-  end
+  end if
+  if slackIsRunning then
+    toggle_slack()
+  end if
 end alfred_script</string>
 				<key>cachescript</key>
 				<false/>

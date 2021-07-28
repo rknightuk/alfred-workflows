@@ -30,6 +30,12 @@ _Open apps for different scenarios_ [Download v1.0.0](workflows/computer-mode)
 
 ![computer-mode screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/computer-mode/src/screenshot.png)
 
+### Audio Device Selector
+
+_Select and switch audio devices_ [Download vundefined](workflows/audio-device-selector)
+
+![audio-device-selector screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/audio-device-selector/src/screenshot.png)
+
 ### Calendar Events
 
 _View and create calendar events_ [Download v1.3.0](workflows/calendar-events)
@@ -92,9 +98,15 @@ _View and create reminders_ [Download v1.4.0](workflows/reminders)
 - [2021-07-22] If Calendar Events workflow is installed, it can now be opened from Reminders
 
 
+### Shortcuts
+
+_Run Shortcuts_ [Download v1.0.0](workflows/shortcuts)
+
+![shortcuts screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/shortcuts/src/screenshot.png)
+
 ### Text Transform
 
-_Transform text in various ways or process with TextBuddy (optional)_ [Download v1.1.0](workflows/text-transform)
+_Transform text in various ways or process with TextBuddy (optional)_ [Download v1.1.1](workflows/text-transform)
 
 ![text-transform screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/screenshot.png)
 
@@ -137,6 +149,7 @@ _Open a workflows files in Sublime Text_ [Download v1.1.0](workflows/workflow-de
 - [IP Address v1.2.0 by David Ferguson](jdfwarrior.tumblr.com)
 - [JetBrains - Open Project - v3 by bchatard](https://github.com/bchatard/alfred-jetbrains#readme)
 - [JustWatch - Alfred by VWAP](https://twitter.com/vinayw)
+- [LinkClean by Vítor Galvão](http://vitorgalvao.com/)
 - [Lorem Ipsum by Till Krüss](https://till.im)
 - [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/)
 - [Search Notes.app by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)

@@ -315,7 +315,9 @@
 - Pauses Apple Music if I'm using my monitor as the audio output
 - Switches to my Macbook as the audio output
 - Sets the volumne on the Macbook to high
-- In reverse, it puts the volume back down then switches back to the monitor</string>
+- In reverse, it puts the volume back down then switches back to the monitor
+
+Requires https://github.com/deweller/switchaudio-osx</string>
 	<key>uidata</key>
 	<dict>
 		<key>1032EF40-0AD4-41A5-9E72-53F06EE2353B</key>
