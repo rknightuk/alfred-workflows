@@ -25,7 +25,7 @@ function run() {
 
 	let mine = []
 	let others = []
-	let xx = []
+	let apiData = []
 
 	workflows.forEach(wf => {
 		let data = se.propertyListFiles.byName(`${WORKFLOW_PATH}/${wf}/info.plist`).contents.value()
@@ -36,7 +36,7 @@ function run() {
 
 		if (isMine) {
 			let currentWorkflow=`${WORKFLOW_PATH}/${wf}`
-	  		description = description ? `_${description.trim()}_ ` : null
+	  		formattedDescription = description ? `_${description.trim()}_ ` : null
 
 	  		if (variables && variablesdontexport && variablesdontexport.length > 0)
 	  		{
@@ -60,12 +60,22 @@ function run() {
 
 			let lines = [
 				`### ${name}\n`,
-				`${description || ''}[Download v${version}](${link})\n`,
+				`${formattedDescription || ''}[Download v${version}](${link})\n`,
 			]
+
+			const wfData = {
+				name: name,
+				description: description,
+				version: version,
+				link: `https://github.com/rknightuk/alfred-workflows/blob/main/${link}`,
+				screenshot: null,
+			}
 
 			if (hasScreenshot)
 			{
-				lines.push(`![${bundleid} screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/${bundleid}/src/screenshot.png)\n`)
+				const screenshotPath = `https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/${bundleid}/src/screenshot.png`
+				lines.push(`![${bundleid} screenshot](${screenshotPath})\n`)
+				wfData.screenshot = screenshotPath
 			}
 
 			if (hasChangelog)
@@ -78,6 +88,8 @@ function run() {
 				name: name,
 				lines: lines,
 			})
+
+			apiData.push(wfData)
 		} else {
 			if (createdby) {
 				others.push({
@@ -89,8 +101,16 @@ function run() {
 		}
 	})
 
+	apiData = apiData.sort((a,b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : ((b.name.toLowerCase() > a.name.toLowerCase()) ? -1 : 0))
 	mine = mine.sort((a,b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : ((b.name.toLowerCase() > a.name.toLowerCase()) ? -1 : 0))
 	others = others.sort((a,b) => (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : ((b.name.toLowerCase() > a.name.toLowerCase()) ? -1 : 0))
+
+	app.doShellScript('touch ./api.json')
+	apiData = JSON.stringify(apiData, '', 2)
+	var apiFile = app.openForAccess(Path('./api.json'), { writePermission: true })
+	app.setEof(apiFile, { to: 0 })
+	app.write(apiData, { to: apiFile, startingAt: app.getEof(apiFile) })
+	app.closeAccess(apiFile)
 
 	mine.forEach(m => {
 		m.lines.forEach(l => {
@@ -108,6 +128,4 @@ function run() {
 
 		app.doShellScript(`echo "${text}" >> ${README_FILE}`);
 	})
-
-	return JSON.stringify(xx)
 }

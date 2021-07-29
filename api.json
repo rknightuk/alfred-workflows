@@ -1,0 +1,135 @@
+[
+  {
+    "name": "App Mode",
+    "description": "Open apps for different scenarios",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/computer-mode",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/computer-mode/src/screenshot.png"
+  },
+  {
+    "name": "Audio Device Selector",
+    "description": "Select and switch audio devices",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/audio-device-selector",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/audio-device-selector/src/screenshot.png"
+  },
+  {
+    "name": "Calendar Events",
+    "description": "View and create calendar events",
+    "version": "1.3.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/calendar-events",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/calendar-events/src/screenshot.png"
+  },
+  {
+    "name": "Common Folders",
+    "description": "Open commonly used folders",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/common-folders",
+    "screenshot": null
+  },
+  {
+    "name": "Finder to Terminal",
+    "description": "Open the current finder window in Terminal",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/finder-to-terminal",
+    "screenshot": null
+  },
+  {
+    "name": "Get Safari Tabs",
+    "description": "Copy all current Safari tabs to Markdown",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/safari-tabs-markdown",
+    "screenshot": null
+  },
+  {
+    "name": "Hotkey List",
+    "description": "List all workflows assigned to a hotkey",
+    "version": "1.0.2",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/hotkey-list",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/hotkey-list/src/screenshot.png"
+  },
+  {
+    "name": "Jump List",
+    "description": "ZSH Jump list plugin in Alfred",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/jump-list",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/jump-list/src/screenshot.png"
+  },
+  {
+    "name": "Monzo Link Generator",
+    "description": "Generate Monzo.me Link",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/monzo-link-generator",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png"
+  },
+  {
+    "name": "Paste Plain Text",
+    "description": "",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/paste-plain-text",
+    "screenshot": null
+  },
+  {
+    "name": "Reminders",
+    "description": "View and create reminders",
+    "version": "1.4.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/reminders",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/reminders/src/screenshot.png"
+  },
+  {
+    "name": "Shortcuts",
+    "description": "Run Shortcuts",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/shortcuts",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/shortcuts/src/screenshot.png"
+  },
+  {
+    "name": "Text Transform",
+    "description": "Transform text in various ways or process with TextBuddy (optional)",
+    "version": "1.1.1",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/text-transform",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/screenshot.png"
+  },
+  {
+    "name": "Toggle Audio Output",
+    "description": "Switch audio output between MBP and Monitor",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-audio",
+    "screenshot": null
+  },
+  {
+    "name": "Toggle Dark Mode",
+    "description": "Toggle Dark/Light Mode",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-dark-mode",
+    "screenshot": null
+  },
+  {
+    "name": "Toggle Microphone",
+    "description": "Mute/Unmute microphone input",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-microphone",
+    "screenshot": null
+  },
+  {
+    "name": "Toggle Music",
+    "description": "Play/Pause Apple Music with hotkey",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-music",
+    "screenshot": null
+  },
+  {
+    "name": "Toggle Wifi",
+    "description": "Toggle Wifi on/off",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-wifi",
+    "screenshot": null
+  },
+  {
+    "name": "Workflow Dev",
+    "description": "Open a workflows files in Sublime Text",
+    "version": "1.1.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/workflow-dev",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/screenshot.png"
+  }
+]

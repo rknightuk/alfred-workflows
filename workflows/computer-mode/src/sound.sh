@@ -2,7 +2,7 @@ TYPE=$1
 
 if [ "$TYPE" = 'work' ]; then
 	/usr/local/bin/SwitchAudioSource -s "DELL U2419H"
-	/usr/local/bin/SwitchAudioSource -s "MacBook Pro Microphone" -t "input"
+	/usr/local/bin/SwitchAudioSource -s "Yeti Stereo Microphone" -t "input"
 	exit
 fi
 
