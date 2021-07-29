@@ -64,6 +64,7 @@ function run() {
 			]
 
 			const wfData = {
+				uid: wf.replace('user.workflow.', ''),
 				name: name,
 				description: description,
 				version: version,

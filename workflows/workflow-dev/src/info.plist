@@ -124,7 +124,7 @@
 	<key>createdby</key>
 	<string>Robb Knight</string>
 	<key>description</key>
-	<string>Open a workflows files in Sublime Text</string>
+	<string>Open a workflow's files in Sublime Text, Finder, or Terminal</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>

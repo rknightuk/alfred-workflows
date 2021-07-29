@@ -132,7 +132,7 @@ _Toggle Wifi on/off_ [Download v1.0.0](workflows/toggle-wifi)
 
 ### Workflow Dev
 
-_Open a workflows files in Sublime Text_ [Download v1.1.0](workflows/workflow-dev)
+_Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0](workflows/workflow-dev)
 
 ![workflow-dev screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/screenshot.png)
 
