@@ -44,17 +44,6 @@ _Select and switch audio devices_ [Download v1.0.0](workflows/audio-device-selec
 
 ![audio-device-selector screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/audio-device-selector/src/screenshot.png)
 
-### Calendar Events
-
-_View and create calendar events_ [Download v1.3.0](workflows/calendar-events)
-
-![calendar-events screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/calendar-events/src/screenshot.png)
-
-- [2021-07-23] Faster overall, showing reminders is now controlled by a variable
-- [2021-07-22] Moved scripts to JXA for easier changes
-- [2021-07-22] If Reminders workflow is installed, it can now be opened from Calendar Events
-
-
 ### Common Folders
 
 _Open commonly used folders_ [Download v1.0.0](workflows/common-folders)
@@ -96,19 +85,6 @@ _Create a new file in the current Finder window_ [Download v1.0.0](workflows/new
 ### Paste Plain Text
 
 [Download v1.0.0](workflows/paste-plain-text)
-
-### Reminders
-
-_View and create reminders_ [Download v1.4.0](workflows/reminders)
-
-![reminders screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/reminders/src/screenshot.png)
-
-- [2021-07-25] Use alt to open a reminder in Reminders app
-- [2021-07-23] Faster overall, showing calendars is now controlled by a variable
-- [2021-07-22] Workflow will now auto-update
-- [2021-07-22] Moved scripts to JXA for easier changes
-- [2021-07-22] If Calendar Events workflow is installed, it can now be opened from Reminders
-
 
 ### Shortcuts
 

@@ -24,14 +24,6 @@
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/audio-device-selector/src/screenshot.png"
   },
   {
-    "uid": "08D4B438-B67A-456E-AC0E-720AD9B0DB49",
-    "name": "Calendar Events",
-    "description": "View and create calendar events",
-    "version": "1.3.0",
-    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/calendar-events",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/calendar-events/src/screenshot.png"
-  },
-  {
     "uid": "819C7BC1-B352-445A-B4FB-F78A1FC57768",
     "name": "Common Folders",
     "description": "Open commonly used folders",
@@ -94,14 +86,6 @@
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/paste-plain-text",
     "screenshot": null
-  },
-  {
-    "uid": "2D391799-AC40-4B82-810B-EBC0DAAF1BB7",
-    "name": "Reminders",
-    "description": "View and create reminders",
-    "version": "1.4.0",
-    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/reminders",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/reminders/src/screenshot.png"
   },
   {
     "uid": "771E53C4-B7A2-4155-85BD-9330E555F091",
