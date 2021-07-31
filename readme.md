@@ -26,6 +26,12 @@ This part of the readme is set in `readme.example`
 
 _Some of these will completely useless to anyone but me_ 
 
+### Agenda - Reminders and Calendar Events
+
+_Manage Reminders and Calandar Events_ [Download v1.0.0](workflows/agenda)
+
+![agenda screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/agenda/src/screenshot.png)
+
 ### App Mode
 
 _Open apps for different scenarios_ [Download v1.0.0](workflows/computer-mode)
@@ -83,6 +89,10 @@ _Generate Monzo.me Link_ [Download v1.0.0](workflows/monzo-link-generator)
 
 ![monzo-link-generator screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png)
 
+### New File in Finder
+
+_Create a new file in the current Finder window_ [Download v1.0.0](workflows/new-file-in-finder)
+
 ### Paste Plain Text
 
 [Download v1.0.0](workflows/paste-plain-text)
@@ -132,7 +142,7 @@ _Play/Pause Apple Music with hotkey_ [Download v1.0.0](workflows/toggle-music)
 
 _Toggle Wifi on/off_ [Download v1.0.0](workflows/toggle-wifi)
 
-### Workflow Dev
+### Workflow Development
 
 _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0](workflows/workflow-dev)
 

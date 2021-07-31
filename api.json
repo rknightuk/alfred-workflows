@@ -1,5 +1,13 @@
 [
   {
+    "uid": "4B05F59D-01FF-404F-BE56-4811A5527303",
+    "name": "Agenda - Reminders and Calendar Events",
+    "description": "Manage Reminders and Calandar Events",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/agenda",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/agenda/src/screenshot.png"
+  },
+  {
     "uid": "F51D6B02-6E0A-427C-B4B4-19BD53DAFB90",
     "name": "App Mode",
     "description": "Open apps for different scenarios",
@@ -70,6 +78,14 @@
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/monzo-link-generator",
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png"
+  },
+  {
+    "uid": "8C883807-9A97-47F9-8462-6F6D60A2DCBD",
+    "name": "New File in Finder",
+    "description": "Create a new file in the current Finder window",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/new-file-in-finder",
+    "screenshot": null
   },
   {
     "uid": "F47CFE8B-6863-432B-B29F-7E437C0B592C",
@@ -145,7 +161,7 @@
   },
   {
     "uid": "D13ADDA7-672B-4A02-8686-B58E2AB0C282",
-    "name": "Workflow Dev",
+    "name": "Workflow Development",
     "description": "Open a workflow's files in Sublime Text, Finder, or Terminal",
     "version": "1.1.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/workflow-dev",

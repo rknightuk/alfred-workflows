@@ -162,6 +162,8 @@ bash ./run.sh $split1 "$split2"</string>
 			<integer>135</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.2</string>
 	<key>webaddress</key>

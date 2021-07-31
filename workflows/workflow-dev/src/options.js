@@ -2,10 +2,10 @@ function run(argv) {
 	const name = argv[0]
 	const items = [
 		{
-			title: `Open ${name} in Sublime`,
-			arg: 'sublime',
+			title: `Open ${name} in Editor`,
+			arg: 'editor',
 			icon: {
-				path: 'icons/sublime.png'
+				path: 'icons/editor.png'
 			}
 		},
 		{

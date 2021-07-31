@@ -128,7 +128,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Workflow Dev</string>
+	<string>Workflow Development</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -182,7 +182,7 @@
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>sublime</string>
+						<string>editor</string>
 						<key>outputlabel</key>
 						<string>Sublime</string>
 						<key>uid</key>
@@ -269,7 +269,7 @@
 				<key>runningsubtext</key>
 				<string>Loading Workflows List...</string>
 				<key>script</key>
-				<string>osascript ./script.js</string>
+				<string>osascript ./script.js "$alfred_preferences"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -418,12 +418,16 @@
 		</dict>
 		<key>C26A6678-574C-45E6-A9F6-4AD9C8FDBE69</key>
 		<dict>
+			<key>note</key>
+			<string>Default editor is Sublime. Change the app to open in something else</string>
 			<key>xpos</key>
 			<integer>710</integer>
 			<key>ypos</key>
-			<integer>120</integer>
+			<integer>55</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.1.0</string>
 	<key>webaddress</key>

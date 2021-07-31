@@ -308,7 +308,11 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>This workflow requires switchaudio-osx which you can install with brew:
+
+`$ brew install switchaudio-osx`
+
+Set exec path to the location of your install of switchaudio-osx.</string>
 	<key>uidata</key>
 	<dict>
 		<key>0F1AACFB-CD43-4429-95F8-B878FCF79437</key>
@@ -365,6 +369,13 @@
 			<integer>220</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>exec_path</key>
+		<string>/usr/local/bin</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
