@@ -10,7 +10,10 @@ function run(argv) {
 	let html = app.doShellScript('cat ./scripts/upcoming/template/_template.html');
 	html = html.replace('{{ mode }}', mode).replace('{{ items }}', items).replace('{{ cssPath }}', cssPath)
 
-	app.doShellScript(`touch .tmp_overview.html; echo "${html}" > ./.tmp_overview.html`)
+	tempDir = app.doShellScript('mktemp -d')
+	tempFile = app.doShellScript(`mktemp ${tempDir}/overview.html`)
 
-	app.doShellScript(`open ./.tmp_overview.html`)
+	app.doShellScript(`echo "${html}" > ${tempFile}`)
+
+	app.doShellScript(`open ${tempFile}`)
 }

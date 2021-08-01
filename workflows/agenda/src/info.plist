@@ -347,6 +347,18 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>09D541AF-AEE2-4467-9674-A765AC3865BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>75B87972-AA0A-4E57-9AF3-A33292534CA6</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>4C5B0F48-D62D-4F57-983E-4394BFE1CCD2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -3030,56 +3042,19 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string>Currently set as "{var:currentValue}"</string>
-				<key>text</key>
-				<string>Set default {var:settingName}</string>
-				<key>withspace</key>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://rknight.me/alfred-workflows</string>
+				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>353A4091-00C8-482A-84B3-506367C00994</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>4C5B0F48-D62D-4F57-983E-4394BFE1CCD2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>newValue</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>92DA4B96-BC00-4ED4-AB2C-53BFEBC50773</string>
+			<string>09D541AF-AEE2-4467-9674-A765AC3865BF</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3146,19 +3121,19 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>externaltriggerid</key>
-				<string>rknightuk.agenda.update-setting</string>
-				<key>passinputasargument</key>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Currently set as "{var:currentValue}"</string>
+				<key>text</key>
+				<string>Set default {var:settingName}</string>
+				<key>withspace</key>
 				<true/>
-				<key>passvariables</key>
-				<true/>
-				<key>workflowbundleid</key>
-				<string>self</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>0DCCD696-9560-448F-9007-DBCA5F98256E</string>
+			<string>353A4091-00C8-482A-84B3-506367C00994</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3167,6 +3142,20 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 			<dict>
 				<key>conditions</key>
 				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>more</string>
+						<key>outputlabel</key>
+						<string>Open website</string>
+						<key>uid</key>
+						<string>75B87972-AA0A-4E57-9AF3-A33292534CA6</string>
+					</dict>
 					<dict>
 						<key>inputstring</key>
 						<string></string>
@@ -3189,6 +3178,62 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>46F3CEE6-54F3-4B5D-9250-D61FBB11873E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>4C5B0F48-D62D-4F57-983E-4394BFE1CCD2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>newValue</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>92DA4B96-BC00-4ED4-AB2C-53BFEBC50773</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>rknightuk.agenda.update-setting</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>0DCCD696-9560-448F-9007-DBCA5F98256E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3372,6 +3417,13 @@ fi</string>
 			<key>ypos</key>
 			<integer>2190</integer>
 		</dict>
+		<key>09D541AF-AEE2-4467-9674-A765AC3865BF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>695</integer>
+			<key>ypos</key>
+			<integer>2975</integer>
+		</dict>
 		<key>0B34B5CB-4646-4503-B5D6-A73D429032E7</key>
 		<dict>
 			<key>xpos</key>
@@ -3384,9 +3436,9 @@ fi</string>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<integer>960</integer>
+			<integer>865</integer>
 			<key>ypos</key>
-			<integer>3095</integer>
+			<integer>3225</integer>
 		</dict>
 		<key>0DEBF5BB-6B0A-4C6C-AC74-3BC3ECCABA6D</key>
 		<dict>
@@ -3521,9 +3573,9 @@ fi</string>
 		<key>353A4091-00C8-482A-84B3-506367C00994</key>
 		<dict>
 			<key>xpos</key>
-			<integer>685</integer>
+			<integer>695</integer>
 			<key>ypos</key>
-			<integer>2980</integer>
+			<integer>3100</integer>
 		</dict>
 		<key>38591932-4D47-4790-A552-C5F3C4FDF17C</key>
 		<dict>
@@ -3587,9 +3639,9 @@ fi</string>
 		<key>4C5B0F48-D62D-4F57-983E-4394BFE1CCD2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>615</integer>
+			<integer>625</integer>
 			<key>ypos</key>
-			<integer>3010</integer>
+			<integer>3130</integer>
 		</dict>
 		<key>4F890D7D-B20A-4432-A169-3F9C3BEAA3EA</key>
 		<dict>
@@ -3800,9 +3852,9 @@ fi</string>
 		<key>92DA4B96-BC00-4ED4-AB2C-53BFEBC50773</key>
 		<dict>
 			<key>xpos</key>
-			<integer>855</integer>
+			<integer>865</integer>
 			<key>ypos</key>
-			<integer>3010</integer>
+			<integer>3130</integer>
 		</dict>
 		<key>977E9CCC-65FC-4545-BD39-4C7954C4BC9F</key>
 		<dict>
@@ -4104,6 +4156,8 @@ fi</string>
 		<key>use_fantastical</key>
 		<string>true</string>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>

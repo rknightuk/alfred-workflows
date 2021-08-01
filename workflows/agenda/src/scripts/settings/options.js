@@ -118,5 +118,14 @@ function run(argv) {
 		})
 	}
 
+	items.push({
+		title: 'More workflows by Robb Knight',
+		subtitle: 'https://rknight.me/alfred-workflows',
+		arg: 'more',
+		icon: {
+			path: 'icons/external.png',
+		}
+	})
+
 	return JSON.stringify({ items })
 }
