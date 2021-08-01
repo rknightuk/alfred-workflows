@@ -4156,8 +4156,6 @@ fi</string>
 		<key>use_fantastical</key>
 		<string>true</string>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>

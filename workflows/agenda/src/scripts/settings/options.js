@@ -1,16 +1,18 @@
 function run(argv) {
 	ObjC.import('stdlib');
 
-	const reminders_enabled = $.getenv('reminders_enabled') === 'true' //
-	const default_reminder_list = $.getenv('default_reminder_list') // 
+	const reminders_enabled = $.getenv('reminders_enabled') === 'true'
+	const default_reminder_list = $.getenv('default_reminder_list') 
 
-	const calendars_enabled = $.getenv('calendars_enabled') === 'true' //
-	const default_calendar = $.getenv('default_calendar') //
+	const calendars_enabled = $.getenv('calendars_enabled') === 'true'
+	const default_calendar = $.getenv('default_calendar')
 
-	const overview_enabled = $.getenv('overview_enabled') === 'true' //
+	const overview_enabled = $.getenv('overview_enabled') === 'true'
 	const overview_mode = $.getenv('overview_mode')
 
 	const use_fantastical = $.getenv('use_fantastical') === 'true'
+
+	const upcoming_days = $.getenv('upcoming_days')
 
 	const oneTypeEnabled = reminders_enabled || calendars_enabled
 
@@ -98,6 +100,20 @@ function run(argv) {
 			variables: {
 				setting: 'overview_enabled',
 				newValue: overview_enabled ? 'false' : 'true',
+			}
+		})
+
+		items.push({
+			title: `Upcoming Days`,
+			subtitle: `Set amount of days for upcoming events and reminders. Currently set to ${upcoming_days} days`,
+			arg: 'text',
+			icon: {
+				path: 'icons/calendar.png',
+			},
+			variables: {
+				setting: 'upcoming_days',
+				currentValue: upcoming_days,
+				settingName: 'Amount of days for overview',
 			}
 		})
 	}
