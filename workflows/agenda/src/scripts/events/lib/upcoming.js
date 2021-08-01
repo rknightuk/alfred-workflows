@@ -17,35 +17,11 @@ var UpcomingEvents = (function() {
 		  	const tomorrowMonth = (tomorrowTS.getMonth() + 1) < 10 ? `0${(tomorrowTS.getMonth() + 1)}` : tomorrowTS.getMonth() + 1;
 		  	const tomorrowDateString = `${tomorrowTS.getFullYear()}-${tomorrowMonth}-${tomorrowDate}`
 
-	  		// const eventData = events === '' ? [] : events.split('\r')
+	  		const eventData = events === '' ? [] : events.split('\r')
 	  		let items = []
-	  		const eventData = [
-	  				{
-	  				  "end" : "2021-08-02 00:00",
-	  				  "allDay" : "true",
-	  				  "start" : "2021-08-01 00:00",
-	  				  "id" : "69111A1A-01E6-4EA8-B68B-0FC663C0D151",
-	  				  "location" : "",
-	  				  "title" : "Lazy Sunday",
-	  				  "calendar" : "Robb - Home",
-	  				  "confirmed" : "true"
-	  				},
-	  				{
-	  				  "end" : "2021-08-02 11:30",
-	  				  "allDay" : "false",
-	  				  "start" : "2021-08-02 13:30",
-	  				  "id" : "69111A1A-01E6-4EA8-B68B-0FC663C0D151",
-	  				  "location" : "Nandos",
-	  				  "title" : "Lunch with John",
-	  				  "calendar" : "Shared",
-	  				  "confirmed" : "true"
-	  				},
-	  			]
-
 
 	  		eventData.forEach(ri => {
-	  			// let parsed = JSON.parse(ri)
-	  			parsed = ri
+	  			let parsed = JSON.parse(ri)
 	  			parsed = {
 	  				...parsed,
 	  				allDay: parsed.allDay === 'true',

@@ -25,21 +25,10 @@ var UpcomingEvents = (function() {
 
 			let items = []
 
-			// const reminderData = reminders === '' ? [] : reminders.split('\r')
-
-			reminderData = [
-				{
-				  "date" : "2021-07-31 07:00",
-				  "id" : "0",
-				  "title" : "Pick up bread",
-				  "list" : "To Do",
-				  "uuid" : "2EF8A946-B696-4012-BC3C-6A9C89E2A7E4"
-				}
-			]
+			const reminderData = reminders === '' ? [] : reminders.split('\r')
 
 			reminderData.forEach(ri => {
-				// let parsed = JSON.parse(ri)
-				parsed = ri
+				let parsed = JSON.parse(ri)
 
 				const eventTS = new Date(parsed.date.replace(' ', 'T'))
 				const isOverdue = eventTS < todayTS
