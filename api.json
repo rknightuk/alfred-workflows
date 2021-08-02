@@ -88,12 +88,27 @@
     "screenshot": null
   },
   {
+    "uid": "37BAA8DF-044F-4255-8C12-A716FB204B45",
+    "name": "Search This Site",
+    "description": "Universal URL action to search the selected site",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/search-this-site",
+    "screenshot": null
+  },
+  {
     "uid": "771E53C4-B7A2-4155-85BD-9330E555F091",
     "name": "Shortcuts",
     "description": "Run Shortcuts",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/shortcuts",
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/shortcuts/src/screenshot.png"
+  },
+  {
+    "uid": "CEDBA2AD-3EB1-40B0-BE9D-47E6CDE9F42F",
+    "name": "TablePlus",
+    "description": "A TablePlus connection workflow",
+    "version": "1.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/table-plus",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/table-plus/src/screenshot.png"
   },
   {
     "uid": "656B0405-B619-4569-88AF-8F9A80D0E8E0",

@@ -86,11 +86,21 @@ _Create a new file in the current Finder window_ [Download v1.0.0](workflows/new
 
 [Download v1.0.0](workflows/paste-plain-text)
 
+### Search This Site
+
+_Universal URL action to search the selected site_ [Download vundefined](workflows/search-this-site)
+
 ### Shortcuts
 
 _Run Shortcuts_ [Download v1.0.0](workflows/shortcuts)
 
 ![shortcuts screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/shortcuts/src/screenshot.png)
+
+### TablePlus
+
+_A TablePlus connection workflow_ [Download v1.0](workflows/table-plus)
+
+![table-plus screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/table-plus/src/screenshot.png)
 
 ### Text Transform
 
@@ -143,5 +153,4 @@ _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0]
 - [Search Notes.app by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
 - [SoulverCore by Carlos Precioso](https://precioso.design/)
 - [Speedtest by Michael Mroczka](http://michaelmroczka.com/)
-- [TablePlus by Chris Renga](https://www.chrisrenga.com)
 - [VPN Connections by Jacob Helwig](https://technosorcery.net)
