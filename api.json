@@ -91,6 +91,7 @@
     "uid": "37BAA8DF-044F-4255-8C12-A716FB204B45",
     "name": "Search This Site",
     "description": "Universal URL action to search the selected site",
+    "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/search-this-site",
     "screenshot": null
   },

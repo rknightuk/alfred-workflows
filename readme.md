@@ -88,7 +88,7 @@ _Create a new file in the current Finder window_ [Download v1.0.0](workflows/new
 
 ### Search This Site
 
-_Universal URL action to search the selected site_ [Download vundefined](workflows/search-this-site)
+_Universal URL action to search the selected site_ [Download v1.0.0](workflows/search-this-site)
 
 ### Shortcuts
 
