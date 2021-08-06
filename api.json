@@ -1,13 +1,5 @@
 [
   {
-    "uid": "6915E60C-3F90-4A2A-863D-84B64FCD5FF2",
-    "name": "// Workflow Template",
-    "description": "Template for my workflows",
-    "version": "1.0.0",
-    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/workflow-template",
-    "screenshot": null
-  },
-  {
     "uid": "4B05F59D-01FF-404F-BE56-4811A5527303",
     "name": "Agenda - Reminders and Calendar Events",
     "description": "Manage Reminders and Calandar Events",

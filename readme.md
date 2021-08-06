@@ -26,10 +26,6 @@ This part of the readme is set in `readme.example`
 
 _Some of these will completely useless to anyone but me_ 
 
-### // Workflow Template
-
-_Template for my workflows_ [Download v1.0.0](workflows/workflow-template)
-
 ### Agenda - Reminders and Calendar Events
 
 _Manage Reminders and Calandar Events_ [Download v1.0.0](workflows/agenda)
