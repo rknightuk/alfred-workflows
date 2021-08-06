@@ -112,31 +112,17 @@ _Transform text in various ways or process with TextBuddy (optional)_ [Download 
 
 ![text-transform screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/screenshot.png)
 
-### Toggle Audio Output
-
-_Switch audio output between MBP and Monitor_ [Download v1.0.0](workflows/toggle-audio)
-
-### Toggle Dark Mode
-
-_Toggle Dark/Light Mode_ [Download v1.0.0](workflows/toggle-dark-mode)
-
-### Toggle Microphone
-
-_Mute/Unmute microphone input_ [Download v1.0.0](workflows/toggle-microphone)
-
-### Toggle Music
-
-_Play/Pause Apple Music with hotkey_ [Download v1.0.0](workflows/toggle-music)
-
 ### Toggle Tunnelblick VPN
 
 _Toggle a single Tunnelblick VPN connection_ [Download v1.0.0](workflows/toggle-tunnelblick-vpn)
 
 ![toggle-tunnelblick-vpn screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-tunnelblick-vpn/src/screenshot.png)
 
-### Toggle Wifi
+### Toggle Utils
 
-_Toggle Wifi on/off_ [Download v1.0.0](workflows/toggle-wifi)
+_Toggle Wifi, Bluetooth, Music, and More_ [Download v1.0.0](workflows/toggle-utils)
+
+![toggle-utils screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-utils/src/screenshot.png)
 
 ### Workflow Development
 

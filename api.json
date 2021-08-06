@@ -128,38 +128,6 @@
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/screenshot.png"
   },
   {
-    "uid": "DD095E6B-58B0-47EA-A0B7-14BB0E8DB8BC",
-    "name": "Toggle Audio Output",
-    "description": "Switch audio output between MBP and Monitor",
-    "version": "1.0.0",
-    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-audio",
-    "screenshot": null
-  },
-  {
-    "uid": "D4D1D490-FCCF-463B-91AF-8B1ED135BB84",
-    "name": "Toggle Dark Mode",
-    "description": "Toggle Dark/Light Mode",
-    "version": "1.0.0",
-    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-dark-mode",
-    "screenshot": null
-  },
-  {
-    "uid": "21C54BDE-60F4-4871-B4DB-C4591088879A",
-    "name": "Toggle Microphone",
-    "description": "Mute/Unmute microphone input",
-    "version": "1.0.0",
-    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-microphone",
-    "screenshot": null
-  },
-  {
-    "uid": "B78665B6-996D-4878-A5D4-4CBEF473D338",
-    "name": "Toggle Music",
-    "description": "Play/Pause Apple Music with hotkey",
-    "version": "1.0.0",
-    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-music",
-    "screenshot": null
-  },
-  {
     "uid": "3416B56B-6D56-4DB0-8432-26EA0C813F00",
     "name": "Toggle Tunnelblick VPN",
     "description": "Toggle a single Tunnelblick VPN connection",
@@ -168,12 +136,12 @@
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-tunnelblick-vpn/src/screenshot.png"
   },
   {
-    "uid": "6A21C2C3-42CA-4415-B422-B188164F2B54",
-    "name": "Toggle Wifi",
-    "description": "Toggle Wifi on/off",
+    "uid": "EA1726A6-274A-4707-947C-4DDC9B18B455",
+    "name": "Toggle Utils",
+    "description": "Toggle Wifi, Bluetooth, Music, and More",
     "version": "1.0.0",
-    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-wifi",
-    "screenshot": null
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-utils",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-utils/src/screenshot.png"
   },
   {
     "uid": "D13ADDA7-672B-4A02-8686-B58E2AB0C282",

@@ -69,7 +69,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Loading workflows...</string>
 				<key>script</key>
 				<string>osascript ./script.js</string>
 				<key>scriptargtype</key>
