@@ -10,7 +10,7 @@ then
     exit 1
 fi
 
-STATUS=$(osascript -e "tell application \"Tunnelblick\"" -e "get state of first configuration where name = \"Radweb\"" -e "end tell")
+STATUS=$(osascript -e "tell application \"Tunnelblick\"" -e "get state of first configuration where name = \"$VPN_NAME\"" -e "end tell")
 
 if [ "$STATUS" = "CONNECTED" ]; then
     STATUS_TEXT="Connected"
