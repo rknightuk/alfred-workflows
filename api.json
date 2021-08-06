@@ -163,7 +163,7 @@
     "uid": "3416B56B-6D56-4DB0-8432-26EA0C813F00",
     "name": "Toggle Tunnelblick VPN",
     "description": "Toggle a single Tunnelblick VPN connection",
-    "version": "",
+    "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-tunnelblick-vpn",
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-tunnelblick-vpn/src/screenshot.png"
   },

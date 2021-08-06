@@ -130,7 +130,7 @@ _Play/Pause Apple Music with hotkey_ [Download v1.0.0](workflows/toggle-music)
 
 ### Toggle Tunnelblick VPN
 
-_Toggle a single Tunnelblick VPN connection_ [Download v](workflows/toggle-tunnelblick-vpn)
+_Toggle a single Tunnelblick VPN connection_ [Download v1.0.0](workflows/toggle-tunnelblick-vpn)
 
 ![toggle-tunnelblick-vpn screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-tunnelblick-vpn/src/screenshot.png)
 

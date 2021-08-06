@@ -338,7 +338,7 @@
 		<string>vpn_to_toggle</string>
 	</array>
 	<key>version</key>
-	<string></string>
+	<string>1.0.0</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>
