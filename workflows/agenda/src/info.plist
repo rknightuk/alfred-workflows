@@ -268,6 +268,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>2AAFECF7-3A81-4342-AB41-CCACABB55853</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1B40EB3D-8296-463E-8E9A-7A08776C690A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2B53790F-7CA0-4955-B1F0-AB42AB5CBB2D</key>
 		<array>
 			<dict>
@@ -309,6 +322,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>68550A82-7D12-4ABD-BA05-B15D8808EE13</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>35185F7F-4984-4243-AA3C-A8656071D55E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>17A74A55-59AE-42E7-9A4C-112B1B39FF74</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -534,6 +560,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7F78813C-1B5C-4C19-A792-B0FE5193772C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>68550A82-7D12-4ABD-BA05-B15D8808EE13</key>
 		<array>
@@ -644,6 +680,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7F78813C-1B5C-4C19-A792-B0FE5193772C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>35185F7F-4984-4243-AA3C-A8656071D55E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>5B4A2C7D-741E-46B4-AB1A-F37CF20679B3</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -832,7 +883,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>195B774D-96AA-484B-B1EB-1970694EB350</string>
+				<string>DBF448E9-FAD1-4AF7-AE61-312C92AEAE2B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -954,6 +1005,19 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>82666F3E-03C6-47E9-A92E-2743F86F7F60</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DBF448E9-FAD1-4AF7-AE61-312C92AEAE2B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>195B774D-96AA-484B-B1EB-1970694EB350</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -1080,6 +1144,19 @@
 			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
 			<string>C3998EF0-4175-431F-BBBB-FF416DCE35F2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>rknightuk.agenda.overview</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>2AAFECF7-3A81-4342-AB41-CCACABB55853</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1347,6 +1424,26 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>53450192-6037-440F-A6D5-D4A64BE86ECF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>back_to_overview</key>
+					<string>true</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>DBF448E9-FAD1-4AF7-AE61-312C92AEAE2B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2974,6 +3071,72 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>externaltriggerid</key>
+				<string>rknightuk.agenda.overview</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>17A74A55-59AE-42E7-9A4C-112B1B39FF74</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>35185F7F-4984-4243-AA3C-A8656071D55E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:back_to_overview}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>true</string>
+						<key>outputlabel</key>
+						<string>Open Overview</string>
+						<key>uid</key>
+						<string>5B4A2C7D-741E-46B4-AB1A-F37CF20679B3</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>7F78813C-1B5C-4C19-A792-B0FE5193772C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -3508,6 +3671,15 @@ fi</string>
 			<key>ypos</key>
 			<integer>2500</integer>
 		</dict>
+		<key>17A74A55-59AE-42E7-9A4C-112B1B39FF74</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<integer>690</integer>
+			<key>ypos</key>
+			<integer>2695</integer>
+		</dict>
 		<key>195B774D-96AA-484B-B1EB-1970694EB350</key>
 		<dict>
 			<key>colorindex</key>
@@ -3545,6 +3717,17 @@ fi</string>
 			<key>ypos</key>
 			<integer>2110</integer>
 		</dict>
+		<key>2AAFECF7-3A81-4342-AB41-CCACABB55853</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>Overview</string>
+			<key>xpos</key>
+			<integer>175</integer>
+			<key>ypos</key>
+			<integer>125</integer>
+		</dict>
 		<key>2B53790F-7CA0-4955-B1F0-AB42AB5CBB2D</key>
 		<dict>
 			<key>xpos</key>
@@ -3569,6 +3752,13 @@ fi</string>
 			<integer>50</integer>
 			<key>ypos</key>
 			<integer>3085</integer>
+		</dict>
+		<key>35185F7F-4984-4243-AA3C-A8656071D55E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>615</integer>
+			<key>ypos</key>
+			<integer>2725</integer>
 		</dict>
 		<key>353A4091-00C8-482A-84B3-506367C00994</key>
 		<dict>
@@ -3811,6 +4001,13 @@ fi</string>
 			<integer>245</integer>
 			<key>ypos</key>
 			<integer>1250</integer>
+		</dict>
+		<key>7F78813C-1B5C-4C19-A792-B0FE5193772C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>430</integer>
+			<key>ypos</key>
+			<integer>2770</integer>
 		</dict>
 		<key>80D0EDC7-3151-4F2E-8F88-3469F54B7EC1</key>
 		<dict>
@@ -4063,6 +4260,13 @@ fi</string>
 			<key>ypos</key>
 			<integer>255</integer>
 		</dict>
+		<key>DBF448E9-FAD1-4AF7-AE61-312C92AEAE2B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1080</integer>
+			<key>ypos</key>
+			<integer>450</integer>
+		</dict>
 		<key>DE3E76D0-28E2-4846-96AB-2FECF058C637</key>
 		<dict>
 			<key>colorindex</key>
@@ -4154,8 +4358,10 @@ fi</string>
 		<key>upcoming_days</key>
 		<string>5</string>
 		<key>use_fantastical</key>
-		<string>true</string>
+		<string>false</string>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>

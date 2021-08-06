@@ -26,6 +26,10 @@ This part of the readme is set in `readme.example`
 
 _Some of these will completely useless to anyone but me_ 
 
+### // Workflow Template
+
+_Template for my workflows_ [Download v1.0.0](workflows/workflow-template)
+
 ### Agenda - Reminders and Calendar Events
 
 _Manage Reminders and Calandar Events_ [Download v1.0.0](workflows/agenda)
@@ -124,6 +128,12 @@ _Mute/Unmute microphone input_ [Download v1.0.0](workflows/toggle-microphone)
 
 _Play/Pause Apple Music with hotkey_ [Download v1.0.0](workflows/toggle-music)
 
+### Toggle Tunnelblick VPN
+
+_Toggle a single Tunnelblick VPN connection_ [Download v](workflows/toggle-tunnelblick-vpn)
+
+![toggle-tunnelblick-vpn screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-tunnelblick-vpn/src/screenshot.png)
+
 ### Toggle Wifi
 
 _Toggle Wifi on/off_ [Download v1.0.0](workflows/toggle-wifi)
@@ -153,4 +163,3 @@ _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0]
 - [Search Notes.app by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
 - [SoulverCore by Carlos Precioso](https://precioso.design/)
 - [Speedtest by Michael Mroczka](http://michaelmroczka.com/)
-- [VPN Connections by Jacob Helwig](https://technosorcery.net)

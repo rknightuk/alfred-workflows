@@ -1,5 +1,13 @@
 [
   {
+    "uid": "6915E60C-3F90-4A2A-863D-84B64FCD5FF2",
+    "name": "// Workflow Template",
+    "description": "Template for my workflows",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/workflow-template",
+    "screenshot": null
+  },
+  {
     "uid": "4B05F59D-01FF-404F-BE56-4811A5527303",
     "name": "Agenda - Reminders and Calendar Events",
     "description": "Manage Reminders and Calandar Events",
@@ -150,6 +158,14 @@
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-music",
     "screenshot": null
+  },
+  {
+    "uid": "3416B56B-6D56-4DB0-8432-26EA0C813F00",
+    "name": "Toggle Tunnelblick VPN",
+    "description": "Toggle a single Tunnelblick VPN connection",
+    "version": "",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-tunnelblick-vpn",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-tunnelblick-vpn/src/screenshot.png"
   },
   {
     "uid": "6A21C2C3-42CA-4415-B422-B188164F2B54",

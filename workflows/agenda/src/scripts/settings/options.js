@@ -78,7 +78,7 @@ function run(argv) {
 	if (oneTypeEnabled)
 	{
 		items.push({
-			title: `${use_fantastical ? 'Turn on' : 'Turn off'} Using Fantastical for Creating and Viewing`,
+			title: `${use_fantastical ? 'Turn off' : 'Turn on'} Using Fantastical for Creating and Viewing`,
 			subtitle: 'If this is on, Fantastical will be used for viewing events, and creating events and reminders',
 			arg: 'toggle',
 			icon: {

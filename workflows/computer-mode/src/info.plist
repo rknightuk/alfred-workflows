@@ -333,6 +333,7 @@
 					<string>/Applications/Tweetbot.app</string>
 					<string>/System/Applications/Mail.app</string>
 					<string>/System/Applications/Music.app</string>
+					<string>/Applications/Tunnelblick.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
@@ -510,6 +511,8 @@ end alfred_script</string>
 		<dict>
 			<key>colorindex</key>
 			<integer>8</integer>
+			<key>note</key>
+			<string>Work</string>
 			<key>xpos</key>
 			<integer>35</integer>
 			<key>ypos</key>
@@ -561,6 +564,8 @@ end alfred_script</string>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
+			<key>note</key>
+			<string>Podcasting</string>
 			<key>xpos</key>
 			<integer>520</integer>
 			<key>ypos</key>
