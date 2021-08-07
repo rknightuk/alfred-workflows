@@ -19,6 +19,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>0DA2C0CE-2874-4F68-A5AE-7038C91D00D9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8B8445FD-4D99-4020-A669-F37E3913CD18</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>19992505-582B-416B-B9A3-32E30F28821C</key>
 		<array>
 			<dict>
@@ -190,6 +203,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>F67B83B7-4FF4-463D-9528-AA64D28C7896</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BA245AC2-5C0A-4320-8CDC-B0D07712EEB8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8B8445FD-4D99-4020-A669-F37E3913CD18</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -565,14 +591,14 @@ end alfred_script</string>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
-				<string>MacBook Pro Speakers</string>
+				<string>DELL U2419H</string>
 				<key>replacestring</key>
-				<string>Vision</string>
+				<string>Monitor</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
-			<string>DD2416CE-5ECF-47E2-B9C8-394794D31879</string>
+			<string>63B9EB18-EDA6-42B2-B7CB-E0D8B23996E2</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -582,14 +608,14 @@ end alfred_script</string>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
-				<string>DELL U2419H</string>
+				<string>MacBook Pro Speakers</string>
 				<key>replacestring</key>
-				<string>Monitor</string>
+				<string>Vision</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
-			<string>63B9EB18-EDA6-42B2-B7CB-E0D8B23996E2</string>
+			<string>DD2416CE-5ECF-47E2-B9C8-394794D31879</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -697,6 +723,50 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>night shift toggle</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Toggle Night Shift</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BA245AC2-5C0A-4320-8CDC-B0D07712EEB8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/local/bin/nightlight toggle</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8B8445FD-4D99-4020-A669-F37E3913CD18</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>applescript</key>
 				<string>on is_running(appName)
   tell application "System Events" to (name of processes) contains appName
@@ -755,6 +825,27 @@ end alfred_script</string>
 			<string>466B0489-4584-4209-A777-E251BB20D806</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>toggle night shift</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Toggle Night Shift</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>0DA2C0CE-2874-4F68-A5AE-7038C91D00D9</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -855,7 +946,8 @@ end alfred_script</string>
 	</array>
 	<key>readme</key>
 	<string>Requires https://github.com/toy/blueutil for Bluetooth toggling
-Requires https://github.com/deweller/switchaudio-osx for audio input switching</string>
+Requires https://github.com/deweller/switchaudio-osx for audio input switching
+Requires https://github.com/smudge/nightlight for Night Shift</string>
 	<key>uidata</key>
 	<dict>
 		<key>06A53AEB-3B89-4F42-BCA2-B0D99419DD16</key>
@@ -871,6 +963,13 @@ Requires https://github.com/deweller/switchaudio-osx for audio input switching</
 			<integer>865</integer>
 			<key>ypos</key>
 			<integer>395</integer>
+		</dict>
+		<key>0DA2C0CE-2874-4F68-A5AE-7038C91D00D9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>640</integer>
+			<key>ypos</key>
+			<integer>640</integer>
 		</dict>
 		<key>19992505-582B-416B-B9A3-32E30F28821C</key>
 		<dict>
@@ -958,6 +1057,13 @@ Requires https://github.com/deweller/switchaudio-osx for audio input switching</
 			<key>ypos</key>
 			<integer>275</integer>
 		</dict>
+		<key>8B8445FD-4D99-4020-A669-F37E3913CD18</key>
+		<dict>
+			<key>xpos</key>
+			<integer>795</integer>
+			<key>ypos</key>
+			<integer>590</integer>
+		</dict>
 		<key>8F1FC4F7-0C61-4212-8982-55185314A998</key>
 		<dict>
 			<key>xpos</key>
@@ -985,6 +1091,13 @@ Requires https://github.com/deweller/switchaudio-osx for audio input switching</
 			<integer>795</integer>
 			<key>ypos</key>
 			<integer>30</integer>
+		</dict>
+		<key>BA245AC2-5C0A-4320-8CDC-B0D07712EEB8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>640</integer>
+			<key>ypos</key>
+			<integer>530</integer>
 		</dict>
 		<key>BF570616-2CE9-4FCD-91A1-686A289AB908</key>
 		<dict>

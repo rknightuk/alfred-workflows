@@ -9,14 +9,15 @@
 Various scripts in one workflow to toggle different things:
 
 - Wifi `toggle wifi/wifi toggle`
-- Bluetooth `toggle bluetooth/bluetooth toggle`
+- Bluetooth `toggle bluetooth/bluetooth toggle` - requires [blueutil](https://github.com/toy/blueutil)
 - Dark Mode `toggle darkmode/darkmode toggle`
 - Music `toggle music` + hotkey
+- Night Shift `toggle night shift/night shift toggle` - requires [nightlight](https://github.com/smudge/nightlight)
 
 Below are very specific to my setup:
 
 - Microphone `toggle microphone` + hotkey
-- Audio in/output `toggle audio input` + hotkey
+- Audio in/output `toggle audio input` + hotkey - requires [switchaudio-osx](https://github.com/deweller/switchaudio-osx)
 
 General keyword is `toggle`
 
