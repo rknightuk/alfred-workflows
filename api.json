@@ -136,6 +136,14 @@
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-utils/src/screenshot.png"
   },
   {
+    "uid": "CA6B036C-EEAD-45E8-8AD6-AF16E00C75B4",
+    "name": "Twitter Archive Search",
+    "description": "Search your local Twitter archive",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/twitter-archive-search",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/twitter-archive-search/src/screenshot.png"
+  },
+  {
     "uid": "D13ADDA7-672B-4A02-8686-B58E2AB0C282",
     "name": "Workflow Development",
     "description": "Open a workflow's files in Sublime Text, Finder, or Terminal",

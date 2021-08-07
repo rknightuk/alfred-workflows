@@ -120,6 +120,12 @@ _Toggle Wifi, Bluetooth, Music, and More_ [Download v1.0.0](workflows/toggle-uti
 
 ![toggle-utils screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-utils/src/screenshot.png)
 
+### Twitter Archive Search
+
+_Search your local Twitter archive_ [Download v1.0.0](workflows/twitter-archive-search)
+
+![twitter-archive-search screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/twitter-archive-search/src/screenshot.png)
+
 ### Workflow Development
 
 _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0](workflows/workflow-dev)

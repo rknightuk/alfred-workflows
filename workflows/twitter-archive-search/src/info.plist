@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.rknightuk.twitter-archive-search</string>
+	<key>connections</key>
+	<dict>
+		<key>F96099AE-6306-4666-B5B9-E1B1EF9B40A1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8403D58D-5B57-4808-A035-C82EDBE49B8F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Robb Knight</string>
+	<key>description</key>
+	<string>Search your local Twitter archive</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Twitter Archive Search</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>8403D58D-5B57-4808-A035-C82EDBE49B8F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>twa</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching Tweets...</string>
+				<key>script</key>
+				<string>osascript ./script.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search your Tweet Archive</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F96099AE-6306-4666-B5B9-E1B1EF9B40A1</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>- Request your Twitter here: https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive
+- In the workflow variables, set the path to your `tweet.js` file (this is in the `data` of the download). For example, `/Users/alfreduser/Dropbox/Twitter Archive/data/tweet.js`</string>
+	<key>uidata</key>
+	<dict>
+		<key>8403D58D-5B57-4808-A035-C82EDBE49B8F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>395</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+		<key>F96099AE-6306-4666-B5B9-E1B1EF9B40A1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>190</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>archive_path</key>
+		<string></string>
+		<key>include_replies</key>
+		<string>true</string>
+		<key>include_retweets</key>
+		<string>true</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>archive_path</string>
+	</array>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://rknight.me</string>
+</dict>
+</plist>
