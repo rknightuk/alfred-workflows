@@ -131,6 +131,7 @@ _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0]
 
 ## Third Party Workflows
 
+- [AlForge by Vince Mitchell](https://github.com/vmitchell85/alforge)
 - [Amphetamine4 Switch by ShisaQ](https://shisaq.github.io)
 - [Datetime Format Converter by Michael Waterfall](twitter.com/mwaterfall)
 - [Emoji Taco by Jeff Stein](https://github.com/jeeftor/EmojiTaco)
@@ -141,7 +142,7 @@ _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0]
 - [JustWatch - Alfred by VWAP](https://twitter.com/vinayw)
 - [LinkClean by Vítor Galvão](http://vitorgalvao.com/)
 - [Lorem Ipsum by Till Krüss](https://till.im)
-- [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/)
+- [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/) [[My Fork](https://github.com/rknightuk/alfred-pocket)]
 - [Search Notes.app by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
 - [SoulverCore by Carlos Precioso](https://precioso.design/)
 - [Speedtest by Michael Mroczka](http://michaelmroczka.com/)

@@ -14,6 +14,10 @@ const GITHUB_DOWNLOAD="https://github.com/${GITHUB_REPO}/raw/main"
 //Copy the example readme into the backup readme file
 const README_FILE=`${BACKUP_PATH}/readme.md`
 
+const FORKED = {
+	'com.fniephaus.pocket': 'https://github.com/rknightuk/alfred-pocket',
+}
+
 function run() {
 	const app = Application.currentApplication();
 	app.includeStandardAdditions = true;
@@ -92,11 +96,13 @@ function run() {
 
 			apiData.push(wfData)
 		} else {
+			const isForked = Object.keys(FORKED).includes(bundleid)
 			if (createdby) {
 				others.push({
 					name,
 					author: createdby,
 					link: webaddress,
+					fork: isForked ? FORKED[bundleid] : null,
 				})
 			}
 		}
@@ -125,6 +131,9 @@ function run() {
 		let text = `- ${o.name} by ${o.author}`
 		if (o.link) {
 			text = `- [${o.name} by ${o.author}](${o.link})`
+		}
+		if (o.fork) {
+			text += ` [[My Fork](${o.fork})]`
 		}
 
 		app.doShellScript(`echo "${text}" >> ${README_FILE}`);
