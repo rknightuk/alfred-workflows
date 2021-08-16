@@ -13,6 +13,7 @@ A workflow for [Fathom Analytics](https://usefathom.com/ref/IXCLSF)
 - Open site in Fathom (<kbd>⌘</kbd> <kbd>enter</kbd>)
 
 Keyword is `fth`
+Clear site cache with `clearfth`
 
 Like this? [Buy me a coffee](https://monzo.me/robbknight)
 

@@ -6,6 +6,42 @@
 	<string>com.rknightuk.fathom-analytics</string>
 	<key>connections</key>
 	<dict>
+		<key>0D89578D-6DC1-4DC1-8E36-97ACD70C3BFB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3EB221C3-39D5-4B8C-B496-38202F7FBA1F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3EB221C3-39D5-4B8C-B496-38202F7FBA1F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>89BDF268-3681-4B76-AF23-12FF5BF4C6A9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E5D14F4F-D57A-45FE-9EDF-07BAAE56B42C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>89BDF268-3681-4B76-AF23-12FF5BF4C6A9</key>
 		<array>
 			<dict>
@@ -204,6 +240,25 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>628227DF-C326-4CF1-B2F8-A553B8D1F131</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -253,19 +308,65 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>clearfth</string>
+				<key>subtext</key>
 				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-				<key>utf8</key>
-				<true/>
+				<key>text</key>
+				<string>Clear Fathom Site Cache</string>
+				<key>withspace</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>628227DF-C326-4CF1-B2F8-A553B8D1F131</string>
+			<string>0D89578D-6DC1-4DC1-8E36-97ACD70C3BFB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>osascript ./scripts/clear_cache.js</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3EB221C3-39D5-4B8C-B496-38202F7FBA1F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>Site Cache Cleared</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>E5D14F4F-D57A-45FE-9EDF-07BAAE56B42C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -274,6 +375,13 @@ fi</string>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>0D89578D-6DC1-4DC1-8E36-97ACD70C3BFB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>135</integer>
+			<key>ypos</key>
+			<integer>465</integer>
+		</dict>
 		<key>22D6253B-5BC2-45CB-9EE0-2D6CBDCD35A8</key>
 		<dict>
 			<key>colorindex</key>
@@ -281,9 +389,16 @@ fi</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>350</integer>
 			<key>ypos</key>
 			<integer>10</integer>
+		</dict>
+		<key>3EB221C3-39D5-4B8C-B496-38202F7FBA1F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>465</integer>
 		</dict>
 		<key>628227DF-C326-4CF1-B2F8-A553B8D1F131</key>
 		<dict>
@@ -302,9 +417,16 @@ fi</string>
 		<key>DDB0AF8B-3010-40EF-A572-63559614DFEE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>350</integer>
 			<key>ypos</key>
 			<integer>175</integer>
+		</dict>
+		<key>E5D14F4F-D57A-45FE-9EDF-07BAAE56B42C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>575</integer>
+			<key>ypos</key>
+			<integer>465</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
