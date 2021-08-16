@@ -1,5 +1,7 @@
 ## Fathom Analytics Alfred Workflow
 
+**The Fathom API is subject to change right now so this could break at any moment**
+
 [Download Fathom Analytics](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/fathom-analytics/fathom-analytics.alfredworkflow)
 
 ![Fathom Analytics](src/screenshot.png)
