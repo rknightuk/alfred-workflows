@@ -50,7 +50,7 @@ _Open commonly used folders_ [Download v1.0.0](workflows/common-folders)
 
 ### Fathom Analytics
 
-_View current visitors for your sites_ [Download v1.0.0](workflows/fathom-analytics)
+_View current visitors for your sites_ [Download v1.0.2](workflows/fathom-analytics)
 
 ![fathom-analytics screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/fathom-analytics/src/screenshot.png)
 

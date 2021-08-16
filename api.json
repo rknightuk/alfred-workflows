@@ -35,7 +35,7 @@
     "uid": "3EAF40F3-1901-4AB8-BFB9-F631C3002204",
     "name": "Fathom Analytics",
     "description": "View current visitors for your sites",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/fathom-analytics",
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/fathom-analytics/src/screenshot.png"
   },

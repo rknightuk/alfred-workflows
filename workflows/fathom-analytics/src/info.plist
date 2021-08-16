@@ -372,7 +372,8 @@ fi</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Keyword is `fth`
+Clear site cache with `clearfth`</string>
 	<key>uidata</key>
 	<dict>
 		<key>0D89578D-6DC1-4DC1-8E36-97ACD70C3BFB</key>
@@ -439,7 +440,7 @@ fi</string>
 		<string>api_key</string>
 	</array>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.2</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>

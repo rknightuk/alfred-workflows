@@ -20,6 +20,7 @@ function run(argv) {
 	const request = `curl https://api.usefathom.com/v1/current_visitors \
 -H "Authorization: Bearer ${API_KEY}" \
 -d site_id=${selectedSiteId} \
+-d detailed=true \
 -G`
 	const response = app.doShellScript(request)
 	const data = JSON.parse(response)
