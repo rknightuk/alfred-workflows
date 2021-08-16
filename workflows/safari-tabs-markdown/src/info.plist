@@ -6,11 +6,11 @@
 	<string>com.rknightuk.safari-tabs-markdown</string>
 	<key>connections</key>
 	<dict>
-		<key>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</key>
+		<key>02478A1D-24EF-4263-9447-FE582E6D8A59</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>9849464D-4B9B-4CA5-9532-A272D3CCE8A2</string>
+				<string>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -19,11 +19,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>D577A419-65AC-44C5-AEF2-5E2C8C39F6F4</key>
+		<key>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</string>
+				<string>9849464D-4B9B-4CA5-9532-A272D3CCE8A2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -46,23 +46,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>sf</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Get Safari Tabs as Markdown</string>
-				<key>withspace</key>
+				<key>concurrently</key>
 				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>osascript ./script.js $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>D577A419-65AC-44C5-AEF2-5E2C8C39F6F4</string>
+			<string>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -86,31 +88,44 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>osascript ./script.js</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
+				<key>argumenttrimmode</key>
 				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"One Per Line","arg":"one_per_line"},{"title":"Markdown List","arg":"md_list"}]</string>
+				<key>keyword</key>
+				<string>sf</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
-			<string>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</string>
+			<string>02478A1D-24EF-4263-9447-FE582E6D8A59</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>02478A1D-24EF-4263-9447-FE582E6D8A59</key>
+		<dict>
+			<key>xpos</key>
+			<integer>255</integer>
+			<key>ypos</key>
+			<integer>225</integer>
+		</dict>
 		<key>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</key>
 		<dict>
 			<key>xpos</key>
@@ -125,16 +140,9 @@
 			<key>ypos</key>
 			<integer>225</integer>
 		</dict>
-		<key>D577A419-65AC-44C5-AEF2-5E2C8C39F6F4</key>
-		<dict>
-			<key>xpos</key>
-			<integer>260</integer>
-			<key>ypos</key>
-			<integer>225</integer>
-		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>

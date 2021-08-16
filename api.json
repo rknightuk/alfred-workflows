@@ -32,6 +32,14 @@
     "screenshot": null
   },
   {
+    "uid": "8AE558EF-DD63-4D5E-8E89-DC35AA2CFC41",
+    "name": "Fathom Analytics",
+    "description": "View current visitors for your sites",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/fathom-analytics",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/fathom-analytics/src/screenshot.png"
+  },
+  {
     "uid": "D20D883A-93E9-4AC5-8ECA-94CA8C24212B",
     "name": "Finder to Terminal",
     "description": "Open the current finder window in Terminal",
@@ -43,7 +51,7 @@
     "uid": "085F8761-9FB4-492D-B466-D7CE943DCE60",
     "name": "Get Safari Tabs",
     "description": "Copy all current Safari tabs to Markdown",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/safari-tabs-markdown",
     "screenshot": null
   },
@@ -77,14 +85,6 @@
     "description": "Create a new file in the current Finder window",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/new-file-in-finder",
-    "screenshot": null
-  },
-  {
-    "uid": "F47CFE8B-6863-432B-B29F-7E437C0B592C",
-    "name": "Paste Plain Text",
-    "description": "",
-    "version": "1.0.0",
-    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/paste-plain-text",
     "screenshot": null
   },
   {

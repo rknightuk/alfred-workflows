@@ -48,13 +48,19 @@ _Select and switch audio devices_ [Download v1.0.0](workflows/audio-device-selec
 
 _Open commonly used folders_ [Download v1.0.0](workflows/common-folders)
 
+### Fathom Analytics
+
+_View current visitors for your sites_ [Download v1.0.0](workflows/fathom-analytics)
+
+![fathom-analytics screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/fathom-analytics/src/screenshot.png)
+
 ### Finder to Terminal
 
 _Open the current finder window in Terminal_ [Download v1.0.0](workflows/finder-to-terminal)
 
 ### Get Safari Tabs
 
-_Copy all current Safari tabs to Markdown_ [Download v1.0.0](workflows/safari-tabs-markdown)
+_Copy all current Safari tabs to Markdown_ [Download v1.1.0](workflows/safari-tabs-markdown)
 
 ### Hotkey List
 
@@ -81,10 +87,6 @@ _Generate Monzo.me Link_ [Download v1.0.0](workflows/monzo-link-generator)
 ### New File in Finder
 
 _Create a new file in the current Finder window_ [Download v1.0.0](workflows/new-file-in-finder)
-
-### Paste Plain Text
-
-[Download v1.0.0](workflows/paste-plain-text)
 
 ### Search This Site
 
@@ -142,6 +144,7 @@ _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0]
 - [Datetime Format Converter by Michael Waterfall](twitter.com/mwaterfall)
 - [Emoji Taco by Jeff Stein](https://github.com/jeeftor/EmojiTaco)
 - [fkill by Sam Verschueren](https://github.com/SamVerschueren/alfred-fkill#readme)
+- [Google Suggest with CMD mod by David Ferguson](http://dferg.us)
 - [HTTP Status Code by Fred Liang](https://github.com/ilstar/http_status_code)
 - [IP Address v1.2.0 by David Ferguson](jdfwarrior.tumblr.com)
 - [JetBrains - Open Project - v3 by bchatard](https://github.com/bchatard/alfred-jetbrains#readme)
@@ -149,6 +152,7 @@ _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0]
 - [LinkClean by Vítor Galvão](http://vitorgalvao.com/)
 - [Lorem Ipsum by Till Krüss](https://till.im)
 - [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/) [[My Fork](https://github.com/rknightuk/alfred-pocket)]
+- [sdfdsaf by Robb Knight](https://rknight.me)
 - [Search Notes.app by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
 - [SoulverCore by Carlos Precioso](https://precioso.design/)
 - [Speedtest by Michael Mroczka](http://michaelmroczka.com/)
