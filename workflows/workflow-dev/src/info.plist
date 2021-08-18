@@ -135,7 +135,7 @@
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/Sublime Text.app</string>
+				<string>/Applications/Visual Studio Code.app</string>
 				<key>sourcefile</key>
 				<string>{var:path}</string>
 			</dict>
@@ -184,7 +184,7 @@
 						<key>matchstring</key>
 						<string>editor</string>
 						<key>outputlabel</key>
-						<string>Sublime</string>
+						<string>Editor</string>
 						<key>uid</key>
 						<string>24178836-737C-4143-9A60-A9F2EF1DE9EA</string>
 					</dict>

@@ -149,10 +149,9 @@ _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0]
 - [IP Address v1.2.0 by David Ferguson](jdfwarrior.tumblr.com)
 - [JetBrains - Open Project - v3 by bchatard](https://github.com/bchatard/alfred-jetbrains#readme)
 - [JustWatch - Alfred by VWAP](https://twitter.com/vinayw)
-- [LinkClean by Vítor Galvão](http://vitorgalvao.com/)
 - [Lorem Ipsum by Till Krüss](https://till.im)
 - [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/) [[My Fork](https://github.com/rknightuk/alfred-pocket)]
-- [sdfdsaf by Robb Knight](https://rknight.me)
 - [Search Notes.app by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
 - [SoulverCore by Carlos Precioso](https://precioso.design/)
 - [Speedtest by Michael Mroczka](http://michaelmroczka.com/)
+- [The Intersect by Robb Knight](https://rknight.me)

@@ -9,7 +9,8 @@ function run(argv) {
 	var links = [];
 
 	Safari.windows[0].tabs().forEach(function(tab) {
-		links.push(`${isMarkdown ? '- ' : ''}[${tab.name()}](${tab.url()})`)
+		const url = tab.url().split('?')[0]
+		links.push(`${isMarkdown ? '- ' : ''}[${tab.name()}](${url})`)
 	})
 
 	let joiner = "\n\n"
