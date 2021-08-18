@@ -18,8 +18,6 @@ function run(argv) {
 		return JSON.stringify({ items: sites })
 	}
 
-	return JSON.stringify({ items: [{ title: 'fuckky fuck' }]})
-
 	const API_KEY = $.getenv('api_key')
 	const request = `curl https://api.usefathom.com/v1/sites -H "Authorization: Bearer ${API_KEY}"`
 	const response = app.doShellScript(request)
