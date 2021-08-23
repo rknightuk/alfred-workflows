@@ -64,6 +64,14 @@
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/hotkey-list/src/screenshot.png"
   },
   {
+    "uid": "F8F55B80-FA9A-4EA3-A898-1D2CA6BE7A7A",
+    "name": "Intersect",
+    "description": "Workflow for searching the Intersect",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/intersect",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/intersect/src/screenshot.png"
+  },
+  {
     "uid": "60F26FA1-5C8E-4D17-B006-4672924033F4",
     "name": "Jump List",
     "description": "ZSH Jump list plugin in Alfred",

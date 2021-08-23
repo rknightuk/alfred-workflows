@@ -72,6 +72,12 @@ _List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-lis
 - [2021-07-22] Now shows hotkeys including modifiers but these don't work yet, see https://www.alfredforum.com/topic/17130-format-for-running-key-combo-from-input-with-function-keys-and-modifiers/
 
 
+### Intersect
+
+_Workflow for searching the Intersect_ [Download v1.0.0](workflows/intersect)
+
+![intersect screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/intersect/src/screenshot.png)
+
 ### Jump List
 
 _ZSH Jump list plugin in Alfred_ [Download v1.0.0](workflows/jump-list)
@@ -154,4 +160,3 @@ _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0]
 - [Search Notes.app by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
 - [SoulverCore by Carlos Precioso](https://precioso.design/)
 - [Speedtest by Michael Mroczka](http://michaelmroczka.com/)
-- [The Intersect by Robb Knight](https://rknight.me)
