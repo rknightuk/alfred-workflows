@@ -24,6 +24,14 @@
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/audio-device-selector/src/screenshot.png"
   },
   {
+    "uid": "D5CB937C-C17E-4F04-BD66-F2E5FBCB2ED9",
+    "name": "Carbon Code",
+    "description": "Send clipboard contents to Carbon",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/carbonnowsh",
+    "screenshot": null
+  },
+  {
     "uid": "819C7BC1-B352-445A-B4FB-F78A1FC57768",
     "name": "Common Folders",
     "description": "Open commonly used folders",

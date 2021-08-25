@@ -44,6 +44,10 @@ _Select and switch audio devices_ [Download v1.0.0](workflows/audio-device-selec
 
 ![audio-device-selector screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/audio-device-selector/src/screenshot.png)
 
+### Carbon Code
+
+_Send clipboard contents to Carbon_ [Download v1.0.0](workflows/carbonnowsh)
+
 ### Common Folders
 
 _Open commonly used folders_ [Download v1.0.0](workflows/common-folders)
@@ -147,7 +151,6 @@ _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0]
 
 - [AlForge by Vince Mitchell](https://github.com/vmitchell85/alforge)
 - [Amphetamine4 Switch by ShisaQ](https://shisaq.github.io)
-- [Carbon Code by Robb Knight](https://rknight.me)
 - [Datetime Format Converter by Michael Waterfall](twitter.com/mwaterfall)
 - [Emoji Taco by Jeff Stein](https://github.com/jeeftor/EmojiTaco)
 - [fkill by Sam Verschueren](https://github.com/SamVerschueren/alfred-fkill#readme)
