@@ -26,10 +26,10 @@
   {
     "uid": "D5CB937C-C17E-4F04-BD66-F2E5FBCB2ED9",
     "name": "Carbon Code",
-    "description": "Send clipboard contents to Carbon",
+    "description": "Send clipboard contents to carbon.now.sh to generate an image",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/carbonnowsh",
-    "screenshot": null
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/carbonnowsh/src/screenshot.png"
   },
   {
     "uid": "819C7BC1-B352-445A-B4FB-F78A1FC57768",

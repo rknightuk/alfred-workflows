@@ -46,7 +46,9 @@ _Select and switch audio devices_ [Download v1.0.0](workflows/audio-device-selec
 
 ### Carbon Code
 
-_Send clipboard contents to Carbon_ [Download v1.0.0](workflows/carbonnowsh)
+_Send clipboard contents to carbon.now.sh to generate an image_ [Download v1.0.0](workflows/carbonnowsh)
+
+![carbonnowsh screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/carbonnowsh/src/screenshot.png)
 
 ### Common Folders
 

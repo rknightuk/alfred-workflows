@@ -1,14 +1,14 @@
-## WORKFLOW_NAME Alfred Workflow
+## Carbon Code Alfred Workflow
 
-[Download WORKFLOW_NAME](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/WORKFLOW_ID/WORKFLOW_ID.alfredworkflow)
+[Download Carbon Code](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/carbonnowsh/carbonnowsh.alfredworkflow)
 
-![WORKFLOW_NAME](src/screenshot.png)
+![Carbon Code](src/screenshot.png)
 
 ### What does it do?
 
-// todo
+Sends the clipboard contents or input to carbon.now.sh (https://carbon.now.sh?code=MYCODE)
 
-Keyword is `KEYWORD`
+Keyword is `carbon`
 
 Like this? [Buy me a coffee](https://monzo.me/robbknight)
 

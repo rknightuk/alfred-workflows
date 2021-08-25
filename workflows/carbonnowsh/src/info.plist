@@ -49,7 +49,7 @@
 	<key>createdby</key>
 	<string>Robb Knight</string>
 	<key>description</key>
-	<string>Send clipboard contents to Carbon</string>
+	<string>Send clipboard contents to carbon.now.sh to generate an image</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -82,25 +82,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>3FBFAF75-71AF-4E4C-BE51-74C31C82C1E1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
@@ -116,6 +97,25 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>1A243498-0888-4429-80BC-56B06CF2EB67</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>3FBFAF75-71AF-4E4C-BE51-74C31C82C1E1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
