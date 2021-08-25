@@ -3,7 +3,7 @@
     "uid": "4B05F59D-01FF-404F-BE56-4811A5527303",
     "name": "Agenda - Reminders and Calendar Events",
     "description": "Manage Reminders and Calandar Events",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/agenda",
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/agenda/src/screenshot.png"
   },

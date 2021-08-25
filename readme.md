@@ -28,7 +28,7 @@ _Some of these will completely useless to anyone but me_
 
 ### Agenda - Reminders and Calendar Events
 
-_Manage Reminders and Calandar Events_ [Download v1.0.0](workflows/agenda)
+_Manage Reminders and Calandar Events_ [Download v1.0.1](workflows/agenda)
 
 ![agenda screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/agenda/src/screenshot.png)
 
@@ -147,6 +147,7 @@ _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0]
 
 - [AlForge by Vince Mitchell](https://github.com/vmitchell85/alforge)
 - [Amphetamine4 Switch by ShisaQ](https://shisaq.github.io)
+- [Carbon Code by Robb Knight](https://rknight.me)
 - [Datetime Format Converter by Michael Waterfall](twitter.com/mwaterfall)
 - [Emoji Taco by Jeff Stein](https://github.com/jeeftor/EmojiTaco)
 - [fkill by Sam Verschueren](https://github.com/SamVerschueren/alfred-fkill#readme)

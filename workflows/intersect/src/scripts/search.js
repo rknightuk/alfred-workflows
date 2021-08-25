@@ -2,7 +2,7 @@ let baseUrl = null
 formatPages = (rawPages) => {
     return rawPages.map(r => {
         const liveUrl = `${baseUrl}${r.url}`
-        const title = `${r.parents.length > 0 ? `${r.parents.join('›')} › ` : ''}${r.title}`
+        const title = `${r.parents.length > 0 ? `${r.parents.join(' › ')} › ` : ''}${r.title}`
         return {
             title,
             subtitle: r.url,

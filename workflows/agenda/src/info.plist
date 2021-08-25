@@ -1325,6 +1325,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string></string>
+				<key>keycode</key>
+				<integer>-1</integer>
+				<key>keymod</key>
+				<integer>0</integer>
+				<key>overridewithargument</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>AB809AA2-9B29-4B84-830E-EFB5CA7E2F4D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>externaltriggerid</key>
 				<string>rknightuk.agenda.upcoming-reminders</string>
 				<key>passinputasargument</key>
@@ -4091,6 +4112,13 @@ fi</string>
 			<key>ypos</key>
 			<integer>3450</integer>
 		</dict>
+		<key>AB809AA2-9B29-4B84-830E-EFB5CA7E2F4D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>185</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
 		<key>AC788D9C-9D91-4252-AD44-596CC662BCFC</key>
 		<dict>
 			<key>colorindex</key>
@@ -4360,10 +4388,8 @@ fi</string>
 		<key>use_fantastical</key>
 		<string>false</string>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>
