@@ -140,6 +140,12 @@ _Search your local Twitter archive_ [Download v1.0.0](workflows/twitter-archive-
 
 ![twitter-archive-search screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/twitter-archive-search/src/screenshot.png)
 
+### URL Schemes
+
+_Show all URL schemes for installed apps_ [Download v1.0.0](workflows/url-schemes)
+
+![url-schemes screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/url-schemes/src/screenshot.png)
+
 ### Workflow Development
 
 _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0](workflows/workflow-dev)

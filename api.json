@@ -160,6 +160,14 @@
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/twitter-archive-search/src/screenshot.png"
   },
   {
+    "uid": "8ED99597-6655-4CDA-B54C-455F9A1AE3DE",
+    "name": "URL Schemes",
+    "description": "Show all URL schemes for installed apps",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/url-schemes",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/url-schemes/src/screenshot.png"
+  },
+  {
     "uid": "D13ADDA7-672B-4A02-8686-B58E2AB0C282",
     "name": "Workflow Development",
     "description": "Open a workflow's files in Sublime Text, Finder, or Terminal",
