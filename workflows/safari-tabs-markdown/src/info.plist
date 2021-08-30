@@ -19,11 +19,63 @@
 				<false/>
 			</dict>
 		</array>
+		<key>1ED054D9-8A65-4AAB-9579-B9C8AD9CDCBF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>97760F7E-09C7-4155-BB01-8EA98DAF2B34</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>273A4958-5A06-4B41-9952-27D00853A7D3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1ED054D9-8A65-4AAB-9579-B9C8AD9CDCBF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>9849464D-4B9B-4CA5-9532-A272D3CCE8A2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BCE480DD-AD9B-45CC-97F3-9DC08661F77A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C48D1E5D-404A-4B32-BE65-9AEA033C19AA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C48D1E5D-404A-4B32-BE65-9AEA033C19AA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>273A4958-5A06-4B41-9952-27D00853A7D3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -43,6 +95,35 @@
 	<string>Get Safari Tabs</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"[ALL] One Per Line","arg":"all_one_per_line"},{"title":"[ALL] Markdown List","arg":"all_list"},{"title":"[CURRENT] One Per Line","arg":"current_one_per_line"},{"title":"[CURRENT] Markdown List","arg":"current_list"}]</string>
+				<key>keyword</key>
+				<string>xxxx</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>02478A1D-24EF-4263-9447-FE582E6D8A59</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -88,6 +169,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>97760F7E-09C7-4155-BB01-8EA98DAF2B34</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -95,7 +195,7 @@
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"One Per Line","arg":"one_per_line"},{"title":"Markdown List","arg":"md_list"}]</string>
+				<string>[{"title":"Current Page","arg":"current"},{"title":"All Pages","arg":"all"}]</string>
 				<key>keyword</key>
 				<string>sf</string>
 				<key>runningsubtext</key>
@@ -110,7 +210,77 @@
 			<key>type</key>
 			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
-			<string>02478A1D-24EF-4263-9447-FE582E6D8A59</string>
+			<string>BCE480DD-AD9B-45CC-97F3-9DC08661F77A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"MD List","arg":"md_list","subtitle":"- [Page Title](https:\/\/example.com)"},{"title":"MD Link","arg":"md_link","subtitle":"[Page Title](https:\/\/example.com)"},{"title":"Link Only","arg":"link","subtitle":"https:\/\/example.com"},{"title":"Title Only","arg":"title","subtitle":"Page Title"},{"title":"Title and Link","arg":"title_link","subtitle":"Page Title https:\/\/example.com"}]</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Link Format</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>273A4958-5A06-4B41-9952-27D00853A7D3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>osascript ./script.js "$pages" "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1ED054D9-8A65-4AAB-9579-B9C8AD9CDCBF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>pages</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>C48D1E5D-404A-4B32-BE65-9AEA033C19AA</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -122,27 +292,62 @@
 		<key>02478A1D-24EF-4263-9447-FE582E6D8A59</key>
 		<dict>
 			<key>xpos</key>
-			<integer>255</integer>
+			<integer>150</integer>
 			<key>ypos</key>
-			<integer>225</integer>
+			<integer>25</integer>
+		</dict>
+		<key>1ED054D9-8A65-4AAB-9579-B9C8AD9CDCBF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>615</integer>
+			<key>ypos</key>
+			<integer>215</integer>
+		</dict>
+		<key>273A4958-5A06-4B41-9952-27D00853A7D3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>390</integer>
+			<key>ypos</key>
+			<integer>215</integer>
 		</dict>
 		<key>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</key>
 		<dict>
 			<key>xpos</key>
-			<integer>495</integer>
+			<integer>390</integer>
 			<key>ypos</key>
-			<integer>225</integer>
+			<integer>25</integer>
+		</dict>
+		<key>97760F7E-09C7-4155-BB01-8EA98DAF2B34</key>
+		<dict>
+			<key>xpos</key>
+			<integer>840</integer>
+			<key>ypos</key>
+			<integer>215</integer>
 		</dict>
 		<key>9849464D-4B9B-4CA5-9532-A272D3CCE8A2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>730</integer>
+			<integer>625</integer>
 			<key>ypos</key>
-			<integer>225</integer>
+			<integer>25</integer>
+		</dict>
+		<key>BCE480DD-AD9B-45CC-97F3-9DC08661F77A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>120</integer>
+			<key>ypos</key>
+			<integer>215</integer>
+		</dict>
+		<key>C48D1E5D-404A-4B32-BE65-9AEA033C19AA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>295</integer>
+			<key>ypos</key>
+			<integer>245</integer>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.1.0</string>
+	<string>1.2.0</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>
