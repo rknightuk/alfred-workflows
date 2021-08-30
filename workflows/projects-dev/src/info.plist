@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.rknightuk.workflow-dev</string>
+	<string>com.rknightuk.projects-dev</string>
 	<key>connections</key>
 	<dict>
 		<key>3B42091E-9FAF-4159-AFF7-DA9F53833493</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1E27CAB7-0614-4616-8FC2-A8BAB4869578</string>
+				<string>E22B39C4-67C0-426D-8916-4778DD5D7943</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -23,11 +23,11 @@
 	<key>createdby</key>
 	<string>Robb Knight</string>
 	<key>description</key>
-	<string>Open a workflow's files in an editor, Finder, or Terminal</string>
+	<string>Open a projects folder in an editor, Finder, or Terminal</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Workflow Development</string>
+	<string>Project Development</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -46,7 +46,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>wf</string>
+				<string>prj</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -56,9 +56,9 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Loading Workflows List...</string>
+				<string>Loading Projects...</string>
 				<key>script</key>
-				<string>osascript ./script.js "$alfred_preferences"</string>
+				<string>osascript ./script.js</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -66,7 +66,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Browse Workflows</string>
+				<string>Browse Projects</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -94,34 +94,34 @@
 			<key>type</key>
 			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
-			<string>1E27CAB7-0614-4616-8FC2-A8BAB4869578</string>
+			<string>E22B39C4-67C0-426D-8916-4778DD5D7943</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Requires my File Actions workflow</string>
+	<string>Requires my File Action workflow</string>
 	<key>uidata</key>
 	<dict>
-		<key>1E27CAB7-0614-4616-8FC2-A8BAB4869578</key>
+		<key>3B42091E-9FAF-4159-AFF7-DA9F53833493</key>
+		<dict>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>205</integer>
+		</dict>
+		<key>E22B39C4-67C0-426D-8916-4778DD5D7943</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>4</integer>
 			<key>xpos</key>
-			<integer>445</integer>
+			<integer>385</integer>
 			<key>ypos</key>
-			<integer>255</integer>
-		</dict>
-		<key>3B42091E-9FAF-4159-AFF7-DA9F53833493</key>
-		<dict>
-			<key>xpos</key>
-			<integer>235</integer>
-			<key>ypos</key>
-			<integer>255</integer>
+			<integer>205</integer>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.1.0</string>
+	<string>1.0.0</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>

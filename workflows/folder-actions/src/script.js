@@ -17,7 +17,7 @@ function run(argv) {
 			uid: bundleid,
 			title: title.trim(),
 			subtitle: createdby ? `by ${createdby}` : createdby,
-			arg: `${workflowPath}/${wf}`,
+			arg: `${title}:${workflowPath}/${wf}`,
 			autocomplete: `${title} ${createdby}`,
 			icon: {
 				path: `${workflowPath}/${wf}/icon.png`,

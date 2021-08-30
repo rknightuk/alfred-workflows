@@ -60,6 +60,15 @@ _View current visitors for your sites_ [Download v1.0.2](workflows/fathom-analyt
 
 ![fathom-analytics screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/fathom-analytics/src/screenshot.png)
 
+### File Actions
+
+_Open folders and files in an editor, Finder, or Terminal_ [Download v1.0.0](workflows/folder-actions)
+
+![folder-actions screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/folder-actions/src/screenshot.png)
+
+- [2021-07-23] Now shows options to option in Finder, Sublime, Terminal, or All
+
+
 ### Finder to Terminal
 
 _Open the current finder window in Terminal_ [Download v1.0.0](workflows/finder-to-terminal)
@@ -101,6 +110,15 @@ _Generate Monzo.me Link_ [Download v1.0.0](workflows/monzo-link-generator)
 ### New File in Finder
 
 _Create a new file in the current Finder window_ [Download v1.0.0](workflows/new-file-in-finder)
+
+### Project Development
+
+_Open a projects folder in an editor, Finder, or Terminal_ [Download v1.0.0](workflows/projects-dev)
+
+![projects-dev screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/projects-dev/src/screenshot.png)
+
+- [2021-07-23] Now shows options to option in Finder, Sublime, Terminal, or All
+
 
 ### Search This Site
 
@@ -150,7 +168,7 @@ _Show all URL schemes for installed apps_ [Download v1.0.0](workflows/url-scheme
 
 ### Workflow Development
 
-_Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0](workflows/workflow-dev)
+_Open a workflow's files in an editor, Finder, or Terminal_ [Download v1.1.0](workflows/workflow-dev)
 
 ![workflow-dev screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/screenshot.png)
 

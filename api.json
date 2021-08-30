@@ -48,6 +48,14 @@
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/fathom-analytics/src/screenshot.png"
   },
   {
+    "uid": "24FCC94B-C25A-472C-948A-7ECBE05A05C4",
+    "name": "File Actions",
+    "description": "Open folders and files in an editor, Finder, or Terminal",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/folder-actions",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/folder-actions/src/screenshot.png"
+  },
+  {
     "uid": "D20D883A-93E9-4AC5-8ECA-94CA8C24212B",
     "name": "Finder to Terminal",
     "description": "Open the current finder window in Terminal",
@@ -102,6 +110,14 @@
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/new-file-in-finder",
     "screenshot": null
+  },
+  {
+    "uid": "C0EBCE37-F304-4643-91B2-56CDA5919D37",
+    "name": "Project Development",
+    "description": "Open a projects folder in an editor, Finder, or Terminal",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/projects-dev",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/projects-dev/src/screenshot.png"
   },
   {
     "uid": "37BAA8DF-044F-4255-8C12-A716FB204B45",
@@ -170,7 +186,7 @@
   {
     "uid": "D13ADDA7-672B-4A02-8686-B58E2AB0C282",
     "name": "Workflow Development",
-    "description": "Open a workflow's files in Sublime Text, Finder, or Terminal",
+    "description": "Open a workflow's files in an editor, Finder, or Terminal",
     "version": "1.1.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/workflow-dev",
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/screenshot.png"
