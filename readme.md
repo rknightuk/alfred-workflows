@@ -136,7 +136,7 @@ _Toggle Wifi, Bluetooth, Music, and More_ [Download v1.0.0](workflows/toggle-uti
 
 ### Twitter Archive Search
 
-_Search your local Twitter archive_ [Download v1.0.0](workflows/twitter-archive-search)
+_Search your local Twitter archive_ [Download v1.0.1](workflows/twitter-archive-search)
 
 ![twitter-archive-search screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/twitter-archive-search/src/screenshot.png)
 
@@ -159,6 +159,7 @@ _Open a workflow's files in Sublime Text, Finder, or Terminal_ [Download v1.1.0]
 
 - [AlForge by Vince Mitchell](https://github.com/vmitchell85/alforge)
 - [Amphetamine4 Switch by ShisaQ](https://shisaq.github.io)
+- [CleanShot by Mr. Pennyworth](https://github.com/mr-pennyworth/alfred-cleanshot#readme)
 - [Datetime Format Converter by Michael Waterfall](twitter.com/mwaterfall)
 - [Emoji Taco by Jeff Stein](https://github.com/jeeftor/EmojiTaco)
 - [fkill by Sam Verschueren](https://github.com/SamVerschueren/alfred-fkill#readme)

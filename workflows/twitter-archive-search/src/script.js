@@ -78,5 +78,14 @@ function run(argv) {
 		}
 	}).sort((a,b) => (a.subtitle < b.subtitle) ? 1 : ((b.subtitle < a.subtitle) ? -1 : 0))
 
+	if (items.length === 0)
+	{
+		return JSON.stringify({ items: [
+			{
+				title: 'No results found',
+			}
+		]})	
+	}
+
 	return JSON.stringify({ items: items })
 }

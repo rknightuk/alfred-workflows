@@ -183,6 +183,7 @@
 					<string>/Applications/Tweetbot.app</string>
 					<string>/System/Applications/Mail.app</string>
 					<string>/System/Applications/Music.app</string>
+					<string>/Applications/Discord.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
@@ -334,6 +335,7 @@
 					<string>/System/Applications/Mail.app</string>
 					<string>/System/Applications/Music.app</string>
 					<string>/Applications/Tunnelblick.app</string>
+					<string>/Applications/Discord.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>

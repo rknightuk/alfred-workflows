@@ -45,6 +45,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>AAE617DD-364C-40F4-8D3B-6599009C7F4E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>265A6381-1FB4-4C2E-A66B-B471811EC1C2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C69E817C-F354-48B2-8D52-7D9AD6A99969</key>
 		<array>
 			<dict>
@@ -134,7 +147,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>open ~/Downloads</string>
+				<string>open ~/Desktop/Screenshots</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -145,9 +158,30 @@
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>96091756-72E1-4DF5-8076-AB92496E199E</string>
+			<string>265A6381-1FB4-4C2E-A66B-B471811EC1C2</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>screenshots</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Screenshots</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>AAE617DD-364C-40F4-8D3B-6599009C7F4E</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -169,6 +203,29 @@
 			<string>51ECED60-B6BE-4DDD-9B31-677CCBA98FA1</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open ~/Downloads</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>96091756-72E1-4DF5-8076-AB92496E199E</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -217,6 +274,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>desktop</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Desktop</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C69E817C-F354-48B2-8D52-7D9AD6A99969</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -236,27 +314,6 @@
 			<string>5EEEB93B-E5A3-4F87-843C-5D3DAFF34121</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>desktop</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Open Desktop</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C69E817C-F354-48B2-8D52-7D9AD6A99969</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -307,6 +364,13 @@
 	<string>Open common folders I need to get to</string>
 	<key>uidata</key>
 	<dict>
+		<key>265A6381-1FB4-4C2E-A66B-B471811EC1C2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>690</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
 		<key>51ECED60-B6BE-4DDD-9B31-677CCBA98FA1</key>
 		<dict>
 			<key>xpos</key>
@@ -355,6 +419,13 @@
 			<integer>265</integer>
 			<key>ypos</key>
 			<integer>170</integer>
+		</dict>
+		<key>AAE617DD-364C-40F4-8D3B-6599009C7F4E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>475</integer>
+			<key>ypos</key>
+			<integer>40</integer>
 		</dict>
 		<key>C69E817C-F354-48B2-8D52-7D9AD6A99969</key>
 		<dict>

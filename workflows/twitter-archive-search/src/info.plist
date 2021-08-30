@@ -124,16 +124,16 @@
 		<key>archive_path</key>
 		<string></string>
 		<key>include_replies</key>
-		<string>true</string>
+		<string>false</string>
 		<key>include_retweets</key>
-		<string>true</string>
+		<string>false</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
 		<string>archive_path</string>
 	</array>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>
