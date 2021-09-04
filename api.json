@@ -168,6 +168,14 @@
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-utils/src/screenshot.png"
   },
   {
+    "uid": "F78E59AB-57BD-4EDE-BC85-A433D05ACDDB",
+    "name": "TrackerZapper",
+    "description": "Removes tracking parameters from links",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/trackerzapper",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/trackerzapper/src/screenshot.png"
+  },
+  {
     "uid": "DAE08003-3D07-40EA-8C22-6475BDE95074",
     "name": "Twitter Archive Search",
     "description": "Search your local Twitter archive",

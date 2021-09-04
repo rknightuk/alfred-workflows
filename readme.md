@@ -154,6 +154,12 @@ _Toggle Wifi, Bluetooth, Music, and More_ [Download v1.0.0](workflows/toggle-uti
 
 ![toggle-utils screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-utils/src/screenshot.png)
 
+### TrackerZapper
+
+_Removes tracking parameters from links_ [Download v1.0.0](workflows/trackerzapper)
+
+![trackerzapper screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/trackerzapper/src/screenshot.png)
+
 ### Twitter Archive Search
 
 _Search your local Twitter archive_ [Download v1.0.1](workflows/twitter-archive-search)
