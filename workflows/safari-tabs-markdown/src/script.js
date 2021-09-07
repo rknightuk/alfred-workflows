@@ -9,6 +9,7 @@ const FORMATS = {
 function run(argv) {
     const allLinks = argv[0] === 'all'
     const format = argv[1]
+    const only = argv[2] === '' ? null : argv[2].split(' ').map(o => parseInt(o, 10))
     const markdownAsList = format === FORMATS.MD_LIST
 
     var Safari = Application('Safari')
@@ -17,8 +18,9 @@ function run(argv) {
     var links = []
     const tabs = allLinks ? Safari.windows[0].tabs() : [Safari.windows[0].currentTab]
 
-    tabs.forEach(function(tab) {
+    tabs.forEach(function(tab, i) {
         const url = tab.url().split('?')[0] // remove all query BS
+        if (only && !only.includes(i + 1)) return
 
         switch(format) {
             case FORMATS.MD_LIST:

@@ -6,19 +6,6 @@
 	<string>com.rknightuk.safari-tabs-markdown</string>
 	<key>connections</key>
 	<dict>
-		<key>02478A1D-24EF-4263-9447-FE582E6D8A59</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>1ED054D9-8A65-4AAB-9579-B9C8AD9CDCBF</key>
 		<array>
 			<dict>
@@ -36,7 +23,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1ED054D9-8A65-4AAB-9579-B9C8AD9CDCBF</string>
+				<string>8E74A949-3BA8-4AEB-B348-ED626D0AF8B1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -45,11 +32,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</key>
+		<key>8E74A949-3BA8-4AEB-B348-ED626D0AF8B1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>9849464D-4B9B-4CA5-9532-A272D3CCE8A2</string>
+				<string>EFBD55DC-459A-4528-B1DF-02D3F792EDCF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -60,6 +47,16 @@
 		</array>
 		<key>BCE480DD-AD9B-45CC-97F3-9DC08661F77A</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>64F492F6-B1AB-4A11-BAFC-DEFBC164CA61</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>C48D1E5D-404A-4B32-BE65-9AEA033C19AA</string>
@@ -84,6 +81,57 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D4C8AF7A-A1C3-46D2-B873-919C9A403146</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1ED054D9-8A65-4AAB-9579-B9C8AD9CDCBF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EFBD55DC-459A-4528-B1DF-02D3F792EDCF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F30B2EB6-AA27-421D-9154-0767AAB68BED</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F631C690-E213-40DC-839F-C9391FE46765</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1ED054D9-8A65-4AAB-9579-B9C8AD9CDCBF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F30B2EB6-AA27-421D-9154-0767AAB68BED</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D4C8AF7A-A1C3-46D2-B873-919C9A403146</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Robb Knight</string>
@@ -98,41 +146,80 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"[ALL] One Per Line","arg":"all_one_per_line"},{"title":"[ALL] Markdown List","arg":"all_list"},{"title":"[CURRENT] One Per Line","arg":"current_one_per_line"},{"title":"[CURRENT] Markdown List","arg":"current_list"}]</string>
-				<key>keyword</key>
-				<string>xxxx</string>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>02478A1D-24EF-4263-9447-FE582E6D8A59</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>102</integer>
+				<integer>0</integer>
 				<key>script</key>
-				<string>osascript ./script.js $1</string>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist="https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/safari-tabs-markdown/src/info.plist"
+readonly workflow_url="https://github.com/rknightuk/alfred-workflows/raw/main/workflows/safari-tabs-markdown/safari-tabs-markdown.alfredworkflow"
+readonly download_type='direct'
+readonly frequency_check='4'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local -r notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  local -r terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -143,47 +230,48 @@
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</string>
+			<string>64F492F6-B1AB-4A11-BAFC-DEFBC164CA61</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Which Pages?</string>
+				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>9849464D-4B9B-4CA5-9532-A272D3CCE8A2</string>
+			<string>F30B2EB6-AA27-421D-9154-0767AAB68BED</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
 				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
+				<key>variables</key>
+				<dict>
+					<key>only</key>
+					<string>{query}</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>97760F7E-09C7-4155-BB01-8EA98DAF2B34</string>
+			<string>D4C8AF7A-A1C3-46D2-B873-919C9A403146</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -244,12 +332,31 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>97760F7E-09C7-4155-BB01-8EA98DAF2B34</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>osascript ./script.js "$pages" "$1"</string>
+				<string>osascript ./script.js "$pages" "$format" "$only"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -263,6 +370,56 @@
 			<string>1ED054D9-8A65-4AAB-9579-B9C8AD9CDCBF</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:pages}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>all</string>
+						<key>outputlabel</key>
+						<string>Choose Pages</string>
+						<key>uid</key>
+						<string>F631C690-E213-40DC-839F-C9391FE46765</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Copy</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>EFBD55DC-459A-4528-B1DF-02D3F792EDCF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>format</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>8E74A949-3BA8-4AEB-B348-ED626D0AF8B1</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -286,68 +443,97 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Copy tabs from Safari in various formats:
+
+- Copy current tab or all
+- Choose which of the pages to copy if copying all
+- Copy as:
+    - Markdown
+    - Markdown list
+    - Titles only 
+    - Links only
+    - Titles and links
+
+Keyword is `sf`</string>
 	<key>uidata</key>
 	<dict>
-		<key>02478A1D-24EF-4263-9447-FE582E6D8A59</key>
-		<dict>
-			<key>xpos</key>
-			<integer>150</integer>
-			<key>ypos</key>
-			<integer>25</integer>
-		</dict>
 		<key>1ED054D9-8A65-4AAB-9579-B9C8AD9CDCBF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>615</integer>
+			<integer>970</integer>
 			<key>ypos</key>
-			<integer>215</integer>
+			<integer>225</integer>
 		</dict>
 		<key>273A4958-5A06-4B41-9952-27D00853A7D3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>300</integer>
 			<key>ypos</key>
 			<integer>215</integer>
 		</dict>
-		<key>74AAECF5-7418-4CAE-ACB7-70BEDD2C8593</key>
+		<key>64F492F6-B1AB-4A11-BAFC-DEFBC164CA61</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+		<key>8E74A949-3BA8-4AEB-B348-ED626D0AF8B1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>480</integer>
 			<key>ypos</key>
-			<integer>25</integer>
+			<integer>245</integer>
 		</dict>
 		<key>97760F7E-09C7-4155-BB01-8EA98DAF2B34</key>
 		<dict>
 			<key>xpos</key>
-			<integer>840</integer>
+			<integer>1120</integer>
 			<key>ypos</key>
-			<integer>215</integer>
-		</dict>
-		<key>9849464D-4B9B-4CA5-9532-A272D3CCE8A2</key>
-		<dict>
-			<key>xpos</key>
-			<integer>625</integer>
-			<key>ypos</key>
-			<integer>25</integer>
+			<integer>225</integer>
 		</dict>
 		<key>BCE480DD-AD9B-45CC-97F3-9DC08661F77A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>120</integer>
+			<integer>60</integer>
 			<key>ypos</key>
 			<integer>215</integer>
 		</dict>
 		<key>C48D1E5D-404A-4B32-BE65-9AEA033C19AA</key>
 		<dict>
 			<key>xpos</key>
-			<integer>295</integer>
+			<integer>220</integer>
 			<key>ypos</key>
 			<integer>245</integer>
 		</dict>
+		<key>D4C8AF7A-A1C3-46D2-B873-919C9A403146</key>
+		<dict>
+			<key>xpos</key>
+			<integer>875</integer>
+			<key>ypos</key>
+			<integer>145</integer>
+		</dict>
+		<key>EFBD55DC-459A-4528-B1DF-02D3F792EDCF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>560</integer>
+			<key>ypos</key>
+			<integer>235</integer>
+		</dict>
+		<key>F30B2EB6-AA27-421D-9154-0767AAB68BED</key>
+		<dict>
+			<key>xpos</key>
+			<integer>705</integer>
+			<key>ypos</key>
+			<integer>115</integer>
+		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.2.0</string>
+	<string>1.2.1</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>

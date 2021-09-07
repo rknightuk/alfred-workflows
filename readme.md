@@ -75,7 +75,7 @@ _Open the current finder window in Terminal_ [Download v1.0.0](workflows/finder-
 
 ### Get Safari Tabs
 
-_Copy all current Safari tabs to Markdown_ [Download v1.2.0](workflows/safari-tabs-markdown)
+_Copy all current Safari tabs to Markdown_ [Download v1.2.1](workflows/safari-tabs-markdown)
 
 ![safari-tabs-markdown screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/safari-tabs-markdown/src/screenshot.png)
 

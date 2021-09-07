@@ -527,7 +527,7 @@ end alfred_script</string>
 			<key>note</key>
 			<string>Start IB webpack</string>
 			<key>xpos</key>
-			<integer>280</integer>
+			<integer>275</integer>
 			<key>ypos</key>
 			<integer>825</integer>
 		</dict>
@@ -558,7 +558,7 @@ end alfred_script</string>
 			<key>note</key>
 			<string>Boot IB box</string>
 			<key>xpos</key>
-			<integer>280</integer>
+			<integer>275</integer>
 			<key>ypos</key>
 			<integer>685</integer>
 		</dict>
