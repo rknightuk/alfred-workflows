@@ -67,7 +67,7 @@
     "uid": "085F8761-9FB4-492D-B466-D7CE943DCE60",
     "name": "Get Safari Tabs",
     "description": "Copy all current Safari tabs to Markdown",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/safari-tabs-markdown",
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/safari-tabs-markdown/src/screenshot.png"
   },

@@ -19,6 +19,7 @@ function run(argv) {
     const tabs = allLinks ? Safari.windows[0].tabs() : [Safari.windows[0].currentTab]
 
     tabs.forEach(function(tab, i) {
+        if (!tab) return
         const url = tab.url().split('?')[0] // remove all query BS
         if (only && !only.includes(i + 1)) return
 
