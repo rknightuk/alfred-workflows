@@ -17,6 +17,6 @@ A workflow for [Fathom Analytics](https://usefathom.com/ref/IXCLSF)
 Keyword is `fth`
 Clear site cache with `clearfth`
 
-Like this? [Buy me a coffee](https://monzo.me/robbknight)
+Like this? [Buy me a coffee](https://www.buymeacoffee.com/rknightuk)
 
 The theme in the screenshot is [Tempo Alternative (Dark)](https://github.com/chrismessina/alfred-theme-tempo#tempo-alternative-dark) by [Chris Messina](https://github.com/chrismessina).

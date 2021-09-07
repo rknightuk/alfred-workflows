@@ -20,6 +20,6 @@ Keyword is `twa` + your search term (minimum of 3 characters for performance rea
 - Request your Twitter here: https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive
 - In the workflow variables, set the path to your `tweet.js` file (this is in the `data` of the download). For example, `/Users/alfreduser/Dropbox/Twitter Archive/data/tweet.js`
 
-Like this? [Buy me a coffee](https://monzo.me/robbknight)
+Like this? [Buy me a coffee](https://www.buymeacoffee.com/rknightuk)
 
 The theme in the screenshot is [Tempo Alternative (Dark)](https://github.com/chrismessina/alfred-theme-tempo#tempo-alternative-dark) by [Chris Messina](https://github.com/chrismessina).

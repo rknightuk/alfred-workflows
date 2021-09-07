@@ -6,7 +6,7 @@
 
 Icons from [Feather Icons](https://feathericons.com)
 
-Like these workflows? [Buy me a coffee](https://monzo.me/robbknight)
+Like these workflows? [Buy me a coffee](https://www.buymeacoffee.com/rknightuk)
 
 The theme in the screenshots is [Tempo Alternative (Dark)](https://github.com/chrismessina/alfred-theme-tempo#tempo-alternative-dark) by [Chris Messina](https://github.com/chrismessina).
 

@@ -10,6 +10,6 @@ Looks up all URL schemes for installed apps on your Mac. Selecting a result will
 
 Keyword is `urls` with an optional query
 
-Like this? [Buy me a coffee](https://monzo.me/robbknight)
+Like this? [Buy me a coffee](https://www.buymeacoffee.com/rknightuk)
 
 The theme in the screenshot is [Tempo Alternative (Dark)](https://github.com/chrismessina/alfred-theme-tempo#tempo-alternative-dark) by [Chris Messina](https://github.com/chrismessina).

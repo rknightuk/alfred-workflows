@@ -25,6 +25,6 @@ Keyword is `ag`
 
 This workflow will automatically check for updates and download new versions.
 
-Like this? [Buy me a coffee](https://monzo.me/robbknight)
+Like this? [Buy me a coffee](https://www.buymeacoffee.com/rknightuk)
 
 The theme in the screenshot is [Tempo Alternative (Dark)](https://github.com/chrismessina/alfred-theme-tempo#tempo-alternative-dark) by [Chris Messina](https://github.com/chrismessina).
