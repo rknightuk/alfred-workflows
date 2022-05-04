@@ -2,6 +2,8 @@
 
 [Download Findmoji](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/findmoji/findmoji.alfredworkflow)
 
+![findmoji](src/screenshot.png)
+
 ### What does it do?
 
 Searches emoji and pastes to the frontmost application. Data based on [iamcal/emoji-data](https://github.com/iamcal/emoji-data).
