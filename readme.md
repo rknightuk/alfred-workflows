@@ -77,6 +77,8 @@ _Open the current finder window in Terminal_ [Download v1.0.0](workflows/finder-
 
 _Find and paste emoji_ [Download v1.0.0](workflows/findmoji)
 
+![findmoji screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/findmoji/src/screenshot.png)
+
 ### Get Safari Tabs
 
 _Copy all current Safari tabs to Markdown_ [Download v1.2.2](workflows/safari-tabs-markdown)

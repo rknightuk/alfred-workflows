@@ -1,14 +1,12 @@
-## WORKFLOW_NAME Alfred Workflow
+## Findmoji Alfred Workflow
 
-[Download WORKFLOW_NAME](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/WORKFLOW_ID/WORKFLOW_ID.alfredworkflow)
-
-![WORKFLOW_NAME](src/screenshot.png)
+[Download Findmoji](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/findmoji/findmoji.alfredworkflow)
 
 ### What does it do?
 
-// todo
+Searches emoji and pastes to the frontmost application. Data based on [iamcal/emoji-data](https://github.com/iamcal/emoji-data).
 
-Keyword is `KEYWORD`
+Keyword is `e` plus a search term
 
 Like this? [Buy me a coffee](https://www.buymeacoffee.com/rknightuk)
 

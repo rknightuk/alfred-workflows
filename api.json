@@ -69,7 +69,7 @@
     "description": "Find and paste emoji",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/findmoji",
-    "screenshot": null
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/findmoji/src/screenshot.png"
   },
   {
     "uid": "085F8761-9FB4-492D-B466-D7CE943DCE60",
