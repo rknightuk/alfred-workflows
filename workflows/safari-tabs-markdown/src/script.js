@@ -20,7 +20,7 @@ function run(argv) {
 
     tabs.forEach(function(tab, i) {
         if (!tab) return
-        const url = tab.url().split('?')[0] // remove all query BS
+        const url = tab.url()
         if (only && !only.includes(i + 1)) return
 
         switch(format) {

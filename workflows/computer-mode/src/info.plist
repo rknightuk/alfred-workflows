@@ -32,26 +32,6 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>B6D54535-5448-4340-B901-DDE3FF200AFB</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6E7B4FA0-6A06-4DC2-B418-426037AF9F64</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 		<key>C42268E4-C949-408A-8CA7-16E31D6430CC</key>
 		<array>
@@ -325,33 +305,6 @@
 			<dict>
 				<key>paths</key>
 				<array>
-					<string>/Applications/Gitify.app</string>
-					<string>/Applications/Safari.app</string>
-					<string>/Applications/Google Chrome.app</string>
-					<string>/Applications/PhpStorm.app</string>
-					<string>/Applications/Slack.app</string>
-					<string>/Applications/iTerm.app</string>
-					<string>/Applications/Tweetbot.app</string>
-					<string>/System/Applications/Mail.app</string>
-					<string>/System/Applications/Music.app</string>
-					<string>/Applications/Tunnelblick.app</string>
-					<string>/Applications/Discord.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
-			<key>uid</key>
-			<string>3848DB1B-6918-4168-A0BB-FD95C3F19F57</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>paths</key>
-				<array>
 					<string>/Applications/Safari.app</string>
 					<string>/Applications/Skype.app</string>
 					<string>/Applications/Audio Hijack.app</string>
@@ -372,19 +325,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string>com.google.Chrome</string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>http://github.com/notifications</string>
-				<key>utf8</key>
-				<true/>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Gitify.app</string>
+					<string>/Applications/Safari.app</string>
+					<string>/Applications/Google Chrome.app</string>
+					<string>/Applications/PhpStorm.app</string>
+					<string>/Applications/Slack.app</string>
+					<string>/Applications/iTerm.app</string>
+					<string>/Applications/Tweetbot.app</string>
+					<string>/System/Applications/Mail.app</string>
+					<string>/System/Applications/Music.app</string>
+					<string>/Applications/Tunnelblick.app</string>
+					<string>/Applications/Discord.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.action.launchfiles</string>
 			<key>uid</key>
-			<string>7D81D1C6-7038-42BF-8B55-3B7A931FD584</string>
+			<string>3848DB1B-6918-4168-A0BB-FD95C3F19F57</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -435,30 +396,19 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>j ib; vup;</string>
+				<key>browser</key>
+				<string>com.google.Chrome</string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>http://github.com/notifications</string>
+				<key>utf8</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.terminalcommand</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>B6D54535-5448-4340-B901-DDE3FF200AFB</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>j ib; nvmns;</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.terminalcommand</string>
-			<key>uid</key>
-			<string>6E7B4FA0-6A06-4DC2-B418-426037AF9F64</string>
+			<string>7D81D1C6-7038-42BF-8B55-3B7A931FD584</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -485,9 +435,9 @@ end alfred_script</string>
 			<key>note</key>
 			<string>Work</string>
 			<key>xpos</key>
-			<integer>275</integer>
+			<integer>260</integer>
 			<key>ypos</key>
-			<integer>395</integer>
+			<integer>555</integer>
 		</dict>
 		<key>416D4367-71A9-4791-8065-5B46735EC969</key>
 		<dict>
@@ -520,17 +470,6 @@ end alfred_script</string>
 			<key>ypos</key>
 			<integer>615</integer>
 		</dict>
-		<key>6E7B4FA0-6A06-4DC2-B418-426037AF9F64</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>note</key>
-			<string>Start IB webpack</string>
-			<key>xpos</key>
-			<integer>275</integer>
-			<key>ypos</key>
-			<integer>825</integer>
-		</dict>
 		<key>7D81D1C6-7038-42BF-8B55-3B7A931FD584</key>
 		<dict>
 			<key>colorindex</key>
@@ -538,9 +477,9 @@ end alfred_script</string>
 			<key>note</key>
 			<string>Github notifications</string>
 			<key>xpos</key>
-			<integer>275</integer>
+			<integer>260</integer>
 			<key>ypos</key>
-			<integer>530</integer>
+			<integer>690</integer>
 		</dict>
 		<key>9B6D7702-C4CB-4CD6-BB39-B49C3FA420C7</key>
 		<dict>
@@ -550,17 +489,6 @@ end alfred_script</string>
 			<integer>520</integer>
 			<key>ypos</key>
 			<integer>175</integer>
-		</dict>
-		<key>B6D54535-5448-4340-B901-DDE3FF200AFB</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>note</key>
-			<string>Boot IB box</string>
-			<key>xpos</key>
-			<integer>275</integer>
-			<key>ypos</key>
-			<integer>685</integer>
 		</dict>
 		<key>C42268E4-C949-408A-8CA7-16E31D6430CC</key>
 		<dict>

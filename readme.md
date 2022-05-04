@@ -73,6 +73,10 @@ _Open folders and files in an editor, Finder, or Terminal_ [Download v1.0.0](wor
 
 _Open the current finder window in Terminal_ [Download v1.0.0](workflows/finder-to-terminal)
 
+### Findmoji
+
+_Find and paste emoji_ [Download v1.0.0](workflows/findmoji)
+
 ### Get Safari Tabs
 
 _Copy all current Safari tabs to Markdown_ [Download v1.2.2](workflows/safari-tabs-markdown)
@@ -187,15 +191,14 @@ _Open a workflow's files in an editor, Finder, or Terminal_ [Download v1.1.0](wo
 - [Amphetamine4 Switch by ShisaQ](https://shisaq.github.io)
 - [CleanShot by Mr. Pennyworth](https://github.com/mr-pennyworth/alfred-cleanshot#readme)
 - [Datetime Format Converter by Michael Waterfall](twitter.com/mwaterfall)
-- [Emoji Taco by Jeff Stein](https://github.com/jeeftor/EmojiTaco)
 - [fkill by Sam Verschueren](https://github.com/SamVerschueren/alfred-fkill#readme)
-- [Google Suggest with CMD mod by David Ferguson](http://dferg.us)
 - [HTTP Status Code by Fred Liang](https://github.com/ilstar/http_status_code)
 - [IP Address v1.2.0 by David Ferguson](jdfwarrior.tumblr.com)
 - [JetBrains - Open Project - v3 by bchatard](https://github.com/bchatard/alfred-jetbrains#readme)
-- [JustWatch - Alfred by VWAP](https://twitter.com/vinayw)
 - [Lorem Ipsum by Till Krüss](https://till.im)
 - [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/) [[My Fork](https://github.com/rknightuk/alfred-pocket)]
-- [Search Notes.app by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
+- [Search Notes by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
+- [song.link by Lari Kovanen](http://kovanen.se/)
 - [SoulverCore by Carlos Precioso](https://precioso.design/)
 - [Speedtest by Michael Mroczka](http://michaelmroczka.com/)
+- [Temp Conversion by Justin Hamilton](https://www.jwhamilton.co)

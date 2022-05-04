@@ -64,6 +64,14 @@
     "screenshot": null
   },
   {
+    "uid": "63C97432-3FEE-41E6-9E71-341D2847B511",
+    "name": "Findmoji",
+    "description": "Find and paste emoji",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/findmoji",
+    "screenshot": null
+  },
+  {
     "uid": "085F8761-9FB4-492D-B466-D7CE943DCE60",
     "name": "Get Safari Tabs",
     "description": "Copy all current Safari tabs to Markdown",
