@@ -1,6 +1,6 @@
 function formatData(title) {
 	const names = {
-		'DELL U2419H': {
+		'DELL U2715H': {
 			name: 'Headphones',
 			icon: 'headphones.png'
 		},
@@ -15,6 +15,10 @@ function formatData(title) {
 		'MacBook Pro Microphone': {
 			name: 'Vision',
 			icon: 'laptop.png'
+		},
+		'Razer Seiren Mini': {
+			name: 'Microphone',
+			icon: 'mic.png'
 		}
 	}
 

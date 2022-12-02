@@ -54,6 +54,10 @@ _Send clipboard contents to carbon.now.sh to generate an image_ [Download v1.0.0
 
 _Open commonly used folders_ [Download v1.0.0](workflows/common-folders)
 
+### DateTime Formatter
+
+_Format Datetimes_ [Download v1.0.0](workflows/datetimeformatter)
+
 ### Fathom Analytics
 
 _View current visitors for your sites_ [Download v1.0.2](workflows/fathom-analytics)
@@ -85,6 +89,12 @@ _Copy all current Safari tabs to Markdown_ [Download v1.2.2](workflows/safari-ta
 
 ![safari-tabs-markdown screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/safari-tabs-markdown/src/screenshot.png)
 
+### Gif Search
+
+_Gif Search_ [Download v1.0.0](workflows/gifsearch)
+
+![gifsearch screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/gifsearch/src/screenshot.png)
+
 ### Hotkey List
 
 _List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-list)
@@ -94,6 +104,10 @@ _List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-lis
 - [2021-07-22] Hotkeys with modifiers now run through a hacky method
 - [2021-07-22] Now shows hotkeys including modifiers but these don't work yet, see https://www.alfredforum.com/topic/17130-format-for-running-key-combo-from-input-with-function-keys-and-modifiers/
 
+
+### HTTP Status Codes
+
+_List of HTTP status codes_ [Download v1.0.0](workflows/httpstatuscodes)
 
 ### Intersect
 
@@ -125,10 +139,6 @@ _Open a projects folder in an editor, Finder, or Terminal_ [Download v1.0.0](wor
 
 - [2021-07-23] Now shows options to option in Finder, Sublime, Terminal, or All
 
-
-### Search This Site
-
-_Universal URL action to search the selected site_ [Download v1.0.0](workflows/search-this-site)
 
 ### Shortcuts
 
@@ -192,15 +202,14 @@ _Open a workflow's files in an editor, Finder, or Terminal_ [Download v1.1.0](wo
 - [AlForge by Vince Mitchell](https://github.com/vmitchell85/alforge)
 - [Amphetamine4 Switch by ShisaQ](https://shisaq.github.io)
 - [CleanShot by Mr. Pennyworth](https://github.com/mr-pennyworth/alfred-cleanshot#readme)
-- [Datetime Format Converter by Michael Waterfall](twitter.com/mwaterfall)
 - [fkill by Sam Verschueren](https://github.com/SamVerschueren/alfred-fkill#readme)
-- [HTTP Status Code by Fred Liang](https://github.com/ilstar/http_status_code)
+- [Honk by Robb Knight](https://rknight.me)
 - [IP Address v1.2.0 by David Ferguson](jdfwarrior.tumblr.com)
 - [JetBrains - Open Project - v3 by bchatard](https://github.com/bchatard/alfred-jetbrains#readme)
 - [Lorem Ipsum by Till Krüss](https://till.im)
+- [MicroMarks by Robb Knight](https://rknight.me)
 - [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/) [[My Fork](https://github.com/rknightuk/alfred-pocket)]
 - [Search Notes by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
-- [song.link by Lari Kovanen](http://kovanen.se/)
+- [Slink by Stephen Millard](thoughtasylum.com)
 - [SoulverCore by Carlos Precioso](https://precioso.design/)
-- [Speedtest by Michael Mroczka](http://michaelmroczka.com/)
 - [Temp Conversion by Justin Hamilton](https://www.jwhamilton.co)

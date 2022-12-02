@@ -45,12 +45,13 @@ function run(argv) {
 		lower: { fn: (string) => string.toLowerCase(), name: 'lower case' },
 		upper: { fn: (string) => string.toUpperCase(), name: 'UPPER CASE' },
 		sentence: { fn: (string) => string.charAt(0).toUpperCase() + string.slice(1), name: 'Sentence case' },
-		title: { fn: (string) => titleCase(string) },
+		title: { fn: (string) => titleCase(string), name: 'Title Case'},
 		camel: { fn: (string) => {
 			return string.split(' ').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join('')
 		}, name: 'CamelCase' },
 		snake: { fn: (string) => string.split(' ').join('_').split('-').join('_'), name: 'snake_case' },
 		kebab: { fn: (string) => string.split(' ').join('-').split('_').join('-'), name: 'kebab-case' },
+		slug: { fn: (string) => string.toLowerCase().replace(/[^\w\s]/gi, '').split(' ').join('-'), name: 'url-slug'},
 		spongebob: { fn: (string) => {
 			let output = ''
 		    string.split('').forEach((l, i) => {
@@ -69,7 +70,7 @@ function run(argv) {
 
 	values = Object.keys(types).map(k => {
 		const output = types[k].fn(input)
-		return { title: output, arg: output, icon: { path: `./icons/${k}.png`} }
+		return { title: output, arg: output, subtitle: types[k].name, icon: { path: `./icons/${k}.png`} }
 	})
 
 	if (showTextBuddy)

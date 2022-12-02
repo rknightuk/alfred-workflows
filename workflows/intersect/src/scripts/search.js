@@ -60,7 +60,9 @@ function run(argv) {
 	const cacheFile = Path(`${$.getenv('alfred_workflow_data')}/${cacheFileName}`)
 	const cacheFileExists = finderApp.exists(cacheFile)
 
-	if (cacheFileExists)
+    console.log(cacheFile)
+
+	if (false)
 	{
 		ObjC.import('Foundation')
 		const fm = $.NSFileManager.defaultManager

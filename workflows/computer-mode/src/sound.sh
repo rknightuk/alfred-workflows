@@ -13,7 +13,7 @@ if [ "$TYPE" = 'home' ]; then
 fi
 
 if [ "$TYPE" = 'podcast' ]; then
-	/usr/local/bin/SwitchAudioSource -s "Yeti Stereo Microphone"
-	/usr/local/bin/SwitchAudioSource -s "Yeti Stereo Microphone" -t "input"
+	/usr/local/bin/SwitchAudioSource -s "Razer Seiren Mini"
+	/usr/local/bin/SwitchAudioSource -s "Razer Seiren Mini" -t "input"
   	exit
 fi
