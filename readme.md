@@ -121,6 +121,18 @@ _ZSH Jump list plugin in Alfred_ [Download v1.0.0](workflows/jump-list)
 
 ![jump-list screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/jump-list/src/screenshot.png)
 
+### MicroMarks
+
+_Manage your micro.blog bookmarks_ [Download v1.0.0](workflows/micromarks)
+
+![micromarks screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/micromarks/src/screenshot.png)
+
+### MicroPoster
+
+_Post to Micro.blog_ [Download v1.0.0](workflows/microposter)
+
+![microposter screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/microposter/src/screenshot.png)
+
 ### Monzo Link Generator
 
 _Generate Monzo.me Link_ [Download v1.0.0](workflows/monzo-link-generator)
@@ -207,7 +219,6 @@ _Open a workflow's files in an editor, Finder, or Terminal_ [Download v1.1.0](wo
 - [IP Address v1.2.0 by David Ferguson](jdfwarrior.tumblr.com)
 - [JetBrains - Open Project - v3 by bchatard](https://github.com/bchatard/alfred-jetbrains#readme)
 - [Lorem Ipsum by Till Krüss](https://till.im)
-- [MicroMarks by Robb Knight](https://rknight.me)
 - [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/) [[My Fork](https://github.com/rknightuk/alfred-pocket)]
 - [Search Notes by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
 - [Slink by Stephen Millard](thoughtasylum.com)

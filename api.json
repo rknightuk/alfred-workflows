@@ -128,6 +128,22 @@
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/jump-list/src/screenshot.png"
   },
   {
+    "uid": "55F2C350-099A-46F7-8EB4-0A0B3417380D",
+    "name": "MicroMarks",
+    "description": "Manage your micro.blog bookmarks",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/micromarks",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/micromarks/src/screenshot.png"
+  },
+  {
+    "uid": "5E65E468-831F-4DB5-A263-6616C5254108",
+    "name": "MicroPoster",
+    "description": "Post to Micro.blog",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/microposter",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/microposter/src/screenshot.png"
+  },
+  {
     "uid": "D68EC6E6-5B6B-4685-9866-C310283C1228",
     "name": "Monzo Link Generator",
     "description": "Generate Monzo.me Link",
