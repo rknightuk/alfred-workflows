@@ -242,12 +242,14 @@ fi</string>
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string></string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -379,9 +381,9 @@ Clear site cache with `clearfth`</string>
 		<key>0D89578D-6DC1-4DC1-8E36-97ACD70C3BFB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>135</integer>
+			<real>135</real>
 			<key>ypos</key>
-			<integer>465</integer>
+			<real>465</real>
 		</dict>
 		<key>22D6253B-5BC2-45CB-9EE0-2D6CBDCD35A8</key>
 		<dict>
@@ -390,54 +392,69 @@ Clear site cache with `clearfth`</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>350</integer>
+			<real>350</real>
 			<key>ypos</key>
-			<integer>10</integer>
+			<real>15</real>
 		</dict>
 		<key>3EB221C3-39D5-4B8C-B496-38202F7FBA1F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>350</integer>
+			<real>350</real>
 			<key>ypos</key>
-			<integer>465</integer>
+			<real>465</real>
 		</dict>
 		<key>628227DF-C326-4CF1-B2F8-A553B8D1F131</key>
 		<dict>
 			<key>xpos</key>
-			<integer>575</integer>
+			<real>575</real>
 			<key>ypos</key>
-			<integer>300</integer>
+			<real>300</real>
 		</dict>
 		<key>89BDF268-3681-4B76-AF23-12FF5BF4C6A9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>130</integer>
+			<real>130</real>
 			<key>ypos</key>
-			<integer>300</integer>
+			<real>300</real>
 		</dict>
 		<key>DDB0AF8B-3010-40EF-A572-63559614DFEE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>350</integer>
+			<real>350</real>
 			<key>ypos</key>
-			<integer>175</integer>
+			<real>175</real>
 		</dict>
 		<key>E5D14F4F-D57A-45FE-9EDF-07BAAE56B42C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>575</integer>
+			<real>575</real>
 			<key>ypos</key>
-			<integer>465</integer>
+			<real>465</real>
 		</dict>
 	</dict>
-	<key>variables</key>
-	<dict>
-		<key>api_key</key>
-		<string></string>
-	</dict>
-	<key>variablesdontexport</key>
+	<key>userconfigurationconfig</key>
 	<array>
-		<string>api_key</string>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Fathom API Key</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>api_key</string>
+		</dict>
 	</array>
 	<key>version</key>
 	<string>1.0.2</string>

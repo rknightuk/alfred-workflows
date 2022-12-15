@@ -197,15 +197,28 @@
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
-	<key>variables</key>
-	<dict>
-		<key>api_key</key>
-		<string></string>
-	</dict>
-	<key>variablesdontexport</key>
 	<array>
-		<string>api_key</string>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Micro.blog API Key</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>api_key</string>
+		</dict>
 	</array>
 	<key>version</key>
 	<string>1.0.0</string>

@@ -139,6 +139,8 @@
 				</array>
 				<key>elselabel</key>
 				<string>Open in Finder</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -204,6 +206,8 @@
 			<integer>215</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>

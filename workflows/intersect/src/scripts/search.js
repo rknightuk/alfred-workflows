@@ -50,6 +50,7 @@ function run(argv) {
     const query = argv[0]
     const type = argv[1]
     const isPages = type === 'pages'
+    const isPageTitles = type === 'titles'
     const dataFormatter = isPages ? formatPages : formatLinks
     const cacheFileName = isPages ? 'page_cache.json' : 'link_cache.json'
     const searchKey = isPages ? 'content' : 'links'

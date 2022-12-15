@@ -577,6 +577,8 @@ end alfred_script</string>
 				</array>
 				<key>elselabel</key>
 				<string>Connected</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -584,23 +586,6 @@ end alfred_script</string>
 			<string>514820BB-B250-4780-993C-0152BE821698</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>MacBook Pro Speakers</string>
-				<key>replacestring</key>
-				<string>Vision</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>DD2416CE-5ECF-47E2-B9C8-394794D31879</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -616,6 +601,23 @@ end alfred_script</string>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
 			<string>63B9EB18-EDA6-42B2-B7CB-E0D8B23996E2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>MacBook Pro Speakers</string>
+				<key>replacestring</key>
+				<string>Vision</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>DD2416CE-5ECF-47E2-B9C8-394794D31879</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1138,6 +1140,8 @@ Requires https://github.com/smudge/nightlight for Night Shift</string>
 			<integer>90</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>

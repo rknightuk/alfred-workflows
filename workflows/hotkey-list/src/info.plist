@@ -123,6 +123,10 @@ bash ./run.sh $split1 "$split2"</string>
 			<dict>
 				<key>delimiter</key>
 				<string>:</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
 				<key>trimarguments</key>
 				<true/>
 				<key>variableprefix</key>
@@ -162,6 +166,8 @@ bash ./run.sh $split1 "$split2"</string>
 			<integer>135</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>

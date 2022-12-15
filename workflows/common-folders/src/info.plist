@@ -85,27 +85,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>work</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Open Work Downloads</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>707C5CEE-A3B7-4DD9-A93C-A73E1D2884A8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -132,18 +111,18 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>downloads</string>
+				<string>work</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Open Downloads</string>
+				<string>Open Work Downloads</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>51ECED60-B6BE-4DDD-9B31-677CCBA98FA1</string>
+			<string>707C5CEE-A3B7-4DD9-A93C-A73E1D2884A8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -169,6 +148,27 @@
 			<string>96091756-72E1-4DF5-8076-AB92496E199E</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>downloads</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Downloads</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>51ECED60-B6BE-4DDD-9B31-677CCBA98FA1</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -217,27 +217,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>desktop</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Open Desktop</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C69E817C-F354-48B2-8D52-7D9AD6A99969</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -257,6 +236,27 @@
 			<string>5EEEB93B-E5A3-4F87-843C-5D3DAFF34121</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>desktop</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Desktop</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C69E817C-F354-48B2-8D52-7D9AD6A99969</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -378,6 +378,8 @@
 			<integer>300</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>

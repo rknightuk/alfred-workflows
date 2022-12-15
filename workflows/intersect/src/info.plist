@@ -19,6 +19,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>50EBB18F-46A3-4E5D-937D-35DF1935A45E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8E72D5D0-43F2-4D04-8552-ECB2A28FF218</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>B86B045F-49B0-437B-9CEB-F0727DBD6B5E</key>
 		<array>
 			<dict>
@@ -179,12 +192,14 @@
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string></string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -242,6 +257,55 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>int p</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Searching Links...</string>
+				<key>script</key>
+				<string>osascript ./scripts/search.js "$1" "titles"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search Intersect Pages</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>50EBB18F-46A3-4E5D-937D-35DF1935A45E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Workflow for https://intersect.rknight.me</string>
@@ -250,46 +314,55 @@
 		<key>2D01B1B5-ED8F-4D2E-BF78-A49042851896</key>
 		<dict>
 			<key>xpos</key>
-			<integer>120</integer>
+			<real>120</real>
 			<key>ypos</key>
-			<integer>395</integer>
+			<real>395</real>
 		</dict>
 		<key>50DD646C-13E2-4DF3-84CC-D24F72DAAC79</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<real>390</real>
 			<key>ypos</key>
-			<integer>20</integer>
+			<real>20</real>
+		</dict>
+		<key>50EBB18F-46A3-4E5D-937D-35DF1935A45E</key>
+		<dict>
+			<key>xpos</key>
+			<real>120</real>
+			<key>ypos</key>
+			<real>540</real>
 		</dict>
 		<key>534DDC74-CF38-409C-B11B-8022386D95BA</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<real>390</real>
 			<key>ypos</key>
-			<integer>170</integer>
+			<real>170</real>
 		</dict>
 		<key>8E72D5D0-43F2-4D04-8552-ECB2A28FF218</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<real>390</real>
 			<key>ypos</key>
-			<integer>320</integer>
+			<real>320</real>
 		</dict>
 		<key>B86B045F-49B0-437B-9CEB-F0727DBD6B5E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>120</integer>
+			<real>120</real>
 			<key>ypos</key>
-			<integer>245</integer>
+			<real>245</real>
 		</dict>
 		<key>D41A7211-A032-4D1B-9AEE-9ACF1301BA73</key>
 		<dict>
 			<key>xpos</key>
-			<integer>120</integer>
+			<real>120</real>
 			<key>ypos</key>
-			<integer>20</integer>
+			<real>20</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variables</key>
 	<dict>
 		<key>base_url</key>

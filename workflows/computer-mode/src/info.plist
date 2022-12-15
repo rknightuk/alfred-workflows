@@ -188,6 +188,8 @@
 				<string>[{"imagefile":"3c38ac18ce638444f0db185d53ead5af559da7f2.png","title":"Work","arg":"work","subtitle":"Enter Work Mode"},{"imagefile":"e070202a0d00d3325a192617b6e3d1f773883f52.png","title":"Home","arg":"home","subtitle":"Enter Home Mode"},{"imagefile":"90e87ce299848f7b3c7c68a113c8c904c79eefb8.png","title":"Podcast","arg":"podcast","subtitle":"Enter Podcast Mode"}]</string>
 				<key>keyword</key>
 				<string>mode</string>
+				<key>matchmode</key>
+				<integer>0</integer>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
@@ -273,6 +275,8 @@
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -352,6 +356,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.appmode.podcast</string>
 			</dict>
@@ -365,6 +371,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.appmode.work</string>
 			</dict>
@@ -398,12 +406,14 @@ end alfred_script</string>
 			<dict>
 				<key>browser</key>
 				<string>com.google.Chrome</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string>http://github.com/notifications</string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -536,6 +546,8 @@ end alfred_script</string>
 			<integer>510</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>

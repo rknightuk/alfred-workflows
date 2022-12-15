@@ -369,6 +369,8 @@ Set exec path to the location of your install of switchaudio-osx.</string>
 			<integer>220</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variables</key>
 	<dict>
 		<key>exec_path</key>

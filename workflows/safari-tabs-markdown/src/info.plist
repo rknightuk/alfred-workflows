@@ -286,6 +286,8 @@ fi</string>
 				<string>[{"title":"Current Page","arg":"current"},{"title":"All Pages","arg":"all"}]</string>
 				<key>keyword</key>
 				<string>sf</string>
+				<key>matchmode</key>
+				<integer>0</integer>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
@@ -313,6 +315,8 @@ fi</string>
 				<false/>
 				<key>items</key>
 				<string>[{"title":"MD List","arg":"md_list","subtitle":"- [Page Title](https:\/\/example.com)"},{"title":"MD Link","arg":"md_link","subtitle":"[Page Title](https:\/\/example.com)"},{"title":"Link Only","arg":"link","subtitle":"https:\/\/example.com"},{"title":"Title Only","arg":"title","subtitle":"Page Title"},{"title":"Title and Link","arg":"title_link","subtitle":"Page Title https:\/\/example.com"}]</string>
+				<key>matchmode</key>
+				<integer>0</integer>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
@@ -393,6 +397,8 @@ fi</string>
 				</array>
 				<key>elselabel</key>
 				<string>Copy</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -532,6 +538,8 @@ Keyword is `sf`</string>
 			<integer>115</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>version</key>
 	<string>1.2.2</string>
 	<key>webaddress</key>

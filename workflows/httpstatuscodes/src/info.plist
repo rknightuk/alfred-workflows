@@ -9,7 +9,7 @@
 	<key>createdby</key>
 	<string>Robb Knight</string>
 	<key>description</key>
-	<string>List of HTTP status codes</string>
+	<string>Search for HTTP status codes</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -67,17 +67,19 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Search for HTTP status codes and what the mean. Keyword is `http`</string>
 	<key>uidata</key>
 	<dict>
 		<key>99E42BCB-A0D1-46A0-A45A-9A10096D4667</key>
 		<dict>
 			<key>xpos</key>
-			<integer>145</integer>
+			<real>145</real>
 			<key>ypos</key>
-			<integer>235</integer>
+			<real>235</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>

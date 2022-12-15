@@ -169,6 +169,10 @@
 			<dict>
 				<key>delimiter</key>
 				<string>TXBDDYP</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
 				<key>trimarguments</key>
 				<true/>
 				<key>variableprefix</key>
@@ -361,6 +365,8 @@ osascript ./script.js $enable_text_buddy $query</string>
 				</array>
 				<key>elselabel</key>
 				<string>Copy to Clipboard</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -464,6 +470,8 @@ osascript ./script.js $enable_text_buddy $query</string>
 			<integer>165</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variables</key>
 	<dict>
 		<key>enable_text_buddy</key>

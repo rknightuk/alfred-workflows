@@ -106,7 +106,7 @@
   {
     "uid": "F136DE5E-51FB-4878-AF56-AA2F7B6CFB07",
     "name": "HTTP Status Codes",
-    "description": "List of HTTP status codes",
+    "description": "Search for HTTP status codes",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/httpstatuscodes",
     "screenshot": null

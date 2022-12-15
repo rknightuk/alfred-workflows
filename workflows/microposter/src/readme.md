@@ -15,6 +15,8 @@ Quickly post to Micro.blog from Alfred. Include categories using hastags e.g. `m
 
 Keyword is `mb`
 
+Currently this will not handle categories with spaces in them.
+
 Like this? [Buy me a coffee](https://www.buymeacoffee.com/rknightuk)
 
 The theme in the screenshot is [Tempo Alternative (Dark)](https://github.com/chrismessina/alfred-theme-tempo#tempo-alternative-dark) by [Chris Messina](https://github.com/chrismessina).

@@ -33,6 +33,24 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+    set thePath to q
+	set the clipboard to POSIX file thePath
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>AFA7D92B-1972-49A3-BB56-BE5C7925F935</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -79,27 +97,13 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)
-    set thePath to q
-	set the clipboard to POSIX file thePath
-end alfred_script</string>
-				<key>cachescript</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
-			<key>uid</key>
-			<string>AFA7D92B-1972-49A3-BB56-BE5C7925F935</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
-	<string>Search your personal gif collection. Set the path to your gifs in the environment variables (e.g. /Users/jim/mygifs) then use the keyword `gif` to start searching. Enter to copy to clipboard.</string>
+	<string>Search your personal gif collection. 
+
+Set the path to your gifs in the configuration (e.g. /Users/jim/mygifs) then use the keyword `gif` to start searching. 
+
+Enter to copy to clipboard.</string>
 	<key>uidata</key>
 	<dict>
 		<key>67A8E3E8-DF70-44BD-A073-59E41D225B1D</key>
@@ -118,15 +122,28 @@ end alfred_script</string>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
-	<key>variables</key>
-	<dict>
-		<key>gif_path</key>
-		<string></string>
-	</dict>
-	<key>variablesdontexport</key>
 	<array>
-		<string>gif_path</string>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>1</integer>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>The folder on your computer where you store your gif files</string>
+			<key>label</key>
+			<string>Gif Folder</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>gif_path</string>
+		</dict>
 	</array>
 	<key>version</key>
 	<string>1.0.0</string>

@@ -107,7 +107,7 @@ _List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-lis
 
 ### HTTP Status Codes
 
-_List of HTTP status codes_ [Download v1.0.0](workflows/httpstatuscodes)
+_Search for HTTP status codes_ [Download v1.0.0](workflows/httpstatuscodes)
 
 ### Intersect
 

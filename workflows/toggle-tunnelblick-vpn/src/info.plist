@@ -142,21 +142,6 @@
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>vpn</string>
-				<key>leftcursor</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.showalfred</string>
-			<key>uid</key>
-			<string>9CF84829-128B-4A20-A564-8114C67FAD38</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
 				<false/>
@@ -167,6 +152,21 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>8F0C4A39-EA77-41F6-81BD-77C7E448FFF8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>vpn</string>
+				<key>leftcursor</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.showalfred</string>
+			<key>uid</key>
+			<string>9CF84829-128B-4A20-A564-8114C67FAD38</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -241,6 +241,8 @@
 				</array>
 				<key>elselabel</key>
 				<string>Toggle VPN</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -281,61 +283,76 @@
 		<key>15C197CC-CE78-4900-90B4-6C571A97AB2A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>870</integer>
+			<real>870</real>
 			<key>ypos</key>
-			<integer>100</integer>
+			<real>100</real>
 		</dict>
 		<key>1A6485F9-A394-427A-9FEF-ED5C3CFD9A75</key>
 		<dict>
 			<key>xpos</key>
-			<integer>385</integer>
+			<real>385</real>
 			<key>ypos</key>
-			<integer>210</integer>
+			<real>210</real>
 		</dict>
 		<key>8F0C4A39-EA77-41F6-81BD-77C7E448FFF8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>545</integer>
+			<real>545</real>
 			<key>ypos</key>
-			<integer>130</integer>
+			<real>130</real>
 		</dict>
 		<key>9CF84829-128B-4A20-A564-8114C67FAD38</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1060</integer>
+			<real>1060</real>
 			<key>ypos</key>
-			<integer>130</integer>
+			<real>130</real>
 		</dict>
 		<key>B987AA6B-A26D-4013-B334-16E59618C844</key>
 		<dict>
 			<key>xpos</key>
-			<integer>205</integer>
+			<real>205</real>
 			<key>ypos</key>
-			<integer>190</integer>
+			<real>190</real>
 		</dict>
 		<key>D65F74E8-59B5-4BA6-BDF0-590992684F3E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>665</integer>
+			<real>665</real>
 			<key>ypos</key>
-			<integer>100</integer>
+			<real>100</real>
 		</dict>
 		<key>DDFCBEA3-2828-4E6C-90EC-E3783EB85384</key>
 		<dict>
 			<key>xpos</key>
-			<integer>545</integer>
+			<real>545</real>
 			<key>ypos</key>
-			<integer>255</integer>
+			<real>255</real>
 		</dict>
 	</dict>
-	<key>variables</key>
-	<dict>
-		<key>vpn_to_toggle</key>
-		<string></string>
-	</dict>
-	<key>variablesdontexport</key>
+	<key>userconfigurationconfig</key>
 	<array>
-		<string>vpn_to_toggle</string>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Name of your VPN</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>vpn_to_toggle</string>
+		</dict>
 	</array>
 	<key>version</key>
 	<string>1.0.0</string>
