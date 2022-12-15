@@ -109,6 +109,8 @@ _List all workflows assigned to a hotkey_ [Download v1.0.2](workflows/hotkey-lis
 
 _Search for HTTP status codes_ [Download v1.0.0](workflows/httpstatuscodes)
 
+![httpstatuscodes screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/httpstatuscodes/src/screenshot.png)
+
 ### Intersect
 
 _Workflow for searching the Intersect_ [Download v1.0.0](workflows/intersect)

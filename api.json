@@ -109,7 +109,7 @@
     "description": "Search for HTTP status codes",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/httpstatuscodes",
-    "screenshot": null
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/httpstatuscodes/src/screenshot.png"
   },
   {
     "uid": "F8F55B80-FA9A-4EA3-A898-1D2CA6BE7A7A",
