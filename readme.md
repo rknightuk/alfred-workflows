@@ -153,8 +153,6 @@ _Create a new file in the current Finder window_ [Download v1.0.0](workflows/new
 
 _Open a projects folder in an editor, Finder, or Terminal_ [Download v1.0.0](workflows/projects-dev)
 
-![projects-dev screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/projects-dev/src/screenshot.png)
-
 - [2021-07-23] Now shows options to option in Finder, Sublime, Terminal, or All
 
 
