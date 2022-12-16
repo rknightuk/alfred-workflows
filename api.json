@@ -1,6 +1,7 @@
 [
   {
     "uid": "4B05F59D-01FF-404F-BE56-4811A5527303",
+    "bundleid": "agenda",
     "name": "Agenda - Reminders and Calendar Events",
     "description": "Manage Reminders and Calandar Events",
     "version": "1.0.1",
@@ -10,6 +11,7 @@
   },
   {
     "uid": "F51D6B02-6E0A-427C-B4B4-19BD53DAFB90",
+    "bundleid": "computer-mode",
     "name": "App Mode",
     "description": "Open apps for different scenarios",
     "version": "1.0.0",
@@ -19,6 +21,7 @@
   },
   {
     "uid": "E6520FF9-C5D5-4281-BFF1-A5D719D759A7",
+    "bundleid": "audio-device-selector",
     "name": "Audio Device Selector",
     "description": "Select and switch audio devices",
     "version": "1.0.0",
@@ -28,6 +31,7 @@
   },
   {
     "uid": "D5CB937C-C17E-4F04-BD66-F2E5FBCB2ED9",
+    "bundleid": "carbonnowsh",
     "name": "Carbon Code",
     "description": "Send clipboard contents to carbon.now.sh to generate an image",
     "version": "1.0.0",
@@ -37,6 +41,7 @@
   },
   {
     "uid": "819C7BC1-B352-445A-B4FB-F78A1FC57768",
+    "bundleid": "common-folders",
     "name": "Common Folders",
     "description": "Open commonly used folders",
     "version": "1.0.0",
@@ -46,6 +51,7 @@
   },
   {
     "uid": "30F08F9D-BF30-49C6-BCCC-E087FDBDF768",
+    "bundleid": "datetimeformatter",
     "name": "DateTime Formatter",
     "description": "Format Datetimes",
     "version": "1.0.0",
@@ -55,6 +61,7 @@
   },
   {
     "uid": "3EAF40F3-1901-4AB8-BFB9-F631C3002204",
+    "bundleid": "fathom-analytics",
     "name": "Fathom Analytics",
     "description": "View current visitors for your sites",
     "version": "1.0.2",
@@ -64,6 +71,7 @@
   },
   {
     "uid": "24FCC94B-C25A-472C-948A-7ECBE05A05C4",
+    "bundleid": "folder-actions",
     "name": "File Actions",
     "description": "Open folders and files in an editor, Finder, or Terminal",
     "version": "1.0.0",
@@ -73,6 +81,7 @@
   },
   {
     "uid": "D20D883A-93E9-4AC5-8ECA-94CA8C24212B",
+    "bundleid": "finder-to-terminal",
     "name": "Finder to Terminal",
     "description": "Open the current finder window in Terminal",
     "version": "1.0.0",
@@ -82,6 +91,7 @@
   },
   {
     "uid": "63C97432-3FEE-41E6-9E71-341D2847B511",
+    "bundleid": "findmoji",
     "name": "Findmoji",
     "description": "Find and paste emoji",
     "version": "1.0.0",
@@ -91,6 +101,7 @@
   },
   {
     "uid": "085F8761-9FB4-492D-B466-D7CE943DCE60",
+    "bundleid": "safari-tabs-markdown",
     "name": "Get Safari Tabs",
     "description": "Copy all current Safari tabs to Markdown",
     "version": "1.2.2",
@@ -100,6 +111,7 @@
   },
   {
     "uid": "91A22320-A0A4-4975-84EB-8CAE87983322",
+    "bundleid": "gifsearch",
     "name": "Gif Search",
     "description": "Gif Search",
     "version": "1.0.0",
@@ -109,6 +121,7 @@
   },
   {
     "uid": "2843DBB7-8C9B-467F-A34C-95D6FA3795DE",
+    "bundleid": "hotkey-list",
     "name": "Hotkey List",
     "description": "List all workflows assigned to a hotkey",
     "version": "1.0.2",
@@ -118,6 +131,7 @@
   },
   {
     "uid": "F136DE5E-51FB-4878-AF56-AA2F7B6CFB07",
+    "bundleid": "httpstatuscodes",
     "name": "HTTP Status Codes",
     "description": "Search for HTTP status codes",
     "version": "1.0.0",
@@ -127,6 +141,7 @@
   },
   {
     "uid": "F8F55B80-FA9A-4EA3-A898-1D2CA6BE7A7A",
+    "bundleid": "intersect",
     "name": "Intersect",
     "description": "Workflow for searching the Intersect",
     "version": "1.0.0",
@@ -136,6 +151,7 @@
   },
   {
     "uid": "60F26FA1-5C8E-4D17-B006-4672924033F4",
+    "bundleid": "jump-list",
     "name": "Jump List",
     "description": "ZSH Jump list plugin in Alfred",
     "version": "1.0.0",
@@ -145,6 +161,7 @@
   },
   {
     "uid": "55F2C350-099A-46F7-8EB4-0A0B3417380D",
+    "bundleid": "micromarks",
     "name": "MicroMarks",
     "description": "Manage your micro.blog bookmarks",
     "version": "1.0.0",
@@ -154,6 +171,7 @@
   },
   {
     "uid": "5E65E468-831F-4DB5-A263-6616C5254108",
+    "bundleid": "microposter",
     "name": "MicroPoster",
     "description": "Post to Micro.blog",
     "version": "1.0.0",
@@ -163,6 +181,7 @@
   },
   {
     "uid": "D68EC6E6-5B6B-4685-9866-C310283C1228",
+    "bundleid": "monzo-link-generator",
     "name": "Monzo Link Generator",
     "description": "Generate Monzo.me Link",
     "version": "1.0.0",
@@ -172,6 +191,7 @@
   },
   {
     "uid": "8C883807-9A97-47F9-8462-6F6D60A2DCBD",
+    "bundleid": "new-file-in-finder",
     "name": "New File in Finder",
     "description": "Create a new file in the current Finder window",
     "version": "1.0.0",
@@ -181,6 +201,7 @@
   },
   {
     "uid": "C0EBCE37-F304-4643-91B2-56CDA5919D37",
+    "bundleid": "projects-dev",
     "name": "Project Development",
     "description": "Open a projects folder in an editor, Finder, or Terminal",
     "version": "1.0.0",
@@ -190,6 +211,7 @@
   },
   {
     "uid": "771E53C4-B7A2-4155-85BD-9330E555F091",
+    "bundleid": "shortcuts",
     "name": "Shortcuts",
     "description": "Run Shortcuts",
     "version": "1.0.0",
@@ -199,6 +221,7 @@
   },
   {
     "uid": "CEDBA2AD-3EB1-40B0-BE9D-47E6CDE9F42F",
+    "bundleid": "table-plus",
     "name": "TablePlus",
     "description": "A TablePlus connection workflow",
     "version": "1.0",
@@ -208,6 +231,7 @@
   },
   {
     "uid": "656B0405-B619-4569-88AF-8F9A80D0E8E0",
+    "bundleid": "text-transform",
     "name": "Text Transform",
     "description": "Transform text in various ways or process with TextBuddy (optional)",
     "version": "1.1.1",
@@ -217,6 +241,7 @@
   },
   {
     "uid": "3416B56B-6D56-4DB0-8432-26EA0C813F00",
+    "bundleid": "toggle-tunnelblick-vpn",
     "name": "Toggle Tunnelblick VPN",
     "description": "Toggle a single Tunnelblick VPN connection",
     "version": "1.0.0",
@@ -226,6 +251,7 @@
   },
   {
     "uid": "EA1726A6-274A-4707-947C-4DDC9B18B455",
+    "bundleid": "toggle-utils",
     "name": "Toggle Utils",
     "description": "Toggle Wifi, Bluetooth, Music, and More",
     "version": "1.0.0",
@@ -235,6 +261,7 @@
   },
   {
     "uid": "F78E59AB-57BD-4EDE-BC85-A433D05ACDDB",
+    "bundleid": "trackerzapper",
     "name": "TrackerZapper",
     "description": "Removes tracking parameters from links",
     "version": "1.0.0",
@@ -244,6 +271,7 @@
   },
   {
     "uid": "DAE08003-3D07-40EA-8C22-6475BDE95074",
+    "bundleid": "twitter-archive-search",
     "name": "Twitter Archive Search",
     "description": "Search your local Twitter archive",
     "version": "1.0.1",
@@ -253,6 +281,7 @@
   },
   {
     "uid": "8ED99597-6655-4CDA-B54C-455F9A1AE3DE",
+    "bundleid": "url-schemes",
     "name": "URL Schemes",
     "description": "Show all URL schemes for installed apps",
     "version": "1.0.0",
@@ -262,6 +291,7 @@
   },
   {
     "uid": "D13ADDA7-672B-4A02-8686-B58E2AB0C282",
+    "bundleid": "workflow-dev",
     "name": "Workflow Development",
     "description": "Open a workflow's files in an editor, Finder, or Terminal",
     "version": "1.1.0",

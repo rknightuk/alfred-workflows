@@ -73,6 +73,7 @@ function run(argv) {
 
 			const wfData = {
 				uid: wf.replace('user.workflow.', ''),
+				bundleid: bundleid,
 				name: name,
 				description: description,
 				version: version,
