@@ -221,6 +221,7 @@ _Open a workflow's files in an editor, Finder, or Terminal_ [Download v1.1.0](wo
 - [IP Address v1.2.0 by David Ferguson](jdfwarrior.tumblr.com)
 - [JetBrains - Open Project - v3 by bchatard](https://github.com/bchatard/alfred-jetbrains#readme)
 - [Lorem Ipsum by Till Krüss](https://till.im)
+- [Play Song by Caleb Evans](https://github.com/caleb531/play-song)
 - [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/) [[My Fork](https://github.com/rknightuk/alfred-pocket)]
 - [Search Notes by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
 - [Slink by Stephen Millard](thoughtasylum.com)
