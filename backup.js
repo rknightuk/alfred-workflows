@@ -18,7 +18,11 @@ const FORKED = {
 	'com.fniephaus.pocket': 'https://github.com/rknightuk/alfred-pocket',
 }
 
-function run() {
+function run(argv) {
+
+	// todo run for one workflow
+	const singleWorkflow = argv[0]
+
 	const app = Application.currentApplication();
 	app.includeStandardAdditions = true;
 
@@ -74,6 +78,7 @@ function run() {
 				version: version,
 				link: `https://github.com/rknightuk/alfred-workflows/blob/main/${link}`,
 				screenshot: null,
+				icon: `https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/${bundleid}/src/icon.png`
 			}
 
 			if (hasScreenshot)
@@ -96,6 +101,7 @@ function run() {
 
 			apiData.push(wfData)
 		} else {
+			return
 			const isForked = Object.keys(FORKED).includes(bundleid)
 			if (createdby) {
 				others.push({

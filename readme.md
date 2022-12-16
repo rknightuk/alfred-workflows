@@ -213,17 +213,3 @@ _Open a workflow's files in an editor, Finder, or Terminal_ [Download v1.1.0](wo
 
 ## Third Party Workflows
 
-- [AlForge by Vince Mitchell](https://github.com/vmitchell85/alforge)
-- [Amphetamine4 Switch by ShisaQ](https://shisaq.github.io)
-- [CleanShot by Mr. Pennyworth](https://github.com/mr-pennyworth/alfred-cleanshot#readme)
-- [fkill by Sam Verschueren](https://github.com/SamVerschueren/alfred-fkill#readme)
-- [Honk by Robb Knight](https://rknight.me)
-- [IP Address v1.2.0 by David Ferguson](jdfwarrior.tumblr.com)
-- [JetBrains - Open Project - v3 by bchatard](https://github.com/bchatard/alfred-jetbrains#readme)
-- [Lorem Ipsum by Till Krüss](https://till.im)
-- [Play Song by Caleb Evans](https://github.com/caleb531/play-song)
-- [Pocket for Alfred by Fabio Niephaus](https://github.com/fniephaus/alfred-pocket/) [[My Fork](https://github.com/rknightuk/alfred-pocket)]
-- [Search Notes by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
-- [Slink by Stephen Millard](thoughtasylum.com)
-- [SoulverCore by Carlos Precioso](https://precioso.design/)
-- [Temp Conversion by Justin Hamilton](https://www.jwhamilton.co)

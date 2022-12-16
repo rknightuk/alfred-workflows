@@ -424,7 +424,7 @@ end alfred_script</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Open different folders based on what I'm doing.</string>
+	<string>Open different folders and applications based on what I'm doing.</string>
 	<key>uidata</key>
 	<dict>
 		<key>12B71556-A6EA-431B-8B90-3AD711762FB3</key>
@@ -434,9 +434,9 @@ end alfred_script</string>
 			<key>note</key>
 			<string>Open shared notes</string>
 			<key>xpos</key>
-			<integer>795</integer>
+			<real>795</real>
 			<key>ypos</key>
-			<integer>645</integer>
+			<real>645</real>
 		</dict>
 		<key>3848DB1B-6918-4168-A0BB-FD95C3F19F57</key>
 		<dict>
@@ -445,18 +445,18 @@ end alfred_script</string>
 			<key>note</key>
 			<string>Work</string>
 			<key>xpos</key>
-			<integer>260</integer>
+			<real>260</real>
 			<key>ypos</key>
-			<integer>555</integer>
+			<real>555</real>
 		</dict>
 		<key>416D4367-71A9-4791-8065-5B46735EC969</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<integer>520</integer>
+			<real>520</real>
 			<key>ypos</key>
-			<integer>290</integer>
+			<real>290</real>
 		</dict>
 		<key>4962FF00-9F66-4837-8065-F2DF5ED59637</key>
 		<dict>
@@ -465,9 +465,9 @@ end alfred_script</string>
 			<key>note</key>
 			<string>Home</string>
 			<key>xpos</key>
-			<integer>520</integer>
+			<real>520</real>
 			<key>ypos</key>
-			<integer>40</integer>
+			<real>40</real>
 		</dict>
 		<key>5DFB68C7-64D5-4D2C-B4B8-849CB15BDC87</key>
 		<dict>
@@ -476,9 +476,9 @@ end alfred_script</string>
 			<key>note</key>
 			<string>Work</string>
 			<key>xpos</key>
-			<integer>35</integer>
+			<real>35</real>
 			<key>ypos</key>
-			<integer>615</integer>
+			<real>615</real>
 		</dict>
 		<key>7D81D1C6-7038-42BF-8B55-3B7A931FD584</key>
 		<dict>
@@ -487,18 +487,18 @@ end alfred_script</string>
 			<key>note</key>
 			<string>Github notifications</string>
 			<key>xpos</key>
-			<integer>260</integer>
+			<real>260</real>
 			<key>ypos</key>
-			<integer>690</integer>
+			<real>690</real>
 		</dict>
 		<key>9B6D7702-C4CB-4CD6-BB39-B49C3FA420C7</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<integer>520</integer>
+			<real>520</real>
 			<key>ypos</key>
-			<integer>175</integer>
+			<real>175</real>
 		</dict>
 		<key>C42268E4-C949-408A-8CA7-16E31D6430CC</key>
 		<dict>
@@ -507,32 +507,32 @@ end alfred_script</string>
 			<key>note</key>
 			<string>Podcasting</string>
 			<key>xpos</key>
-			<integer>520</integer>
+			<real>520</real>
 			<key>ypos</key>
-			<integer>580</integer>
+			<real>580</real>
 		</dict>
 		<key>CCD3208C-BFB3-4C28-A945-949E2496C1C2</key>
 		<dict>
 			<key>note</key>
 			<string>Set sound input/output</string>
 			<key>xpos</key>
-			<integer>275</integer>
+			<real>275</real>
 			<key>ypos</key>
-			<integer>35</integer>
+			<real>35</real>
 		</dict>
 		<key>D6198FD7-5F45-459F-AD52-D13BE8511181</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<real>300</real>
 			<key>ypos</key>
-			<integer>180</integer>
+			<real>180</real>
 		</dict>
 		<key>D954C922-036C-4179-9C27-D6F889A2CC57</key>
 		<dict>
 			<key>xpos</key>
-			<integer>35</integer>
+			<real>35</real>
 			<key>ypos</key>
-			<integer>100</integer>
+			<real>100</real>
 		</dict>
 		<key>F6AB3341-F235-4509-92AA-76EAE822C23C</key>
 		<dict>
@@ -541,9 +541,9 @@ end alfred_script</string>
 			<key>note</key>
 			<string>Podcast</string>
 			<key>xpos</key>
-			<integer>795</integer>
+			<real>795</real>
 			<key>ypos</key>
-			<integer>510</integer>
+			<real>510</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

@@ -147,40 +147,55 @@
 		<key>80032DE4-BA7A-4DCC-9A27-5E08DB4632BC</key>
 		<dict>
 			<key>xpos</key>
-			<integer>295</integer>
+			<real>295</real>
 			<key>ypos</key>
-			<integer>205</integer>
+			<real>205</real>
 		</dict>
 		<key>A0404619-282E-4599-91F6-E269D7F3554F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>540</integer>
+			<real>540</real>
 			<key>ypos</key>
-			<integer>270</integer>
+			<real>270</real>
 		</dict>
 		<key>BBA603EB-3DDA-40B7-9590-AC5883630809</key>
 		<dict>
 			<key>xpos</key>
-			<integer>540</integer>
+			<real>540</real>
 			<key>ypos</key>
-			<integer>155</integer>
+			<real>155</real>
 		</dict>
 		<key>F6578A02-8376-4681-8586-9B594E678BEC</key>
 		<dict>
 			<key>xpos</key>
-			<integer>65</integer>
+			<real>65</real>
 			<key>ypos</key>
-			<integer>205</integer>
+			<real>205</real>
 		</dict>
 	</dict>
-	<key>variables</key>
-	<dict>
-		<key>MONZOUSERNAME</key>
-		<string></string>
-	</dict>
-	<key>variablesdontexport</key>
+	<key>userconfigurationconfig</key>
 	<array>
-		<string>MONZOUSERNAME</string>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Your Monzo.me username</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>MONZOUSERNAME</string>
+		</dict>
 	</array>
 	<key>version</key>
 	<string>1.0.0</string>

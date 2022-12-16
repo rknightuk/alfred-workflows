@@ -1150,6 +1150,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.overview</string>
 			</dict>
@@ -1295,6 +1297,8 @@
 				</array>
 				<key>elselabel</key>
 				<string>noop</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -1619,6 +1623,8 @@
 				</array>
 				<key>elselabel</key>
 				<string>noop</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -1899,12 +1905,14 @@
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string></string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -1939,6 +1947,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.view-event</string>
 			</dict>
@@ -1971,6 +1981,8 @@
 				</array>
 				<key>elselabel</key>
 				<string>Open in Calendar</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -2026,6 +2038,10 @@
 			<dict>
 				<key>delimiter</key>
 				<string>:</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
 				<key>trimarguments</key>
 				<true/>
 				<key>variableprefix</key>
@@ -2108,6 +2124,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.upcoming-events</string>
 			</dict>
@@ -2159,6 +2177,8 @@
 				</array>
 				<key>elselabel</key>
 				<string>View Event</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -2260,6 +2280,8 @@ echo "$1 /$LIST"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.create-event</string>
 			</dict>
@@ -2412,6 +2434,8 @@ function run(argv) {
 				</array>
 				<key>elselabel</key>
 				<string>Create</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -2499,6 +2523,8 @@ bash ./scripts/events/create.sh "$START" "$END" "$TITLE" "$LIST" "$LOCATION"</st
 				</array>
 				<key>elselabel</key>
 				<string>Create event</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -2529,6 +2555,8 @@ bash ./scripts/events/create.sh "$START" "$END" "$TITLE" "$LIST" "$LOCATION"</st
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.upcoming-reminders</string>
 			</dict>
@@ -2610,6 +2638,10 @@ bash ./scripts/events/create.sh "$START" "$END" "$TITLE" "$LIST" "$LOCATION"</st
 			<dict>
 				<key>delimiter</key>
 				<string>:</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
 				<key>trimarguments</key>
 				<true/>
 				<key>variableprefix</key>
@@ -2678,6 +2710,8 @@ bash ./scripts/events/create.sh "$START" "$END" "$TITLE" "$LIST" "$LOCATION"</st
 				</array>
 				<key>elselabel</key>
 				<string>Mark Complete</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -2730,6 +2764,10 @@ bash ./scripts/events/create.sh "$START" "$END" "$TITLE" "$LIST" "$LOCATION"</st
 			<dict>
 				<key>delimiter</key>
 				<string>:</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
 				<key>trimarguments</key>
 				<true/>
 				<key>variableprefix</key>
@@ -2745,6 +2783,8 @@ bash ./scripts/events/create.sh "$START" "$END" "$TITLE" "$LIST" "$LOCATION"</st
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.view-anytime</string>
 			</dict>
@@ -2847,6 +2887,8 @@ bash ./scripts/events/create.sh "$START" "$END" "$TITLE" "$LIST" "$LOCATION"</st
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.view-reminder</string>
 			</dict>
@@ -2915,6 +2957,8 @@ bash ./scripts/events/create.sh "$START" "$END" "$TITLE" "$LIST" "$LOCATION"</st
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.create-reminder</string>
 			</dict>
@@ -2947,6 +2991,8 @@ bash ./scripts/events/create.sh "$START" "$END" "$TITLE" "$LIST" "$LOCATION"</st
 				</array>
 				<key>elselabel</key>
 				<string>Create</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -3056,6 +3102,8 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.complete-reminder</string>
 			</dict>
@@ -3147,6 +3195,8 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -3181,6 +3231,8 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.parse-in-fantastical</string>
 			</dict>
@@ -3196,12 +3248,14 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string></string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -3228,12 +3282,14 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string>https://rknight.me/alfred-workflows</string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -3292,6 +3348,8 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.manage-settings</string>
 			</dict>
@@ -3357,6 +3415,8 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 				</array>
 				<key>elselabel</key>
 				<string>Toggle Setting</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -3445,6 +3505,8 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.update-setting</string>
 			</dict>
@@ -3481,6 +3543,8 @@ bash ./scripts/reminders/create.sh "$DATE" "$REMINDER_TEXT" "$LIST"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>rknightuk.agenda.update-workflow</string>
 			</dict>
@@ -4369,6 +4433,8 @@ fi</string>
 			<integer>2160</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variables</key>
 	<dict>
 		<key>calendars_enabled</key>

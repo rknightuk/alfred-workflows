@@ -5,7 +5,8 @@
     "description": "Manage Reminders and Calandar Events",
     "version": "1.0.1",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/agenda",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/agenda/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/agenda/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/agenda/src/icon.png"
   },
   {
     "uid": "F51D6B02-6E0A-427C-B4B4-19BD53DAFB90",
@@ -13,7 +14,8 @@
     "description": "Open apps for different scenarios",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/computer-mode",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/computer-mode/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/computer-mode/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/computer-mode/src/icon.png"
   },
   {
     "uid": "E6520FF9-C5D5-4281-BFF1-A5D719D759A7",
@@ -21,7 +23,8 @@
     "description": "Select and switch audio devices",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/audio-device-selector",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/audio-device-selector/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/audio-device-selector/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/audio-device-selector/src/icon.png"
   },
   {
     "uid": "D5CB937C-C17E-4F04-BD66-F2E5FBCB2ED9",
@@ -29,7 +32,8 @@
     "description": "Send clipboard contents to carbon.now.sh to generate an image",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/carbonnowsh",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/carbonnowsh/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/carbonnowsh/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/carbonnowsh/src/icon.png"
   },
   {
     "uid": "819C7BC1-B352-445A-B4FB-F78A1FC57768",
@@ -37,7 +41,8 @@
     "description": "Open commonly used folders",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/common-folders",
-    "screenshot": null
+    "screenshot": null,
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/common-folders/src/icon.png"
   },
   {
     "uid": "30F08F9D-BF30-49C6-BCCC-E087FDBDF768",
@@ -45,7 +50,8 @@
     "description": "Format Datetimes",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/datetimeformatter",
-    "screenshot": null
+    "screenshot": null,
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/datetimeformatter/src/icon.png"
   },
   {
     "uid": "3EAF40F3-1901-4AB8-BFB9-F631C3002204",
@@ -53,7 +59,8 @@
     "description": "View current visitors for your sites",
     "version": "1.0.2",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/fathom-analytics",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/fathom-analytics/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/fathom-analytics/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/fathom-analytics/src/icon.png"
   },
   {
     "uid": "24FCC94B-C25A-472C-948A-7ECBE05A05C4",
@@ -61,7 +68,8 @@
     "description": "Open folders and files in an editor, Finder, or Terminal",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/folder-actions",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/folder-actions/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/folder-actions/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/folder-actions/src/icon.png"
   },
   {
     "uid": "D20D883A-93E9-4AC5-8ECA-94CA8C24212B",
@@ -69,7 +77,8 @@
     "description": "Open the current finder window in Terminal",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/finder-to-terminal",
-    "screenshot": null
+    "screenshot": null,
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/finder-to-terminal/src/icon.png"
   },
   {
     "uid": "63C97432-3FEE-41E6-9E71-341D2847B511",
@@ -77,7 +86,8 @@
     "description": "Find and paste emoji",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/findmoji",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/findmoji/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/findmoji/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/findmoji/src/icon.png"
   },
   {
     "uid": "085F8761-9FB4-492D-B466-D7CE943DCE60",
@@ -85,7 +95,8 @@
     "description": "Copy all current Safari tabs to Markdown",
     "version": "1.2.2",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/safari-tabs-markdown",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/safari-tabs-markdown/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/safari-tabs-markdown/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/safari-tabs-markdown/src/icon.png"
   },
   {
     "uid": "91A22320-A0A4-4975-84EB-8CAE87983322",
@@ -93,7 +104,8 @@
     "description": "Gif Search",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/gifsearch",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/gifsearch/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/gifsearch/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/gifsearch/src/icon.png"
   },
   {
     "uid": "2843DBB7-8C9B-467F-A34C-95D6FA3795DE",
@@ -101,7 +113,8 @@
     "description": "List all workflows assigned to a hotkey",
     "version": "1.0.2",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/hotkey-list",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/hotkey-list/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/hotkey-list/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/hotkey-list/src/icon.png"
   },
   {
     "uid": "F136DE5E-51FB-4878-AF56-AA2F7B6CFB07",
@@ -109,7 +122,8 @@
     "description": "Search for HTTP status codes",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/httpstatuscodes",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/httpstatuscodes/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/httpstatuscodes/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/httpstatuscodes/src/icon.png"
   },
   {
     "uid": "F8F55B80-FA9A-4EA3-A898-1D2CA6BE7A7A",
@@ -117,7 +131,8 @@
     "description": "Workflow for searching the Intersect",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/intersect",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/intersect/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/intersect/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/intersect/src/icon.png"
   },
   {
     "uid": "60F26FA1-5C8E-4D17-B006-4672924033F4",
@@ -125,7 +140,8 @@
     "description": "ZSH Jump list plugin in Alfred",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/jump-list",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/jump-list/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/jump-list/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/jump-list/src/icon.png"
   },
   {
     "uid": "55F2C350-099A-46F7-8EB4-0A0B3417380D",
@@ -133,7 +149,8 @@
     "description": "Manage your micro.blog bookmarks",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/micromarks",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/micromarks/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/micromarks/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/micromarks/src/icon.png"
   },
   {
     "uid": "5E65E468-831F-4DB5-A263-6616C5254108",
@@ -141,7 +158,8 @@
     "description": "Post to Micro.blog",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/microposter",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/microposter/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/microposter/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/microposter/src/icon.png"
   },
   {
     "uid": "D68EC6E6-5B6B-4685-9866-C310283C1228",
@@ -149,7 +167,8 @@
     "description": "Generate Monzo.me Link",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/monzo-link-generator",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/icon.png"
   },
   {
     "uid": "8C883807-9A97-47F9-8462-6F6D60A2DCBD",
@@ -157,7 +176,8 @@
     "description": "Create a new file in the current Finder window",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/new-file-in-finder",
-    "screenshot": null
+    "screenshot": null,
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/new-file-in-finder/src/icon.png"
   },
   {
     "uid": "C0EBCE37-F304-4643-91B2-56CDA5919D37",
@@ -165,7 +185,8 @@
     "description": "Open a projects folder in an editor, Finder, or Terminal",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/projects-dev",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/projects-dev/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/projects-dev/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/projects-dev/src/icon.png"
   },
   {
     "uid": "771E53C4-B7A2-4155-85BD-9330E555F091",
@@ -173,7 +194,8 @@
     "description": "Run Shortcuts",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/shortcuts",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/shortcuts/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/shortcuts/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/shortcuts/src/icon.png"
   },
   {
     "uid": "CEDBA2AD-3EB1-40B0-BE9D-47E6CDE9F42F",
@@ -181,7 +203,8 @@
     "description": "A TablePlus connection workflow",
     "version": "1.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/table-plus",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/table-plus/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/table-plus/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/table-plus/src/icon.png"
   },
   {
     "uid": "656B0405-B619-4569-88AF-8F9A80D0E8E0",
@@ -189,7 +212,8 @@
     "description": "Transform text in various ways or process with TextBuddy (optional)",
     "version": "1.1.1",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/text-transform",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/text-transform/src/icon.png"
   },
   {
     "uid": "3416B56B-6D56-4DB0-8432-26EA0C813F00",
@@ -197,7 +221,8 @@
     "description": "Toggle a single Tunnelblick VPN connection",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-tunnelblick-vpn",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-tunnelblick-vpn/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-tunnelblick-vpn/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-tunnelblick-vpn/src/icon.png"
   },
   {
     "uid": "EA1726A6-274A-4707-947C-4DDC9B18B455",
@@ -205,7 +230,8 @@
     "description": "Toggle Wifi, Bluetooth, Music, and More",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/toggle-utils",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-utils/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-utils/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/toggle-utils/src/icon.png"
   },
   {
     "uid": "F78E59AB-57BD-4EDE-BC85-A433D05ACDDB",
@@ -213,7 +239,8 @@
     "description": "Removes tracking parameters from links",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/trackerzapper",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/trackerzapper/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/trackerzapper/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/trackerzapper/src/icon.png"
   },
   {
     "uid": "DAE08003-3D07-40EA-8C22-6475BDE95074",
@@ -221,7 +248,8 @@
     "description": "Search your local Twitter archive",
     "version": "1.0.1",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/twitter-archive-search",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/twitter-archive-search/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/twitter-archive-search/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/twitter-archive-search/src/icon.png"
   },
   {
     "uid": "8ED99597-6655-4CDA-B54C-455F9A1AE3DE",
@@ -229,7 +257,8 @@
     "description": "Show all URL schemes for installed apps",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/url-schemes",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/url-schemes/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/url-schemes/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/url-schemes/src/icon.png"
   },
   {
     "uid": "D13ADDA7-672B-4A02-8686-B58E2AB0C282",
@@ -237,6 +266,7 @@
     "description": "Open a workflow's files in an editor, Finder, or Terminal",
     "version": "1.1.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/workflow-dev",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/workflow-dev/src/icon.png"
   }
 ]
