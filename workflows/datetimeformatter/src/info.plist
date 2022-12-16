@@ -67,7 +67,7 @@ osascript ./script.js $query</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Convert unx timestamps to real dates</string>
+				<string>Convert unix timestamps to real dates</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -107,16 +107,16 @@ osascript ./script.js $query</string>
 		<key>0CB1CB71-1D44-4C92-B3ED-74EA127A18C4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>185</integer>
+			<real>185</real>
 			<key>ypos</key>
-			<integer>195</integer>
+			<real>195</real>
 		</dict>
 		<key>64F5349B-D792-4348-8BA7-CFAD46486A84</key>
 		<dict>
 			<key>xpos</key>
-			<integer>440</integer>
+			<real>440</real>
 			<key>ypos</key>
-			<integer>195</integer>
+			<real>195</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

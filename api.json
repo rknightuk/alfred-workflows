@@ -56,7 +56,7 @@
     "description": "Format Datetimes",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/datetimeformatter",
-    "screenshot": null,
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/datetimeformatter/src/screenshot.png",
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/datetimeformatter/src/icon.png"
   },
   {

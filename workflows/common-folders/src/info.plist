@@ -287,11 +287,11 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>dropbox</string>
+				<string>knightdrive</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Open Dropbox</string>
+				<string>Open Knightdrive</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -310,72 +310,72 @@
 		<key>51ECED60-B6BE-4DDD-9B31-677CCBA98FA1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>170</integer>
+			<real>170</real>
 		</dict>
 		<key>56B56C7E-EA50-4E8C-BA32-0093B428FD70</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<real>265</real>
 			<key>ypos</key>
-			<integer>570</integer>
+			<real>570</real>
 		</dict>
 		<key>58DC76C9-E0CD-49E8-BC96-2D4DE501FD9E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>570</integer>
+			<real>570</real>
 		</dict>
 		<key>5EEEB93B-E5A3-4F87-843C-5D3DAFF34121</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<real>265</real>
 			<key>ypos</key>
-			<integer>440</integer>
+			<real>440</real>
 		</dict>
 		<key>707C5CEE-A3B7-4DD9-A93C-A73E1D2884A8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>40</integer>
+			<real>40</real>
 		</dict>
 		<key>86D8A1B1-2C0A-485A-9FEB-0DA602D26462</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<real>265</real>
 			<key>ypos</key>
-			<integer>300</integer>
+			<real>300</real>
 		</dict>
 		<key>96091756-72E1-4DF5-8076-AB92496E199E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<real>265</real>
 			<key>ypos</key>
-			<integer>170</integer>
+			<real>170</real>
 		</dict>
 		<key>C69E817C-F354-48B2-8D52-7D9AD6A99969</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>440</integer>
+			<real>440</real>
 		</dict>
 		<key>D2D07D90-3E32-451A-921E-EDDF22A25A32</key>
 		<dict>
 			<key>xpos</key>
-			<integer>265</integer>
+			<real>265</real>
 			<key>ypos</key>
-			<integer>40</integer>
+			<real>40</real>
 		</dict>
 		<key>E5F0A97A-D764-40F7-96D3-A972DAA776DB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>300</integer>
+			<real>300</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

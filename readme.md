@@ -58,6 +58,8 @@ _Open commonly used folders_ [Download v1.0.0](workflows/common-folders)
 
 _Format Datetimes_ [Download v1.0.0](workflows/datetimeformatter)
 
+![datetimeformatter screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/datetimeformatter/src/screenshot.png)
+
 ### Fathom Analytics
 
 _View current visitors for your sites_ [Download v1.0.2](workflows/fathom-analytics)
