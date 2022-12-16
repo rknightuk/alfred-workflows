@@ -176,7 +176,7 @@
     "description": "Create a new file in the current Finder window",
     "version": "1.0.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/new-file-in-finder",
-    "screenshot": null,
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/new-file-in-finder/src/screenshot.png",
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/new-file-in-finder/src/icon.png"
   },
   {

@@ -145,6 +145,8 @@ _Generate Monzo.me Link_ [Download v1.0.0](workflows/monzo-link-generator)
 
 _Create a new file in the current Finder window_ [Download v1.0.0](workflows/new-file-in-finder)
 
+![new-file-in-finder screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/new-file-in-finder/src/screenshot.png)
+
 ### Project Development
 
 _Open a projects folder in an editor, Finder, or Terminal_ [Download v1.0.0](workflows/projects-dev)
