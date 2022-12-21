@@ -220,6 +220,16 @@
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/shortcuts/src/icon.png"
   },
   {
+    "uid": "E775DF69-6DA5-4C31-960A-017EDAEB1B16",
+    "bundleid": "statuspost",
+    "name": "StatusPost",
+    "description": "Post to status.lol",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/statuspost",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/statuspost/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/statuspost/src/icon.png"
+  },
+  {
     "uid": "CEDBA2AD-3EB1-40B0-BE9D-47E6CDE9F42F",
     "bundleid": "table-plus",
     "name": "TablePlus",
