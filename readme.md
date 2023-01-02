@@ -166,7 +166,7 @@ _Run Shortcuts_ [Download v1.0.0](workflows/shortcuts)
 
 ### StatusPost
 
-_Post to status.lol_ [Download v1.0.0](workflows/statuspost)
+_Post to status.lol_ [Download v1.0.1](workflows/statuspost)
 
 ![statuspost screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/statuspost/src/screenshot.png)
 

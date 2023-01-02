@@ -166,9 +166,7 @@
 				<key>runningsubtext</key>
 				<string>Loading emoji...</string>
 				<key>script</key>
-				<string>query=$1
-
-osascript ./emojipicker.js</string>
+				<string>cat ./emoji.json</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -178,7 +176,7 @@ osascript ./emojipicker.js</string>
 				<key>title</key>
 				<string>status.lol: Pick an emoji</string>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -380,7 +378,7 @@ osascript ./emojipicker.js</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>
