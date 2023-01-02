@@ -49,16 +49,6 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>64F492F6-B1AB-4A11-BAFC-DEFBC164CA61</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>C48D1E5D-404A-4B32-BE65-9AEA033C19AA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -143,97 +133,6 @@
 	<string>Get Safari Tabs</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist="https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/safari-tabs-markdown/src/info.plist"
-readonly workflow_url="https://github.com/rknightuk/alfred-workflows/raw/main/workflows/safari-tabs-markdown/safari-tabs-markdown.alfredworkflow"
-readonly download_type='direct'
-readonly frequency_check='4'
-
-# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
-function abort {
-  echo "${1}" &gt;&amp;2
-  exit 1
-}
-
-function url_exists {
-  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
-}
-
-function notification {
-  local -r notificator="$(find . -type d -name 'Notificator.app')"
-  if [[ -n "${notificator}" ]]; then
-    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
-    return
-  fi
-
-  local -r terminal_notifier="$(find . -type f -name 'terminal-notifier')"
-  if [[ -n "${terminal_notifier}" ]]; then
-    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
-    return
-  fi
-
-  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
-}
-
-# Local sanity checks
-readonly local_info_plist='info.plist'
-readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
-
-[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
-[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
-[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
-
-# Check for updates
-if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
-  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
-
-  readonly tmp_file="$(mktemp)"
-  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
-  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
-
-  if [[ "${local_version}" == "${remote_version}" ]]; then
-    touch "${local_info_plist}" # Reset timer by touching local file
-    exit 0
-  fi
-
-  if [[ "${download_type}" == 'page' ]]; then
-    notification 'Opening download page…'
-    open "${workflow_url}"
-    exit 0
-  fi
-
-  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
-
-  if url_exists "${download_url}"; then
-    notification 'Downloading and installing…'
-    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
-    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
-  else
-    abort "'workflow_url' (${download_url}) appears to not be reachable."
-  fi
-fi</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>64F492F6-B1AB-4A11-BAFC-DEFBC164CA61</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -466,76 +365,65 @@ Keyword is `sf`</string>
 		<key>1ED054D9-8A65-4AAB-9579-B9C8AD9CDCBF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>970</integer>
+			<real>970</real>
 			<key>ypos</key>
-			<integer>225</integer>
+			<real>225</real>
 		</dict>
 		<key>273A4958-5A06-4B41-9952-27D00853A7D3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<real>300</real>
 			<key>ypos</key>
-			<integer>215</integer>
-		</dict>
-		<key>64F492F6-B1AB-4A11-BAFC-DEFBC164CA61</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>note</key>
-			<string>OneUpdater</string>
-			<key>xpos</key>
-			<integer>300</integer>
-			<key>ypos</key>
-			<integer>20</integer>
+			<real>215</real>
 		</dict>
 		<key>8E74A949-3BA8-4AEB-B348-ED626D0AF8B1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>480</integer>
+			<real>480</real>
 			<key>ypos</key>
-			<integer>245</integer>
+			<real>245</real>
 		</dict>
 		<key>97760F7E-09C7-4155-BB01-8EA98DAF2B34</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1120</integer>
+			<real>1120</real>
 			<key>ypos</key>
-			<integer>225</integer>
+			<real>225</real>
 		</dict>
 		<key>BCE480DD-AD9B-45CC-97F3-9DC08661F77A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>60</integer>
+			<real>60</real>
 			<key>ypos</key>
-			<integer>215</integer>
+			<real>215</real>
 		</dict>
 		<key>C48D1E5D-404A-4B32-BE65-9AEA033C19AA</key>
 		<dict>
 			<key>xpos</key>
-			<integer>220</integer>
+			<real>220</real>
 			<key>ypos</key>
-			<integer>245</integer>
+			<real>245</real>
 		</dict>
 		<key>D4C8AF7A-A1C3-46D2-B873-919C9A403146</key>
 		<dict>
 			<key>xpos</key>
-			<integer>875</integer>
+			<real>875</real>
 			<key>ypos</key>
-			<integer>145</integer>
+			<real>145</real>
 		</dict>
 		<key>EFBD55DC-459A-4528-B1DF-02D3F792EDCF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>560</integer>
+			<real>560</real>
 			<key>ypos</key>
-			<integer>235</integer>
+			<real>235</real>
 		</dict>
 		<key>F30B2EB6-AA27-421D-9154-0767AAB68BED</key>
 		<dict>
 			<key>xpos</key>
-			<integer>705</integer>
+			<real>705</real>
 			<key>ypos</key>
-			<integer>115</integer>
+			<real>115</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
