@@ -94,7 +94,7 @@
     "bundleid": "findmoji",
     "name": "Findmoji",
     "description": "Find and paste emoji",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/findmoji",
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/findmoji/src/screenshot.png",
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/findmoji/src/icon.png"

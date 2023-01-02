@@ -81,7 +81,7 @@ _Open the current finder window in Terminal_ [Download v1.0.0](workflows/finder-
 
 ### Findmoji
 
-_Find and paste emoji_ [Download v1.0.0](workflows/findmoji)
+_Find and paste emoji_ [Download v1.0.1](workflows/findmoji)
 
 ![findmoji screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/findmoji/src/screenshot.png)
 
