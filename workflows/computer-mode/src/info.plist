@@ -160,7 +160,6 @@
 				<key>paths</key>
 				<array>
 					<string>/Applications/Safari.app</string>
-					<string>/Applications/Tweetbot.app</string>
 					<string>/System/Applications/Mail.app</string>
 					<string>/System/Applications/Music.app</string>
 					<string>/Applications/Discord.app</string>

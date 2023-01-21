@@ -50,16 +50,6 @@
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/common-folders/src/icon.png"
   },
   {
-    "uid": "30F08F9D-BF30-49C6-BCCC-E087FDBDF768",
-    "bundleid": "datetimeformatter",
-    "name": "DateTime Formatter",
-    "description": "Format Datetimes",
-    "version": "1.0.0",
-    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/datetimeformatter",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/datetimeformatter/src/screenshot.png",
-    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/datetimeformatter/src/icon.png"
-  },
-  {
     "uid": "3EAF40F3-1901-4AB8-BFB9-F631C3002204",
     "bundleid": "fathom-analytics",
     "name": "Fathom Analytics",
