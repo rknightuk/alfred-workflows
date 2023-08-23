@@ -137,6 +137,10 @@ _Generate Monzo.me Link_ [Download v1.0.0](workflows/monzo-link-generator)
 
 ![monzo-link-generator screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/screenshot.png)
 
+### Network Tools
+
+_Network tools_ [Download v1.0.0](workflows/networktools)
+
 ### New File in Finder
 
 _Create a new file in the current Finder window_ [Download v1.0.0](workflows/new-file-in-finder)
@@ -193,6 +197,12 @@ _Toggle Wifi, Bluetooth, Music, and More_ [Download v1.0.0](workflows/toggle-uti
 _Removes tracking parameters from links_ [Download v1.0.0](workflows/trackerzapper)
 
 ![trackerzapper screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/trackerzapper/src/screenshot.png)
+
+### Treat Day
+
+_Saturday is Treat Day_ [Download v1.0.1](workflows/treatday)
+
+![treatday screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/treatday/src/screenshot.png)
 
 ### Twitter Archive Search
 

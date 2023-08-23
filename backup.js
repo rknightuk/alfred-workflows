@@ -1,5 +1,5 @@
 // The directory to backup your workflows
-const BACKUP_PATH="/Users/robb/Sites/personal/alfred-workflows"
+const BACKUP_PATH="/Users/robb/Developer/archive/alfred-workflows"
 
 //The directory where your Alfred workflows live
 const WORKFLOW_PATH="/Users/robb/Dropbox/Alfred/Alfred.alfredpreferences/workflows"
@@ -36,11 +36,21 @@ function run(argv) {
 	let apiData = []
 
 	workflows.forEach(wf => {
-		let data = se.propertyListFiles.byName(`${WORKFLOW_PATH}/${wf}/info.plist`).contents.value()
+		let data = null
+		try {
+			data = se.propertyListFiles.byName(`${WORKFLOW_PATH}/${wf}/info.plist`).contents.value()
+		} catch (e) {
+			// no idea something changed
+			return
+		}
+
+		if (!data) return
+
 		let { disabled, webaddress, createdby, version, bundleid, description, name, variables, variablesdontexport } = data
 		if (disabled) return null
 		const isMine = bundleid.includes(BUNDLE_PREFIX)
 		bundleid = bundleid.replace(BUNDLE_PREFIX, '')
+		if (!bundleid) return;
 
 		if (isMine) {
 			let currentWorkflow=`${WORKFLOW_PATH}/${wf}`

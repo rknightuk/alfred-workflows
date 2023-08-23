@@ -180,6 +180,16 @@
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/monzo-link-generator/src/icon.png"
   },
   {
+    "uid": "820FA10D-DFD8-4198-A933-57842F0DD8C0",
+    "bundleid": "networktools",
+    "name": "Network Tools",
+    "description": "Network tools",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/networktools",
+    "screenshot": null,
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/networktools/src/icon.png"
+  },
+  {
     "uid": "8C883807-9A97-47F9-8462-6F6D60A2DCBD",
     "bundleid": "new-file-in-finder",
     "name": "New File in Finder",
@@ -268,6 +278,16 @@
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/trackerzapper",
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/trackerzapper/src/screenshot.png",
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/trackerzapper/src/icon.png"
+  },
+  {
+    "uid": "E9117578-5A32-4247-8F4B-D494C3932310",
+    "bundleid": "treatday",
+    "name": "Treat Day",
+    "description": "Saturday is Treat Day",
+    "version": "1.0.1",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/treatday",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/treatday/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/treatday/src/icon.png"
   },
   {
     "uid": "DAE08003-3D07-40EA-8C22-6475BDE95074",
