@@ -1,5 +1,5 @@
 // The directory to backup your workflows
-const BACKUP_PATH="/Users/robb/Developer/archive/alfred-workflows"
+const BACKUP_PATH="/Users/robb/Developer/personal/alfred-workflows"
 
 //The directory where your Alfred workflows live
 const WORKFLOW_PATH="/Users/robb/Dropbox/Alfred/Alfred.alfredpreferences/workflows"
@@ -7,21 +7,17 @@ const WORKFLOW_PATH="/Users/robb/Dropbox/Alfred/Alfred.alfredpreferences/workflo
 //The bundle prefix you use for your workflows
 const BUNDLE_PREFIX="com.rknightuk."
 
-//The Github repository
+// The Github repository
 const GITHUB_REPO="rknightuk/alfred-workflows"
 const GITHUB_DOWNLOAD="https://github.com/${GITHUB_REPO}/raw/main"
 
-//Copy the example readme into the backup readme file
+// Copy the example readme into the backup readme file
 const README_FILE=`${BACKUP_PATH}/readme.md`
-
-const FORKED = {
-	'com.fniephaus.pocket': 'https://github.com/rknightuk/alfred-pocket',
-}
 
 function run(argv) {
 
 	// todo run for one workflow
-	const singleWorkflow = argv[0]
+	const singleWorkflow = argv
 
 	const app = Application.currentApplication();
 	app.includeStandardAdditions = true;
@@ -40,17 +36,18 @@ function run(argv) {
 		try {
 			data = se.propertyListFiles.byName(`${WORKFLOW_PATH}/${wf}/info.plist`).contents.value()
 		} catch (e) {
-			// no idea something changed
+			console.log(`Cannot run for ${wf}`)
 			return
 		}
 
 		if (!data) return
 
-		let { disabled, webaddress, createdby, version, bundleid, description, name, variables, variablesdontexport } = data
-		if (disabled) return null
+		let { disabled, webaddress, createdby, version, bundleid, description, name, variables, variablesdontexport, objects } = data
+		if (disabled) return
+		if (!version) version = '1.0.0'
 		const isMine = bundleid.includes(BUNDLE_PREFIX)
 		bundleid = bundleid.replace(BUNDLE_PREFIX, '')
-		if (!bundleid) return;
+		if (!bundleid) return
 
 		if (isMine) {
 			let currentWorkflow=`${WORKFLOW_PATH}/${wf}`
@@ -58,8 +55,43 @@ function run(argv) {
 
 	  		if (variables && variablesdontexport && variablesdontexport.length > 0)
 	  		{
-				currentWorkflow = app.doShellScript(`./overridevariables.sh ${currentWorkflow}`);
+				currentWorkflow = app.doShellScript(`./overridevariables.sh ${currentWorkflow}`)
 	  		}
+
+			let hasReadme = app.doShellScript(`[ -f ${currentWorkflow}/readme.md ] && echo "true" || echo "false"`) === 'true'
+			const hasScreenshot = app.doShellScript(`[ -f ${currentWorkflow}/screenshot.png ] && echo "true" || echo "false"`) === 'true'
+			const hasChangelog = app.doShellScript(`[ -f ${currentWorkflow}/changelog.md ] && echo "true" || echo "false"`) === 'true'
+
+			if (!hasReadme) {
+				let keyword = null
+				objects.every(o => {
+					if (o.config.keyword)
+					{
+						keyword = o.config.keyword
+						return false
+					}
+					return true
+				})
+				let contents = app.read(Path(`${BACKUP_PATH}/workflow-readme.example`))
+				contents = contents.replaceAll('{{ NAME }}', name)
+					.replaceAll('{{ DESC }}', description)
+					.replaceAll('{{ KEYWORD }}', keyword)
+
+					if (name === 'Workflow Development')
+					{
+						console.log(contents)
+						console.log(keyword)
+					}
+
+				app.doShellScript(`touch ${currentWorkflow}/readme.md`)
+				let newReadmeFile = app.openForAccess(Path(`${currentWorkflow}/readme.md`), { writePermission: true })
+				app.setEof(newReadmeFile, { to: 0 })
+				app.write(contents, { to: newReadmeFile, startingAt: app.getEof(newReadmeFile) })
+				app.closeAccess(newReadmeFile)
+
+				console.log(`Added readme for ${name}`)
+				hasReadme = true
+			}
 
 		    const copyPath=`${BACKUP_PATH}/workflows/${bundleid}/${bundleid}.alfredworkflow`
 		 	const link = `workflows/${bundleid}`
@@ -67,9 +99,7 @@ function run(argv) {
 			app.doShellScript(`cp -r ${currentWorkflow}/ ${BACKUP_PATH}/workflows/${bundleid}/src/`)
 			app.doShellScript(`ditto -ck "${currentWorkflow}" "${copyPath}"`)
 
-			const hasReadme = app.doShellScript(`[ -f ${BACKUP_PATH}/workflows/${bundleid}/src/readme.md ] && echo "true" || echo "false"`) === 'true'
-			const hasScreenshot = app.doShellScript(`[ -f ${BACKUP_PATH}/workflows/${bundleid}/src/screenshot.png ] && echo "true" || echo "false"`) === 'true'
-			const hasChangelog = app.doShellScript(`[ -f ${BACKUP_PATH}/workflows/${bundleid}/src/changelog.md ] && echo "true" || echo "false"`) === 'true'
+			if (!hasScreenshot) console.log(`⚠️ No screenshot found for ${name}`)
 
 			if (hasReadme)
 			{
@@ -112,14 +142,11 @@ function run(argv) {
 
 			apiData.push(wfData)
 		} else {
-			return
-			const isForked = Object.keys(FORKED).includes(bundleid)
 			if (createdby) {
 				others.push({
 					name,
 					author: createdby,
 					link: webaddress,
-					fork: isForked ? FORKED[bundleid] : null,
 				})
 			}
 		}
@@ -148,9 +175,6 @@ function run(argv) {
 		let text = `- ${o.name} by ${o.author}`
 		if (o.link) {
 			text = `- [${o.name} by ${o.author}](${o.link})`
-		}
-		if (o.fork) {
-			text += ` [[My Fork](${o.fork})]`
 		}
 
 		app.doShellScript(`echo "${text}" >> ${README_FILE}`);

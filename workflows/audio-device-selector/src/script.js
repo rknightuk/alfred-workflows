@@ -37,7 +37,7 @@ function run(argv) {
 	var app = Application.currentApplication();
 	app.includeStandardAdditions = true;
 	
-	devices = app.doShellScript(`/usr/local/bin/SwitchAudioSource -a -t ${type}`);
+	devices = app.doShellScript(`/opt/homebrew/bin/SwitchAudioSource -a -t ${type}`);
 
 	items = devices.split('\r').map(d => {
 		const data = formatData(d)

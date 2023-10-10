@@ -23,31 +23,13 @@
 	<key>createdby</key>
 	<string>Robb Knight</string>
 	<key>description</key>
-	<string>Gif Search</string>
+	<string>Search a folder of gifs and copy them to the clipboard</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
 	<string>Gif Search</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)
-    set thePath to q
-	set the clipboard to POSIX file thePath
-end alfred_script</string>
-				<key>cachescript</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
-			<key>uid</key>
-			<string>AFA7D92B-1972-49A3-BB56-BE5C7925F935</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -96,6 +78,24 @@ end alfred_script</string>
 			<string>67A8E3E8-DF70-44BD-A073-59E41D225B1D</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+    set thePath to q
+	set the clipboard to POSIX file thePath
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>AFA7D92B-1972-49A3-BB56-BE5C7925F935</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>

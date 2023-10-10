@@ -58,19 +58,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>334E4A4D-6CE2-43E3-820A-C5AC015B0A38</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>466B0489-4584-4209-A777-E251BB20D806</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>514820BB-B250-4780-993C-0152BE821698</key>
 		<array>
 			<dict>
@@ -101,7 +88,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>334E4A4D-6CE2-43E3-820A-C5AC015B0A38</string>
+				<string>0CFBFE99-0B1D-463A-B289-4D6158F1684B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -280,7 +267,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>334E4A4D-6CE2-43E3-820A-C5AC015B0A38</string>
+				<string>0CFBFE99-0B1D-463A-B289-4D6158F1684B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -707,7 +694,7 @@ end alfred_script</string>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>toggle microphone</string>
+				<string>toggle mic drop</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -746,6 +733,27 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>m</string>
+				<key>keycode</key>
+				<integer>-1</integer>
+				<key>keymod</key>
+				<integer>1572864</integer>
+				<key>overridewithargument</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>0CFBFE99-0B1D-463A-B289-4D6158F1684B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -763,50 +771,6 @@ end alfred_script</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>8B8445FD-4D99-4020-A669-F37E3913CD18</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)  
-  if input volume of (get volume settings) is 0 then
-    set volume input volume 75
-  else
-    set volume input volume 0
-  end if
-end alfred_script</string>
-				<key>cachescript</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
-			<key>uid</key>
-			<string>334E4A4D-6CE2-43E3-820A-C5AC015B0A38</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>open "xbar://app.xbarapp.com/refreshPlugin?path=microphone-status.15m.sh"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>466B0489-4584-4209-A777-E251BB20D806</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -859,6 +823,35 @@ end alfred_script</string>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>60065BFC-74ED-44DE-AEB4-1BDE2F513B79</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>5D4720D3-F7B0-4ABC-B5CE-85E2D0FB0465</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -937,207 +930,205 @@ Requires https://github.com/smudge/nightlight for Night Shift</string>
 		<key>06A53AEB-3B89-4F42-BCA2-B0D99419DD16</key>
 		<dict>
 			<key>xpos</key>
-			<integer>460</integer>
+			<real>460</real>
 			<key>ypos</key>
-			<integer>140</integer>
+			<real>140</real>
 		</dict>
 		<key>06E2AF69-9FB9-45EE-8F5F-B9394A27C147</key>
 		<dict>
 			<key>xpos</key>
-			<integer>865</integer>
+			<real>865</real>
 			<key>ypos</key>
-			<integer>395</integer>
+			<real>395</real>
+		</dict>
+		<key>0CFBFE99-0B1D-463A-B289-4D6158F1684B</key>
+		<dict>
+			<key>xpos</key>
+			<real>330</real>
+			<key>ypos</key>
+			<real>575</real>
 		</dict>
 		<key>0DA2C0CE-2874-4F68-A5AE-7038C91D00D9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>640</integer>
+			<real>640</real>
 			<key>ypos</key>
-			<integer>640</integer>
+			<real>640</real>
 		</dict>
 		<key>19992505-582B-416B-B9A3-32E30F28821C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>115</integer>
+			<real>115</real>
 			<key>ypos</key>
-			<integer>30</integer>
+			<real>30</real>
 		</dict>
 		<key>314B5C5B-871A-4018-8F3D-D9081B5FD9F8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>795</integer>
+			<real>795</real>
 			<key>ypos</key>
-			<integer>140</integer>
-		</dict>
-		<key>334E4A4D-6CE2-43E3-820A-C5AC015B0A38</key>
-		<dict>
-			<key>xpos</key>
-			<integer>280</integer>
-			<key>ypos</key>
-			<integer>595</integer>
-		</dict>
-		<key>466B0489-4584-4209-A777-E251BB20D806</key>
-		<dict>
-			<key>note</key>
-			<string>Refresh xBar</string>
-			<key>xpos</key>
-			<integer>435</integer>
-			<key>ypos</key>
-			<integer>595</integer>
+			<real>140</real>
 		</dict>
 		<key>514820BB-B250-4780-993C-0152BE821698</key>
 		<dict>
 			<key>xpos</key>
-			<integer>435</integer>
+			<real>435</real>
 			<key>ypos</key>
-			<integer>355</integer>
+			<real>355</real>
 		</dict>
 		<key>5C3789E2-1E05-47DA-8A3C-C8624B21DE54</key>
 		<dict>
 			<key>xpos</key>
-			<integer>115</integer>
+			<real>115</real>
 			<key>ypos</key>
-			<integer>140</integer>
+			<real>140</real>
+		</dict>
+		<key>5D4720D3-F7B0-4ABC-B5CE-85E2D0FB0465</key>
+		<dict>
+			<key>xpos</key>
+			<real>835</real>
+			<key>ypos</key>
+			<real>730</real>
 		</dict>
 		<key>5DBFCB7E-251B-4341-AA51-4C20F38EDB77</key>
 		<dict>
 			<key>xpos</key>
-			<integer>275</integer>
+			<real>275</real>
 			<key>ypos</key>
-			<integer>835</integer>
+			<real>835</real>
 		</dict>
 		<key>60065BFC-74ED-44DE-AEB4-1BDE2F513B79</key>
 		<dict>
 			<key>xpos</key>
-			<integer>115</integer>
+			<real>115</real>
 			<key>ypos</key>
-			<integer>645</integer>
+			<real>645</real>
 		</dict>
 		<key>61E252E1-D737-47E7-87B7-0E5E6C88B677</key>
 		<dict>
 			<key>xpos</key>
-			<integer>115</integer>
+			<real>115</real>
 			<key>ypos</key>
-			<integer>890</integer>
+			<real>890</real>
 		</dict>
 		<key>63B9EB18-EDA6-42B2-B7CB-E0D8B23996E2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>785</integer>
+			<real>785</real>
 			<key>ypos</key>
-			<integer>365</integer>
+			<real>365</real>
 		</dict>
 		<key>6C4183FB-5734-4711-A748-96DA52A51D89</key>
 		<dict>
 			<key>xpos</key>
-			<integer>115</integer>
+			<real>115</real>
 			<key>ypos</key>
-			<integer>775</integer>
+			<real>775</real>
 		</dict>
 		<key>81E03FE7-DB83-465E-8030-5DD85376A259</key>
 		<dict>
 			<key>xpos</key>
-			<integer>115</integer>
+			<real>115</real>
 			<key>ypos</key>
-			<integer>275</integer>
+			<real>275</real>
 		</dict>
 		<key>8B8445FD-4D99-4020-A669-F37E3913CD18</key>
 		<dict>
 			<key>xpos</key>
-			<integer>795</integer>
+			<real>795</real>
 			<key>ypos</key>
-			<integer>590</integer>
+			<real>590</real>
 		</dict>
 		<key>8F1FC4F7-0C61-4212-8982-55185314A998</key>
 		<dict>
 			<key>xpos</key>
-			<integer>115</integer>
+			<real>115</real>
 			<key>ypos</key>
-			<integer>385</integer>
+			<real>385</real>
 		</dict>
 		<key>9D0F2065-664F-4600-B61A-02857964069E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>625</integer>
+			<real>625</real>
 			<key>ypos</key>
-			<integer>85</integer>
+			<real>85</real>
 		</dict>
 		<key>B458C065-E6E0-470F-B024-A569628EE383</key>
 		<dict>
 			<key>xpos</key>
-			<integer>460</integer>
+			<real>460</real>
 			<key>ypos</key>
-			<integer>30</integer>
+			<real>30</real>
 		</dict>
 		<key>B4D45DA8-DEAF-4959-8CDB-9BF2B2EB1876</key>
 		<dict>
 			<key>xpos</key>
-			<integer>795</integer>
+			<real>795</real>
 			<key>ypos</key>
-			<integer>30</integer>
+			<real>30</real>
 		</dict>
 		<key>BA245AC2-5C0A-4320-8CDC-B0D07712EEB8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>640</integer>
+			<real>640</real>
 			<key>ypos</key>
-			<integer>530</integer>
+			<real>530</real>
 		</dict>
 		<key>BF570616-2CE9-4FCD-91A1-686A289AB908</key>
 		<dict>
 			<key>xpos</key>
-			<integer>280</integer>
+			<real>280</real>
 			<key>ypos</key>
-			<integer>335</integer>
+			<real>335</real>
 		</dict>
 		<key>CB2DFE67-8776-4C94-AE02-24237FD0B34A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>585</integer>
+			<real>585</real>
 			<key>ypos</key>
-			<integer>365</integer>
+			<real>365</real>
 		</dict>
 		<key>D2FDD38B-3881-4FF4-9BAA-AF89D9D8F926</key>
 		<dict>
 			<key>xpos</key>
-			<integer>650</integer>
+			<real>650</real>
 			<key>ypos</key>
-			<integer>365</integer>
+			<real>365</real>
 		</dict>
 		<key>D877DF82-70B2-4643-A48B-5A98A1EE04AF</key>
 		<dict>
 			<key>xpos</key>
-			<integer>280</integer>
+			<real>280</real>
 			<key>ypos</key>
-			<integer>85</integer>
+			<real>85</real>
 		</dict>
 		<key>DA341E1F-0AE6-4665-A384-294129B129D8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>865</integer>
+			<real>865</real>
 			<key>ypos</key>
-			<integer>280</integer>
+			<real>280</real>
 		</dict>
 		<key>DD2416CE-5ECF-47E2-B9C8-394794D31879</key>
 		<dict>
 			<key>xpos</key>
-			<integer>715</integer>
+			<real>715</real>
 			<key>ypos</key>
-			<integer>365</integer>
+			<real>365</real>
 		</dict>
 		<key>E637F03F-6CD3-454B-9964-CA85933F3F99</key>
 		<dict>
 			<key>xpos</key>
-			<integer>115</integer>
+			<real>115</real>
 			<key>ypos</key>
-			<integer>530</integer>
+			<real>530</real>
 		</dict>
 		<key>F67B83B7-4FF4-463D-9528-AA64D28C7896</key>
 		<dict>
 			<key>xpos</key>
-			<integer>950</integer>
+			<real>950</real>
 			<key>ypos</key>
-			<integer>90</integer>
+			<real>90</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

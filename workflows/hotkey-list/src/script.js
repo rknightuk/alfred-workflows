@@ -50,7 +50,13 @@ const WORDS = {
 items = []
 
 workflows.forEach(wf => {
-	const data = se.propertyListFiles.byName(`${workflowPath}/${wf}/info.plist`).contents.value()
+	let data = null
+	try {
+		data = se.propertyListFiles.byName(`${workflowPath}/${wf}/info.plist`).contents.value()
+	} catch (e) {
+		return
+	}
+
 	if (data.disabled) return null
 	const { 
 		name, 

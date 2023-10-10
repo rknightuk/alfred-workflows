@@ -17,6 +17,7 @@ The theme in the screenshots is [Tempo Alternative (Dark)](https://github.com/ch
 - Looping through all workflows in my Alfred workflow directory
 - If it has my bundle ID in the plist file, it extracts the metadata using `PListBuddy`, adds it to the first list below, then zips the workflow as an `.alfredworkflow`
 - If it doesn't have my bundle ID, then it gets the name, author and website and puts them in the second list below
+- Adds readmes to workflows that don't have them and warns on missing screenshots
 
 See the comments in the script to set this up for your own workflows
 

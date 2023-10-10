@@ -163,9 +163,10 @@
 					<string>/System/Applications/Mail.app</string>
 					<string>/System/Applications/Music.app</string>
 					<string>/Applications/Discord.app</string>
+					<string>/Applications/Ivory.app</string>
 				</array>
 				<key>toggle</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.launchfiles</string>
@@ -267,7 +268,7 @@
 						<key>matchstring</key>
 						<string>podcast</string>
 						<key>outputlabel</key>
-						<string>Podding</string>
+						<string>podcast</string>
 						<key>uid</key>
 						<string>3C6FF50A-21F6-4C1C-A328-43CF1A7807A8</string>
 					</dict>
@@ -313,10 +314,9 @@
 					<string>/Applications/Audio Hijack.app</string>
 					<string>/Applications/Notes.app</string>
 					<string>~/Dropbox/Ruminate Podcast/shownotes.md</string>
-					<string>/System/Applications/Mail.app</string>
 				</array>
 				<key>toggle</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.launchfiles</string>
@@ -336,14 +336,15 @@
 					<string>/Applications/PhpStorm.app</string>
 					<string>/Applications/Slack.app</string>
 					<string>/Applications/iTerm.app</string>
-					<string>/Applications/Tweetbot.app</string>
 					<string>/System/Applications/Mail.app</string>
 					<string>/System/Applications/Music.app</string>
 					<string>/Applications/Tunnelblick.app</string>
 					<string>/Applications/Discord.app</string>
+					<string>/Applications/Ivory.app</string>
+					<string>/Applications/Docker.app</string>
 				</array>
 				<key>toggle</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.launchfiles</string>

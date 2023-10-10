@@ -45,6 +45,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>88F49FD9-84B7-4BD1-BBF0-1D8FC4DD7C6A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>90D3416B-3837-4FE7-9D1F-67CB28E4E4B5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C69E817C-F354-48B2-8D52-7D9AD6A99969</key>
 		<array>
 			<dict>
@@ -111,7 +124,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>open ~/Work</string>
+				<string>open ~/Downloads/Work</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -123,29 +136,6 @@
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>D2D07D90-3E32-451A-921E-EDDF22A25A32</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>open ~/Downloads</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>96091756-72E1-4DF5-8076-AB92496E199E</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -178,7 +168,30 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>open ~/Sites</string>
+				<string>open ~/Downloads</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>96091756-72E1-4DF5-8076-AB92496E199E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open ~/Developer</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -217,6 +230,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>desktop</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Desktop</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C69E817C-F354-48B2-8D52-7D9AD6A99969</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -236,27 +270,6 @@
 			<string>5EEEB93B-E5A3-4F87-843C-5D3DAFF34121</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>desktop</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Open Desktop</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C69E817C-F354-48B2-8D52-7D9AD6A99969</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -301,6 +314,50 @@
 			<string>58DC76C9-E0CD-49E8-BC96-2D4DE501FD9E</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>screenshots</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Screenshots</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>88F49FD9-84B7-4BD1-BBF0-1D8FC4DD7C6A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open ~/Downloads/Screenshots</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>90D3416B-3837-4FE7-9D1F-67CB28E4E4B5</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -348,6 +405,20 @@
 			<real>265</real>
 			<key>ypos</key>
 			<real>300</real>
+		</dict>
+		<key>88F49FD9-84B7-4BD1-BBF0-1D8FC4DD7C6A</key>
+		<dict>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>700</real>
+		</dict>
+		<key>90D3416B-3837-4FE7-9D1F-67CB28E4E4B5</key>
+		<dict>
+			<key>xpos</key>
+			<real>265</real>
+			<key>ypos</key>
+			<real>700</real>
 		</dict>
 		<key>96091756-72E1-4DF5-8076-AB92496E199E</key>
 		<dict>

@@ -193,7 +193,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>eval "/usr/local/bin/SwitchAudioSource $1"</string>
+				<string>eval "/opt/homebrew/bin/SwitchAudioSource $1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -320,53 +320,53 @@ Set exec path to the location of your install of switchaudio-osx.</string>
 			<key>note</key>
 			<string>Get device name</string>
 			<key>xpos</key>
-			<integer>625</integer>
+			<real>625</real>
 			<key>ypos</key>
-			<integer>230</integer>
+			<real>230</real>
 		</dict>
 		<key>24F5C378-A4BC-4F55-826D-97DD49943802</key>
 		<dict>
 			<key>xpos</key>
-			<integer>345</integer>
+			<real>345</real>
 			<key>ypos</key>
-			<integer>345</integer>
+			<real>345</real>
 		</dict>
 		<key>4093A476-3C46-4E17-9C38-9C98AFBDBA75</key>
 		<dict>
 			<key>note</key>
 			<string>Switch source</string>
 			<key>xpos</key>
-			<integer>440</integer>
+			<real>440</real>
 			<key>ypos</key>
-			<integer>230</integer>
+			<real>230</real>
 		</dict>
 		<key>4CF3E4FB-5D16-4A16-B03F-1466C6FD769B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>155</integer>
+			<real>155</real>
 			<key>ypos</key>
-			<integer>315</integer>
+			<real>315</real>
 		</dict>
 		<key>4D02FF20-348C-47F1-A53C-68806DD91144</key>
 		<dict>
 			<key>xpos</key>
-			<integer>155</integer>
+			<real>155</real>
 			<key>ypos</key>
-			<integer>190</integer>
+			<real>190</real>
 		</dict>
 		<key>7710F67B-9E76-4D90-85F5-463BC7026D9E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>815</integer>
+			<real>815</real>
 			<key>ypos</key>
-			<integer>230</integer>
+			<real>230</real>
 		</dict>
 		<key>855FAFCC-9089-4CC5-A851-354CE2024FAD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>345</integer>
+			<real>345</real>
 			<key>ypos</key>
-			<integer>220</integer>
+			<real>220</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -374,10 +374,8 @@ Set exec path to the location of your install of switchaudio-osx.</string>
 	<key>variables</key>
 	<dict>
 		<key>exec_path</key>
-		<string>/usr/local/bin</string>
+		<string>/opt/homebrew/bin/SwitchAudioSource</string>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
