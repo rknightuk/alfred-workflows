@@ -1,1 +1,0 @@
-- [2021-07-23] Now shows options to option in Finder, Sublime, Terminal, or All
