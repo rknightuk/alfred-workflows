@@ -241,6 +241,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>60A64635-EBE0-4A51-8ECC-DE80E4940DF0</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>2134AB71-767E-4674-ACE0-992941EF7831</key>
 		<array>
@@ -1190,7 +1200,7 @@
 			<key>config</key>
 			<dict>
 				<key>alfredfiltersresults</key>
-				<false/>
+				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
 				<key>argumenttreatemptyqueryasnil</key>
@@ -1425,7 +1435,7 @@
 			<key>config</key>
 			<dict>
 				<key>alfredfiltersresults</key>
-				<false/>
+				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
 				<key>argumenttreatemptyqueryasnil</key>
@@ -1524,25 +1534,6 @@
 			<key>config</key>
 			<dict>
 				<key>externaltriggerid</key>
-				<string>rknightuk.agenda.view-reminder</string>
-				<key>passinputasargument</key>
-				<true/>
-				<key>passvariables</key>
-				<true/>
-				<key>workflowbundleid</key>
-				<string>self</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
-			<key>uid</key>
-			<string>E82F75F7-9EEE-4036-9FB9-0FDB775009AE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>externaltriggerid</key>
 				<string>rknightuk.agenda.view-event</string>
 				<key>passinputasargument</key>
 				<true/>
@@ -1593,6 +1584,25 @@
 			<string>A285A65C-8CE7-4B6D-A194-E0B2D3D0FA3A</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>rknightuk.agenda.view-reminder</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>E82F75F7-9EEE-4036-9FB9-0FDB775009AE</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1679,6 +1689,25 @@
 			<string>53450192-6037-440F-A6D5-D4A64BE86ECF</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>60A64635-EBE0-4A51-8ECC-DE80E4940DF0</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3956,7 +3985,7 @@ fi</string>
 			<key>xpos</key>
 			<real>830</real>
 			<key>ypos</key>
-			<real>490</real>
+			<real>485</real>
 		</dict>
 		<key>2134AB71-767E-4674-ACE0-992941EF7831</key>
 		<dict>
@@ -3981,7 +4010,7 @@ fi</string>
 			<key>xpos</key>
 			<real>530</real>
 			<key>ypos</key>
-			<real>490</real>
+			<real>485</real>
 		</dict>
 		<key>2B53790F-7CA0-4955-B1F0-AB42AB5CBB2D</key>
 		<dict>
@@ -4170,6 +4199,13 @@ fi</string>
 			<real>1140</real>
 			<key>ypos</key>
 			<real>1875</real>
+		</dict>
+		<key>60A64635-EBE0-4A51-8ECC-DE80E4940DF0</key>
+		<dict>
+			<key>xpos</key>
+			<real>1400</real>
+			<key>ypos</key>
+			<real>810</real>
 		</dict>
 		<key>6233B9BD-B0EE-4A64-A748-23F5FC5D11C2</key>
 		<dict>
@@ -4573,9 +4609,9 @@ fi</string>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<real>1060</real>
+			<real>1395</real>
 			<key>ypos</key>
-			<real>590</real>
+			<real>670</real>
 		</dict>
 		<key>EB8A42AE-EF0A-4DA3-ACD0-704C8F1CEEEB</key>
 		<dict>
@@ -4643,7 +4679,7 @@ fi</string>
 		<key>upcoming_days</key>
 		<string>5</string>
 		<key>use_busycal</key>
-		<string>false</string>
+		<string>true</string>
 		<key>use_fantastical</key>
 		<string>false</string>
 	</dict>

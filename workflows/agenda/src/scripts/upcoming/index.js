@@ -30,7 +30,7 @@ function run(argv) {
 	const remindersPath = $.getenv('alfred_preferences') + "/workflows/" + $.getenv('alfred_workflow_uid') + "/scripts/reminders/lib/upcoming.js"
 	const UpcomingReminders = require(remindersPath);
 	const reminders = remindersEnabled ? UpcomingReminders.get(todayOnly, listName, limit) : [];
- 
+
 	const eventsPath = $.getenv('alfred_preferences') + "/workflows/" + $.getenv('alfred_workflow_uid') + "/scripts/events/lib/upcoming.js"
 	const UpcomingEvents = require(eventsPath);
 	const events = calendarsEnabled ? UpcomingEvents.get(todayOnly, listName, limit) : [];
