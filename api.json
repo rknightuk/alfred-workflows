@@ -1,15 +1,5 @@
 [
   {
-    "uid": "4B05F59D-01FF-404F-BE56-4811A5527303",
-    "bundleid": "agenda",
-    "name": "Agenda - Reminders and Calendar Events",
-    "description": "Manage Reminders and Calandar Events",
-    "version": "1.0.1",
-    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/agenda",
-    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/agenda/src/screenshot.png",
-    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/agenda/src/icon.png"
-  },
-  {
     "uid": "F51D6B02-6E0A-427C-B4B4-19BD53DAFB90",
     "bundleid": "computer-mode",
     "name": "App Mode",

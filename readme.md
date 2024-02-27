@@ -27,12 +27,6 @@ This part of the readme is set in `readme.example`
 
 _Some of these will completely useless to anyone but me_ 
 
-### Agenda - Reminders and Calendar Events
-
-_Manage Reminders and Calandar Events_ [Download v1.0.1](workflows/agenda)
-
-![agenda screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/agenda/src/screenshot.png)
-
 ### App Mode
 
 _Open apps for different scenarios_ [Download v1.0.0](workflows/computer-mode)
