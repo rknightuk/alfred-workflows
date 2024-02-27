@@ -52,6 +52,7 @@ function run(argv) {
 		snake: { fn: (string) => string.split(' ').join('_').split('-').join('_'), name: 'snake_case' },
 		kebab: { fn: (string) => string.split(' ').join('-').split('_').join('-'), name: 'kebab-case' },
 		slug: { fn: (string) => string.toLowerCase().replace(/[^\w\s]/gi, '').split(' ').join('-'), name: 'url-slug'},
+		spaced: { fn: (string) => string.split('').join(' ')},
 		spongebob: { fn: (string) => {
 			let output = ''
 		    string.split('').forEach((l, i) => {

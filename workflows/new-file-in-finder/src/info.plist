@@ -72,27 +72,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>fnew</string>
-				<key>subtext</key>
-				<string>e.g. index.md</string>
-				<key>text</key>
-				<string>Create new file</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>85FAF15A-A126-43CE-A754-8ECECE812361</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -108,6 +87,27 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>BA5E9C00-5CFE-42C3-9C11-51B92B5B6C48</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>fnew</string>
+				<key>subtext</key>
+				<string>e.g. index.md</string>
+				<key>text</key>
+				<string>Create new file</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>85FAF15A-A126-43CE-A754-8ECECE812361</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -138,7 +138,7 @@ end alfred_script</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>bash ./script.sh $1</string>
+				<string>bash ./script.sh "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -183,37 +183,37 @@ end alfred_script</string>
 			<key>note</key>
 			<string>Get Finder path</string>
 			<key>xpos</key>
-			<integer>410</integer>
+			<real>410</real>
 			<key>ypos</key>
-			<integer>225</integer>
+			<real>225</real>
 		</dict>
 		<key>85FAF15A-A126-43CE-A754-8ECECE812361</key>
 		<dict>
 			<key>xpos</key>
-			<integer>165</integer>
+			<real>165</real>
 			<key>ypos</key>
-			<integer>225</integer>
+			<real>225</real>
 		</dict>
 		<key>BA5E9C00-5CFE-42C3-9C11-51B92B5B6C48</key>
 		<dict>
 			<key>xpos</key>
-			<integer>840</integer>
+			<real>840</real>
 			<key>ypos</key>
-			<integer>225</integer>
+			<real>225</real>
 		</dict>
 		<key>C96F2B6B-E5C3-41A4-A864-8C3A6C56465A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>330</integer>
+			<real>330</real>
 			<key>ypos</key>
-			<integer>255</integer>
+			<real>255</real>
 		</dict>
 		<key>F752757E-E036-4744-B2F2-CB0D5CC9F9ED</key>
 		<dict>
 			<key>xpos</key>
-			<integer>615</integer>
+			<real>655</real>
 			<key>ypos</key>
-			<integer>225</integer>
+			<real>225</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

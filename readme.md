@@ -17,6 +17,7 @@ The theme in the screenshots is [Tempo Alternative (Dark)](https://github.com/ch
 - Looping through all workflows in my Alfred workflow directory
 - If it has my bundle ID in the plist file, it extracts the metadata using `PListBuddy`, adds it to the first list below, then zips the workflow as an `.alfredworkflow`
 - If it doesn't have my bundle ID, then it gets the name, author and website and puts them in the second list below
+- Adds readmes to workflows that don't have them and warns on missing screenshots
 
 See the comments in the script to set this up for your own workflows
 
@@ -85,7 +86,7 @@ _Copy all current Safari tabs to Markdown_ [Download v1.2.2](workflows/safari-ta
 
 ### Gif Search
 
-_Search a folder of gifs and copy them to the clipboard_ [Download v1.0.0](workflows/gifsearch)
+_Search a folder of gifs and copy them to the clipboard_ [Download v1.1.0](workflows/gifsearch)
 
 ![gifsearch screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/gifsearch/src/screenshot.png)
 
@@ -116,6 +117,12 @@ _Search for HTTP status codes_ [Download v1.0.1](workflows/httpstatuscodes)
 _Workflow for searching the Intersect_ [Download v1.0.0](workflows/intersect)
 
 ![intersect screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/intersect/src/screenshot.png)
+
+### Johnny Decimal
+
+_Quick access to your J•D system_ [Download v1.0.0](workflows/johnny-decimal)
+
+![johnny-decimal screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/johnny-decimal/src/screenshot.png)
 
 ### MicroMarks
 
@@ -206,11 +213,13 @@ _Open a workflow's files in an editor, Finder, or Terminal_ [Download v1.1.0](wo
 
 ## Third Party Workflows
 
+- [1Password by Vítor Galvão](https://github.com/alfredapp/1password-workflow/)
 - [Datetime Format Converter by Michael Waterfall](twitter.com/mwaterfall)
 - [IP Address v1.2.0 by David Ferguson](jdfwarrior.tumblr.com)
 - [Lorem Ipsum by Till Krüss](https://till.im)
 - [Play Song by Caleb Evans](https://github.com/caleb531/play-song)
 - [Search Notes by Sean Ballinger](https://github.com/sballin/alfred-search-notes-app)
+- [Snippet Transformer by Vítor Galvão](https://github.com/alfredapp/snippet-transformer-workflow/)
 - [SoulverCore by Carlos Precioso](https://precioso.design/)
 - [System Settings by Vítor Galvão](https://github.com/alfredapp/system-settings-workflow/)
 - [Temp Conversion by Justin Hamilton](https://www.jwhamilton.co)

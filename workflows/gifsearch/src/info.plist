@@ -6,11 +6,37 @@
 	<string>com.rknightuk.gifsearch</string>
 	<key>connections</key>
 	<dict>
-		<key>67A8E3E8-DF70-44BD-A073-59E41D225B1D</key>
+		<key>91618FBE-4F4A-462C-A1FE-E88AA69269AC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>AFA7D92B-1972-49A3-BB56-BE5C7925F935</string>
+				<string>D77F6005-5CA1-4717-A27D-4DD5A6539F33</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B9DE4297-9013-4388-86D8-C1EB84944852</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>91618FBE-4F4A-462C-A1FE-E88AA69269AC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D77F6005-5CA1-4717-A27D-4DD5A6539F33</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E603DA58-33AE-4CB6-80A0-C3671DC7DCFF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -33,55 +59,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>gif</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>osascript ./script.js $argv</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Search Gifs</string>
-				<key>type</key>
-				<integer>5</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>67A8E3E8-DF70-44BD-A073-59E41D225B1D</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>applescript</key>
 				<string>on alfred_script(q)
     set thePath to q
@@ -93,9 +70,84 @@ end alfred_script</string>
 			<key>type</key>
 			<string>alfred.workflow.action.applescript</string>
 			<key>uid</key>
-			<string>AFA7D92B-1972-49A3-BB56-BE5C7925F935</string>
+			<string>E603DA58-33AE-4CB6-80A0-C3671DC7DCFF</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>gif</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Search Gifs</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B9DE4297-9013-4388-86D8-C1EB84944852</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>columncount</key>
+				<integer>4</integer>
+				<key>filterable</key>
+				<true/>
+				<key>imageaspect</key>
+				<integer>0</integer>
+				<key>inputfile</key>
+				<string></string>
+				<key>inputtype</key>
+				<integer>0</integer>
+				<key>loadingtext</key>
+				<string></string>
+				<key>showsubtitles</key>
+				<true/>
+				<key>showtitles</key>
+				<true/>
+				<key>subtitlesinfooter</key>
+				<false/>
+				<key>titlesinfooter</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.grid</string>
+			<key>uid</key>
+			<string>D77F6005-5CA1-4717-A27D-4DD5A6539F33</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>osascript ./script.js</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>91618FBE-4F4A-462C-A1FE-E88AA69269AC</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -106,19 +158,33 @@ Set the path to your gifs in the configuration (e.g. /Users/jim/mygifs) then use
 Enter to copy to clipboard.</string>
 	<key>uidata</key>
 	<dict>
-		<key>67A8E3E8-DF70-44BD-A073-59E41D225B1D</key>
+		<key>91618FBE-4F4A-462C-A1FE-E88AA69269AC</key>
 		<dict>
 			<key>xpos</key>
-			<real>245</real>
+			<real>450</real>
 			<key>ypos</key>
-			<real>205</real>
+			<real>300</real>
 		</dict>
-		<key>AFA7D92B-1972-49A3-BB56-BE5C7925F935</key>
+		<key>B9DE4297-9013-4388-86D8-C1EB84944852</key>
 		<dict>
 			<key>xpos</key>
-			<real>470</real>
+			<real>275</real>
 			<key>ypos</key>
-			<real>205</real>
+			<real>300</real>
+		</dict>
+		<key>D77F6005-5CA1-4717-A27D-4DD5A6539F33</key>
+		<dict>
+			<key>xpos</key>
+			<real>610</real>
+			<key>ypos</key>
+			<real>300</real>
+		</dict>
+		<key>E603DA58-33AE-4CB6-80A0-C3671DC7DCFF</key>
+		<dict>
+			<key>xpos</key>
+			<real>805</real>
+			<key>ypos</key>
+			<real>300</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -146,7 +212,7 @@ Enter to copy to clipboard.</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string>https://rknight.me</string>
 </dict>

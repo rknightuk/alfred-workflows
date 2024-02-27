@@ -94,7 +94,7 @@
     "bundleid": "gifsearch",
     "name": "Gif Search",
     "description": "Search a folder of gifs and copy them to the clipboard",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/gifsearch",
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/gifsearch/src/screenshot.png",
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/gifsearch/src/icon.png"
@@ -140,6 +140,16 @@
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/intersect/src/icon.png"
   },
   {
+    "uid": "9324AF1C-CE4F-4EB2-B0C3-D05EE29CB93C",
+    "bundleid": "johnny-decimal",
+    "name": "Johnny Decimal",
+    "description": "Quick access to your J¥D system",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/johnny-decimal",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/johnny-decimal/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/johnny-decimal/src/icon.png"
+  },
+  {
     "uid": "55F2C350-099A-46F7-8EB4-0A0B3417380D",
     "bundleid": "micromarks",
     "name": "MicroMarks",
@@ -180,7 +190,7 @@
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/new-file-in-finder/src/icon.png"
   },
   {
-    "uid": "771E53C4-B7A2-4155-85BD-9330E555F091",
+    "uid": "006953FD-FE05-4F6E-9848-C15255DEC635",
     "bundleid": "shortcuts",
     "name": "Shortcuts",
     "description": "Run Shortcuts",
