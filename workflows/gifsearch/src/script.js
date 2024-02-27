@@ -1,8 +1,7 @@
 function run(argv)
 {
-    ObjC.import('stdlib');
+    
 	
-	const gifPath = $.getenv('gif_path')
 	const se = Application('System Events');
 	const gifs = se.folders.byName(gifPath).diskItems.name()
 

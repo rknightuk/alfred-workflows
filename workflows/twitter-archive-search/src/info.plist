@@ -109,33 +109,70 @@
 		<key>8403D58D-5B57-4808-A035-C82EDBE49B8F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>395</integer>
+			<real>395</real>
 			<key>ypos</key>
-			<integer>220</integer>
+			<real>220</real>
 		</dict>
 		<key>F96099AE-6306-4666-B5B9-E1B1EF9B40A1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<real>190</real>
 			<key>ypos</key>
-			<integer>220</integer>
+			<real>220</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>2</integer>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Archive Path</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>archive_path</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>https://twitter.com/_/status/</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Use this if you want to open a different site, like a TweetBack install</string>
+			<key>label</key>
+			<string>Tweet URL</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>tweet_url</string>
+		</dict>
+	</array>
 	<key>variables</key>
 	<dict>
-		<key>archive_path</key>
-		<string></string>
 		<key>include_replies</key>
 		<string>false</string>
 		<key>include_retweets</key>
 		<string>false</string>
 	</dict>
-	<key>variablesdontexport</key>
-	<array>
-		<string>archive_path</string>
-	</array>
 	<key>version</key>
 	<string>1.0.1</string>
 	<key>webaddress</key>

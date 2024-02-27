@@ -270,6 +270,16 @@
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/treatday/src/icon.png"
   },
   {
+    "uid": "C947CB33-E573-422E-9831-1A3F4BEDD248",
+    "bundleid": "twitter-archive-search",
+    "name": "Twitter Archive Search",
+    "description": "Search your local Twitter archive",
+    "version": "1.0.1",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/twitter-archive-search",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/twitter-archive-search/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/twitter-archive-search/src/icon.png"
+  },
+  {
     "uid": "8ED99597-6655-4CDA-B54C-455F9A1AE3DE",
     "bundleid": "url-schemes",
     "name": "URL Schemes",

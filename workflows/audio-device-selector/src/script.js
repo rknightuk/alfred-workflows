@@ -23,21 +23,17 @@ function formatData(title) {
 	}
 
 	return names[title] ?? { name: title, icon: null }
-
-	if (Object.keys(names).includes(title)) {
-		return names[title]
-	}
-
-	return title
 }
 
 function run(argv) {
 	const type = argv[0]
+	ObjC.import('stdlib');
+	const execPath = $.getenv('exec_path') ?? '/opt/homebrew/bin/SwitchAudioSource'
 
 	var app = Application.currentApplication();
 	app.includeStandardAdditions = true;
 	
-	devices = app.doShellScript(`/opt/homebrew/bin/SwitchAudioSource -a -t ${type}`);
+	devices = app.doShellScript(`${execPath} -a -t ${type}`);
 
 	items = devices.split('\r').map(d => {
 		const data = formatData(d)

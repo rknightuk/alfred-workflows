@@ -5,6 +5,7 @@ function run(argv) {
 	const includeReplies = $.getenv('include_replies') === 'true'
 	const includeRetweets = $.getenv('include_retweets') === 'true'
 	const archivePath = $.getenv('archive_path')
+	const tweetUrl = $.getenv('tweet_url') ?? 'https://twitter.com/_/status/'
 
 	if (!archivePath)
 	{
@@ -29,7 +30,7 @@ function run(argv) {
 	var contents = fm.contentsAtPath(archivePath.toString());
 	contents = $.NSString.alloc.initWithDataEncoding(contents, $.NSUTF8StringEncoding);
 
-	const tweets = JSON.parse(ObjC.unwrap(contents).replace('window.YTD.tweet.part0 = ', ''))
+	const tweets = JSON.parse(ObjC.unwrap(contents).replace('window.YTD.tweets.part0 = ', ''))
 
 	const items = tweets.filter(t => {
 		if (!includeReplies && t.tweet.in_reply_to_user_id) return false
@@ -44,7 +45,7 @@ function run(argv) {
 		const startDateString = `${start.getFullYear()}-${startMonth}-${startDate} ${startHours}:${startMinutes}`
 		let tweetText = t.tweet.full_text.replace(/\r?\n/g, " ")
 
-		const url = `https://twitter.com/_/status/${t.tweet.id}`
+		const url = `${tweetUrl}${t.tweet.id}`
 		let icon = 'tweet'
 		if (t.tweet.in_reply_to_user_id) icon = 'reply'
 		if (t.tweet.full_text.startsWith('RT @')) {

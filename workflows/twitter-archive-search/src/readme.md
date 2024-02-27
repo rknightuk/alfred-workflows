@@ -18,7 +18,8 @@ Keyword is `twa` + your search term (minimum of 3 characters for performance rea
 ### Setup
 
 - Request your Twitter here: https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive
-- In the workflow variables, set the path to your `tweet.js` file (this is in the `data` of the download). For example, `/Users/alfreduser/Dropbox/Twitter Archive/data/tweet.js`
+- In the workflow variables, set the path to your `tweets.js` file (this is in the `data` of the download). For example, `/Users/alfreduser/Dropbox/Twitter Archive/data/tweets.js`
+- Optionally set a URL to open tweets at - if you have a [Tweetback install](https://github.com/tweetback/tweetback) for example
 
 Like this? [Buy me a coffee](https://www.buymeacoffee.com/rknightuk)
 

@@ -196,6 +196,12 @@ _Brian Butterfield Sound Clips_ [Download v1.0.1](workflows/treatday)
 
 ![treatday screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/treatday/src/screenshot.png)
 
+### Twitter Archive Search
+
+_Search your local Twitter archive_ [Download v1.0.1](workflows/twitter-archive-search)
+
+![twitter-archive-search screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/twitter-archive-search/src/screenshot.png)
+
 ### URL Schemes
 
 _Show all URL schemes for installed apps_ [Download v1.0.0](workflows/url-schemes)

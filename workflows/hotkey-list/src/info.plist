@@ -147,28 +147,26 @@ bash ./run.sh $split1 "$split2"</string>
 		<key>3C6F5825-6E7D-4D18-9218-D71E77B1C23E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>110</integer>
+			<real>110</real>
 			<key>ypos</key>
-			<integer>105</integer>
+			<real>105</real>
 		</dict>
 		<key>46895B0C-6942-4946-9186-3D950BBAAD10</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<real>500</real>
 			<key>ypos</key>
-			<integer>105</integer>
+			<real>105</real>
 		</dict>
 		<key>72A9A948-2049-4FD4-8571-622B72D3090F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>345</integer>
+			<real>345</real>
 			<key>ypos</key>
-			<integer>135</integer>
+			<real>135</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
-	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
 	<string>1.0.2</string>
