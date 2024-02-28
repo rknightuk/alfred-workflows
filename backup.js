@@ -2,7 +2,7 @@
 const BACKUP_PATH="/Users/robb/Developer/personal/alfred-workflows"
 
 //The directory where your Alfred workflows live
-const WORKFLOW_PATH="/Users/robb/Dropbox/Alfred/Alfred.alfredpreferences/workflows"
+const WORKFLOW_PATH="/Users/robb/Documents/AlfredPrefs/Alfred.alfredpreferences/workflows"
 
 //The bundle prefix you use for your workflows
 const BUNDLE_PREFIX="com.rknightuk."

@@ -219,7 +219,7 @@
 						<key>matchmode</key>
 						<integer>6</integer>
 						<key>matchstring</key>
-						<string>error</string>
+						<string></string>
 						<key>outputlabel</key>
 						<string>Error</string>
 						<key>uid</key>

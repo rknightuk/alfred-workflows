@@ -142,6 +142,12 @@ _Create a new file in the current Finder window_ [Download v1.0.0](workflows/new
 
 ![new-file-in-finder screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/new-file-in-finder/src/screenshot.png)
 
+### paste.lol
+
+[Download v1.0.0](workflows/pastedotlol)
+
+![pastedotlol screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/pastedotlol/src/screenshot.png)
+
 ### Shortcuts
 
 _Run Shortcuts_ [Download v1.0.0](workflows/shortcuts)

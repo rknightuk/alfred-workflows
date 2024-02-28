@@ -180,6 +180,16 @@
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/new-file-in-finder/src/icon.png"
   },
   {
+    "uid": "30F67DF7-EB20-45C5-852D-D1DD6705D029",
+    "bundleid": "pastedotlol",
+    "name": "paste.lol",
+    "description": "",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/pastedotlol",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/pastedotlol/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/pastedotlol/src/icon.png"
+  },
+  {
     "uid": "006953FD-FE05-4F6E-9848-C15255DEC635",
     "bundleid": "shortcuts",
     "name": "Shortcuts",
