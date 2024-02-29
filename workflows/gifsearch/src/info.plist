@@ -80,7 +80,7 @@ end alfred_script</string>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>gif</string>
+				<string>{var:keyword}</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -209,6 +209,27 @@ Enter to copy to clipboard.</string>
 			<string>filepicker</string>
 			<key>variable</key>
 			<string>gif_path</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>gif</string>
+				<key>placeholder</key>
+				<string>gif</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Workflow Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword</string>
 		</dict>
 	</array>
 	<key>version</key>
