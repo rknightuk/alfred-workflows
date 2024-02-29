@@ -12,7 +12,7 @@ Access your Micro.blog bookmarks from Alfred. Like this? Check out [MicroMarks o
 2. Get an API from Micro.blog [https://micro.blog/account/apps](https://micro.blog/account/apps)
 3. Add the key to `api_key` in environment variables for the workflow
 
-Keyword is `mm`
+Keyword is `micromarks` and is configurable.
 
 Like this? [Buy me a coffee](https://www.buymeacoffee.com/rknightuk)
 

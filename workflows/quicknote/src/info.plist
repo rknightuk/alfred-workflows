@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.rknightuk.quicknote</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>40D07892-1AF2-4F82-B847-4C09FFFA5DDE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B45FB817-BF96-4FB8-B67F-473601866C32</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B45FB817-BF96-4FB8-B67F-473601866C32</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F7C78ECC-CC9C-45E1-8991-AEDCC7316E3E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Robb Knight</string>
+	<key>description</key>
+	<string>Quickly add a note to a file</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>QuickNote</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>{var:keyword}</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Add a note</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>40D07892-1AF2-4F82-B847-4C09FFFA5DDE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>osascript ./script.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B45FB817-BF96-4FB8-B67F-473601866C32</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+if [ $add_option = "start" ]; then
+	echo -e "$query$(cat $quicknotefile)" &gt; $quicknotefile 
+else
+	echo -e "$(cat $quicknotefile)\n$query" &gt; $quicknotefile
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F7C78ECC-CC9C-45E1-8991-AEDCC7316E3E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Quickly append a note to a file on your computer. 
+
+**Note formatting**
+
+You can edit the format of the note and use `{note}` and `{date}` as variables. Optionally format the date to whatever you like with the date format options. Formatting for dates is done with day.js https://day.js.org/docs/en/display/format. Some common formats:
+
+- `YYYY-MM-DD`
+- `DD-MM-YYYY`
+- `MM-DD-YYYY`
+- `YYYY-MM-DD HH:mm`
+- `YYYY-MM-DDTHH:mm:ssZ[Z]`</string>
+	<key>uidata</key>
+	<dict>
+		<key>40D07892-1AF2-4F82-B847-4C09FFFA5DDE</key>
+		<dict>
+			<key>xpos</key>
+			<real>245</real>
+			<key>ypos</key>
+			<real>310</real>
+		</dict>
+		<key>B45FB817-BF96-4FB8-B67F-473601866C32</key>
+		<dict>
+			<key>xpos</key>
+			<real>445</real>
+			<key>ypos</key>
+			<real>310</real>
+		</dict>
+		<key>F7C78ECC-CC9C-45E1-8991-AEDCC7316E3E</key>
+		<dict>
+			<key>xpos</key>
+			<real>635</real>
+			<key>ypos</key>
+			<real>310</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>quicknote</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Workflow Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>2</integer>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>File to add to</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>quicknotefile</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>end</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Start of Note</string>
+						<string>start</string>
+					</array>
+					<array>
+						<string>End of Note</string>
+						<string>end</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Where to add a new note</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>add_option</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>{note}</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+				<key>verticalsize</key>
+				<integer>6</integer>
+			</dict>
+			<key>description</key>
+			<string>Optionally format the note. {date} and {note} are the two variables available.</string>
+			<key>label</key>
+			<string>Note Format</string>
+			<key>type</key>
+			<string>textarea</string>
+			<key>variable</key>
+			<string>note_format</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>YYYY-MM-DD</string>
+				<key>placeholder</key>
+				<string>YYYY-MM-DD</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Formatting for the date when including {date} in the note format</string>
+			<key>label</key>
+			<string>Date Format</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>date_format</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://rknight.me</string>
+</dict>
+</plist>

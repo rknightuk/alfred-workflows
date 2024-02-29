@@ -13,7 +13,7 @@ Quickly post to Micro.blog from Alfred. Include categories using hastags e.g. `m
 3. Add the key to `api_key` in environment variables for the workflow
 4. Add your domain under `site` in the environment variables for the workflow
 
-Keyword is `mb`
+Keyword is `microposter` and is configurable.
 
 Currently this will not handle categories with spaces in them.
 

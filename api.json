@@ -64,7 +64,7 @@
     "bundleid": "findmoji",
     "name": "Findmoji",
     "description": "Find and paste emoji",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/findmoji",
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/findmoji/src/screenshot.png",
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/findmoji/src/icon.png"
@@ -188,6 +188,16 @@
     "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/pastedotlol",
     "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/pastedotlol/src/screenshot.png",
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/pastedotlol/src/icon.png"
+  },
+  {
+    "uid": "8563FD49-B7EC-4DFB-A0EF-CAF4D50C51F6",
+    "bundleid": "quicknote",
+    "name": "QuickNote",
+    "description": "Quickly add a note to a file",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/quicknote",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/quicknote/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/quicknote/src/icon.png"
   },
   {
     "uid": "006953FD-FE05-4F6E-9848-C15255DEC635",

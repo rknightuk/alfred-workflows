@@ -68,7 +68,7 @@ _Open folders and files in an editor, Finder, or Terminal_ [Download v1.0.0](wor
 
 ### Findmoji
 
-_Find and paste emoji_ [Download v1.0.1](workflows/findmoji)
+_Find and paste emoji_ [Download v1.0.2](workflows/findmoji)
 
 ![findmoji screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/findmoji/src/screenshot.png)
 
@@ -147,6 +147,12 @@ _Create a new file in the current Finder window_ [Download v1.0.0](workflows/new
 [Download v1.0.0](workflows/pastedotlol)
 
 ![pastedotlol screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/pastedotlol/src/screenshot.png)
+
+### QuickNote
+
+_Quickly add a note to a file_ [Download v1.0.0](workflows/quicknote)
+
+![quicknote screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/quicknote/src/screenshot.png)
 
 ### Shortcuts
 
