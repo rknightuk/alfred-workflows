@@ -154,6 +154,12 @@ _Quickly add a note to a file_ [Download v1.0.0](workflows/quicknote)
 
 ![quicknote screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/quicknote/src/screenshot.png)
 
+### QuickNote (Andrew's Version)
+
+_Quickly add a note to a file_ [Download v1.0.0](workflows/quicknoteandrewsversion)
+
+![quicknoteandrewsversion screenshot](https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/quicknoteandrewsversion/src/screenshot.png)
+
 ### Shortcuts
 
 _Run Shortcuts_ [Download v1.0.0](workflows/shortcuts)

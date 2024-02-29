@@ -200,6 +200,16 @@
     "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/quicknote/src/icon.png"
   },
   {
+    "uid": "1DD3E3C5-0A99-41D8-9DEF-94D7B28DCA34",
+    "bundleid": "quicknoteandrewsversion",
+    "name": "QuickNote (Andrew's Version)",
+    "description": "Quickly add a note to a file",
+    "version": "1.0.0",
+    "link": "https://github.com/rknightuk/alfred-workflows/blob/main/workflows/quicknoteandrewsversion",
+    "screenshot": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/quicknoteandrewsversion/src/screenshot.png",
+    "icon": "https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/workflows/quicknoteandrewsversion/src/icon.png"
+  },
+  {
     "uid": "006953FD-FE05-4F6E-9848-C15255DEC635",
     "bundleid": "shortcuts",
     "name": "Shortcuts",
