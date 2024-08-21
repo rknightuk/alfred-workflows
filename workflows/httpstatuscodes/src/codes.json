@@ -1,72 +1,276 @@
-{ "items": 
-[
-  { "title": "100 Continue" },
-  { "title": "101 Switching protocols" },
-  { "title": "102 Processing" },
-  { "title": "103 Early Hints" },
-  { "title": "200 OK" },
-  { "title": "201 Created" },
-  { "title": "202 Accepted" },
-  { "title": "203 Non-Authoritative Information" },
-  { "title": "204 No Content" },
-  { "title": "205 Reset Content" },
-  { "title": "206 Partial Content" },
-  { "title": "207 Multi-Status" },
-  { "title": "208 Already Reported" },
-  { "title": "226 IM Used" },
-  { "title": "300 Multiple Choices" },
-  { "title": "301 Moved Permanently" },
-  { "title": "302 Found (Previously \"Moved Temporarily\")" },
-  { "title": "303 See Other" },
-  { "title": "304 Not Modified" },
-  { "title": "305 Use Proxy" },
-  { "title": "306 Switch Proxy" },
-  { "title": "307 Temporary Redirect" },
-  { "title": "308 Permanent Redirect" },
-  { "title": "400 Bad Request" },
-  { "title": "401 Unauthorized" },
-  { "title": "402 Payment Required" },
-  { "title": "403 Forbidden" },
-  { "title": "404 Not Found" },
-  { "title": "405 Method Not Allowed" },
-  { "title": "406 Not Acceptable" },
-  { "title": "407 Proxy Authentication Required" },
-  { "title": "408 Request Timeout" },
-  { "title": "409 Conflict" },
-  { "title": "410 Gone" },
-  { "title": "411 Length Required" },
-  { "title": "412 Precondition Failed" },
-  { "title": "413 Payload Too Large" },
-  { "title": "414 URI Too Long" },
-  { "title": "415 Unsupported Media Type" },
-  { "title": "416 Range Not Satisfiable" },
-  { "title": "417 Expectation Failed" },
-  { "title": "418 I'm a Teapot" },
-  { "title": "419 Page Expired (Laravel)" },
-  { "title": "420 Page Expired (Spring Framework)" },
-  { "title": "421 Misdirected Request" },
-  { "title": "422 Unprocessable Entity" },
-  { "title": "423 Locked" },
-  { "title": "424 Failed Dependency" },
-  { "title": "425 Too Early" },
-  { "title": "426 Upgrade Required" },
-  { "title": "428 Precondition Required" },
-  { "title": "429 Too Many Requests" },
-  { "title": "430 Request Header Fields Too Large (Shopify)" },
-  { "title": "431 Request Header Fields Too Large" },
-  { "title": "450 Blocked by Windows Parental Controls (Microsoft)" },
-  { "title": "451 Unavailable For Legal Reasons" },
-  { "title": "500 Internal Server Error" },
-  { "title": "501 Not Implemented" },
-  { "title": "502 Bad Gateway" },
-  { "title": "503 Service Unavailable" },
-  { "title": "504 Gateway Timeout" },
-  { "title": "505 HTTP Version Not Supported" },
-  { "title": "506 Variant Also Negotiates" },
-  { "title": "507 Insufficient Storage" },
-  { "title": "508 Loop Detected" },
-  { "title": "509 Bandwidth Limit Exceeded (Apache Web Server/cPanel)" },
-  { "title": "510 Not Extended" },
-  { "title": "511 Network Authentication Required" }
-]
+{
+  "items": [
+    {
+      "title": "100 Continue",
+      "subtitle": "Request received, continue sending the request."
+    },
+    {
+      "title": "101 Switching protocols",
+      "subtitle": "Server is switching protocols as requested."
+    },
+    {
+      "title": "102 Processing",
+      "subtitle": "Request received, processing in progress."
+    },
+    {
+      "title": "103 Early Hints",
+      "subtitle": "Provides early hints to help with preloading."
+    },
+    {
+      "title": "200 OK",
+      "subtitle": "Request succeeded, the response contains the requested data."
+    },
+    {
+      "title": "201 Created",
+      "subtitle": "Request succeeded, a new resource was created."
+    },
+    {
+      "title": "202 Accepted",
+      "subtitle": "Request accepted, processing is not yet complete."
+    },
+    {
+      "title": "203 Non-Authoritative Information",
+      "subtitle": "Returned data may be from a different source."
+    },
+    {
+      "title": "204 No Content",
+      "subtitle": "Request succeeded, but no content to send."
+    },
+    {
+      "title": "205 Reset Content",
+      "subtitle": "Request succeeded, reset the view."
+    },
+    {
+      "title": "206 Partial Content",
+      "subtitle": "Partial data is returned as requested."
+    },
+    {
+      "title": "207 Multi-Status",
+      "subtitle": "Multiple status codes for a multi-resource response."
+    },
+    {
+      "title": "208 Already Reported",
+      "subtitle": "The resource has already been reported."
+    },
+    {
+      "title": "226 IM Used",
+      "subtitle": "Response content follows instance-manipulations."
+    },
+    {
+      "title": "300 Multiple Choices",
+      "subtitle": "Multiple options for the resource are available."
+    },
+    {
+      "title": "301 Moved Permanently",
+      "subtitle": "The resource has been moved to a new URL permanently."
+    },
+    {
+      "title": "302 Found (Previously \"Moved Temporarily\")",
+      "subtitle": "The resource has been temporarily moved to a new URL."
+    },
+    {
+      "title": "303 See Other",
+      "subtitle": "Redirect to a different resource, usually for POST."
+    },
+    {
+      "title": "304 Not Modified",
+      "subtitle": "The resource has not been modified since the last request."
+    },
+    {
+      "title": "305 Use Proxy",
+      "subtitle": "The resource must be accessed through a proxy."
+    },
+    {
+      "title": "306 Switch Proxy",
+      "subtitle": "No longer used; reserved for future use."
+    },
+    {
+      "title": "307 Temporary Redirect",
+      "subtitle": "Temporary redirection to a new URL, method not changed."
+    },
+    {
+      "title": "308 Permanent Redirect",
+      "subtitle": "Permanent redirection to a new URL, method not changed."
+    },
+    {
+      "title": "400 Bad Request",
+      "subtitle": "The request is invalid or malformed."
+    },
+    {
+      "title": "401 Unauthorized",
+      "subtitle": "Authentication is required to access the resource."
+    },
+    {
+      "title": "402 Payment Required",
+      "subtitle": "Reserved for future use; usually related to payment."
+    },
+    {
+      "title": "403 Forbidden",
+      "subtitle": "You do not have permission to access this resource."
+    },
+    {
+      "title": "404 Not Found",
+      "subtitle": "The requested resource could not be found."
+    },
+    {
+      "title": "405 Method Not Allowed",
+      "subtitle": "The HTTP method is not allowed for the resource."
+    },
+    {
+      "title": "406 Not Acceptable",
+      "subtitle": "The requested resource is not acceptable."
+    },
+    {
+      "title": "407 Proxy Authentication Required",
+      "subtitle": "Authentication with a proxy is required."
+    },
+    {
+      "title": "408 Request Timeout",
+      "subtitle": "The request took too long to complete."
+    },
+    {
+      "title": "409 Conflict",
+      "subtitle": "The request conflicts with the current state of the resource."
+    },
+    {
+      "title": "410 Gone",
+      "subtitle": "The resource is no longer available."
+    },
+    {
+      "title": "411 Length Required",
+      "subtitle": "The request must specify the content length."
+    },
+    {
+      "title": "412 Precondition Failed",
+      "subtitle": "A precondition specified in the request failed."
+    },
+    {
+      "title": "413 Payload Too Large",
+      "subtitle": "The request entity is too large."
+    },
+    {
+      "title": "414 URI Too Long",
+      "subtitle": "The request URI is too long."
+    },
+    {
+      "title": "415 Unsupported Media Type",
+      "subtitle": "The media type is not supported."
+    },
+    {
+      "title": "416 Range Not Satisfiable",
+      "subtitle": "The requested range is not satisfiable."
+    },
+    {
+      "title": "417 Expectation Failed",
+      "subtitle": "The server cannot meet the request's expectations."
+    },
+    {
+      "title": "418 I'm a Teapot",
+      "subtitle": "Just for fun; the server is a teapot."
+    },
+    {
+      "title": "419 Page Expired (Laravel)",
+      "subtitle": "The page has expired, typically for security reasons."
+    },
+    {
+      "title": "420 Page Expired (Spring Framework)",
+      "subtitle": "The page has expired, typically for security reasons."
+    },
+    {
+      "title": "421 Misdirected Request",
+      "subtitle": "The request was directed to an incorrect server."
+    },
+    {
+      "title": "422 Unprocessable Entity",
+      "subtitle": "The request is well-formed but could not be processed."
+    },
+    {
+      "title": "423 Locked",
+      "subtitle": "The resource is locked."
+    },
+    {
+      "title": "424 Failed Dependency",
+      "subtitle": "A previous request failed, so this request cannot be fulfilled."
+    },
+    {
+      "title": "425 Too Early",
+      "subtitle": "Indicates that the server is unwilling to process the request."
+    },
+    {
+      "title": "426 Upgrade Required",
+      "subtitle": "Client must upgrade to a different protocol."
+    },
+    {
+      "title": "428 Precondition Required",
+      "subtitle": "The server requires the request to be conditional."
+    },
+    {
+      "title": "429 Too Many Requests",
+      "subtitle": "Too many requests have been sent in a given time."
+    },
+    {
+      "title": "430 Request Header Fields Too Large (Shopify)",
+      "subtitle": "The header fields are too large (specific to Shopify)."
+    },
+    {
+      "title": "431 Request Header Fields Too Large",
+      "subtitle": "The request's header fields are too large."
+    },
+    {
+      "title": "450 Blocked by Windows Parental Controls (Microsoft)",
+      "subtitle": "Blocked by Windows Parental Controls."
+    },
+    {
+      "title": "451 Unavailable For Legal Reasons",
+      "subtitle": "The resource is unavailable due to legal reasons."
+    },
+    {
+      "title": "500 Internal Server Error",
+      "subtitle": "A generic server error occurred."
+    },
+    {
+      "title": "501 Not Implemented",
+      "subtitle": "The server does not support the functionality required."
+    },
+    {
+      "title": "502 Bad Gateway",
+      "subtitle": "Invalid response received from an upstream server."
+    },
+    {
+      "title": "503 Service Unavailable",
+      "subtitle": "The server is currently unavailable."
+    },
+    {
+      "title": "504 Gateway Timeout",
+      "subtitle": "The server did not receive a timely response from an upstream server."
+    },
+    {
+      "title": "505 HTTP Version Not Supported",
+      "subtitle": "The server does not support the HTTP protocol version."
+    },
+    {
+      "title": "506 Variant Also Negotiates",
+      "subtitle": "A variant of the resource leads to negotiation failures."
+    },
+    {
+      "title": "507 Insufficient Storage",
+      "subtitle": "The server is unable to store the representation needed."
+    },
+    {
+      "title": "508 Loop Detected",
+      "subtitle": "The server detected an infinite loop while processing the request."
+    },
+    {
+      "title": "509 Bandwidth Limit Exceeded (Apache Web Server/cPanel)",
+      "subtitle": "The server exceeded the bandwidth limit."
+    },
+    {
+      "title": "510 Not Extended",
+      "subtitle": "Further extensions are required to fulfill the request."
+    },
+    {
+      "title": "511 Network Authentication Required",
+      "subtitle": "Network authentication is required."
+    }
+  ]
 }
